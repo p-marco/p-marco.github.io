@@ -1,11 +1,9 @@
 <article class="section">
-<header class="grid-item">
+	<header class="grid-item">
   		<p class="nav-item--page link t-heading">
     		{{ page.date | date: "%-d %B %Y"}}
     	</p>
-<a class="nav-item--page link t-heading t-brandColor" href="{{ item.url }}">
-        <h1 class="t-heading t-b--s">{{ page.title }}</h1>
-</a>
+        <h1 class="nav-item--page link t-heading t-brandColor t-b--s">{{ page.title }}</h1>
 
 {% if page.keywords %}
 <ul class="nav nav-items--page">
