@@ -229,8 +229,22 @@ h1.hero{
 	font-size: 4*$unit-grid;
 }
 
-h1 {font-size: 2.75*$unit-grid; letter-spacing: -2px}
-
+h1 {
+	font-size: 2.75*$unit-grid; 
+	letter-spacing: -2px
+}
+h2 {
+	font-size: 2.5*$unit-grid; 
+	letter-spacing: -2px
+}
+h3 {
+	font-size: 2.25*$unit-grid; 
+	letter-spacing: -2px
+}
+h4 {
+	font-size: 2*$unit-grid; 
+	letter-spacing: -2px
+}
 p.hero{
 	font-size: 1.5*$unit-grid;
 	line-height:3
