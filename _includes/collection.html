@@ -4,14 +4,9 @@
 {% for item in collection %}
 
 <li class="grid-item">
-<ul class="nav nav-items--page">
-  		<li class="nav-item--page link t-heading">
+  		<p class="nav-item--page link t-heading">
     		{{ item.date }}
-    	</li>
-    	<li class="nav-item--page link t-heading">
-    		{{ item.author }}
-    	</li>
-  	</ul>
+    	</p>
 <a href="{{ item.url }}">
         <p class="t-heading t-b--s">{{ item.title }}</p>
 </a>
