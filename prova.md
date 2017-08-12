@@ -6,7 +6,9 @@ keywords:
   - Caio
   - Sempronio
 license: Licensed under CC
-author: Tizio Caio & Sempronio
+author:
+  - Tizio
+  - Caio 
 date: 
   y: 2017
   m: August

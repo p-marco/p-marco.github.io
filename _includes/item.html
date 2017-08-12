@@ -6,7 +6,7 @@
 	<div class="abstract">{{ content }}</div>
 
 {% if page.keywords %}
-	<p><small>{% for keyword in page.keywords %}<span>{{ keyword }} </span> | {% endfor %}</small></p>
+	<p><small>{% for keyword in page.keywords %}<span class="list-item">{{ keyword }} </span> {% endfor %}</small></p>
 {% endif %}
 
 
