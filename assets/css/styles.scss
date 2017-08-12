@@ -8,6 +8,10 @@ $media-l: 840px ;
 $font-heading: "Montserrat", sans-serif;
 $font-base: "Open Sans", sans-serif;
 
+html{
+	font-size: 10px;
+}
+
 body{
 	font-family: $font-base;
 	font-size: 1.6rem;
