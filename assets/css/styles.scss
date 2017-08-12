@@ -4,6 +4,8 @@
 
 @import 'reset';
 
+$media-l: 840px ;
+
 .wrapper-container--md-2{
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -17,7 +19,7 @@
 	min-width: 100vw;
 	min-height: 100vh;
 
-	@media (min-width: 840px) {
+	@media (min-width: $media-l) {
 
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
@@ -27,4 +29,18 @@
 		overflow: hidden;
 		height: 100vh;
 	}
+}
+
+.nav-sidebar {
+	padding: 2.75rem;
+	background-color: #28aadc;
+
+	@media (min-width: $media-l) {
+	    -webkit-box-flex: 0;
+	    -webkit-flex: 0 0 32rem;
+	    -ms-flex: 0 0 32rem;
+	    flex: 0 0 32rem;
+	    padding: 4.45rem 2.75rem;
+	    max-width: 32rem;
+  	}
 }
