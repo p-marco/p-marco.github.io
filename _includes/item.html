@@ -4,6 +4,10 @@
 {% if page.date %}
 	<p>{{ page.date.m }}, {{ page.date.y }}</p>
 {% endif %}
+{% if page.location %}
+	{% include map.html %}
+	<p>Where: {{ page.location.city }}</p>
+{% endif %}
 	<div class="abstract">{{ content }}</div>
 
 {% if page.keywords %}
