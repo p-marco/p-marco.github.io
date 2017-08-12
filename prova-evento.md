@@ -1,19 +1,10 @@
 ---
 title: Prova Evento
 template: item
-keywords: 
-  - Tizio
-  - Caio
-  - Sempronio
-license: Released under a BY-CC 4.0 License
-author:
-  - Tizio
-  - Caio 
 date: 
   y: 2017
   m: August
 type: Event
-status: Draft
 location:
   lat: 41.8514743
   lng: 12.5937952
