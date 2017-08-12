@@ -1,8 +1,13 @@
 <p>hello world</p>
 
-{% for page in site.collections.research %}
-    <article>
-      <h2>{{ page.title }}</h2>
-      <p>{{ page.content }}</p>
-    </article>
-{% endfor %}
+
+{% for item in site.research %}
+
+
+<a href="{{ item.url | prepend: site.baseurl }}">
+        <h2>{{ item.title }}</h2>
+</a>
+
+<p class="post-excerpt">{{ item.content | truncate: 160 }}</p>
+
+{% endfor %} 
