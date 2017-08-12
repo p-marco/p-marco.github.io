@@ -33,15 +33,17 @@ $media-l: 840px ;
 
 .nav-sidebar {
 	padding: 2.75rem;
-	background-color: #28aadc;
+	background-color: inherit;
+
 
 	@media (min-width: $media-l) {
 	    -webkit-box-flex: 0;
-	    -webkit-flex: 0 0 32rem;
-	    -ms-flex: 0 0 32rem;
-	    flex: 0 0 32rem;
+	    -webkit-flex: 0 0 20rem;
+	    -ms-flex: 0 0 20rem;
+	    flex: 0 0 20rem;
 	    padding: 4.45rem 2.75rem;
-	    max-width: 32rem;
+	    max-width: 20rem;
+	    border-right: 2px solid #e6e6e6;
   	}
 }
 
