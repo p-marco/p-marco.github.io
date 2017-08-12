@@ -1,4 +1,6 @@
 ---
-title: hello, I am Marco Petolicchio
+title: Home
 ---
-Linguist & Tech enthusiast
+
+<h1 class="hero"> hello, <br> I am Marco <br> Petolicchio.</h1>
+<p class="hero">Linguist & Tech enthusiast.</p>

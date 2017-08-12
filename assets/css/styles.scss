@@ -224,3 +224,11 @@ body{
   color: #909090;
   font-size: 1.2rem;
 }
+
+h1.hero{
+	font-size: 3*$unit-grid
+}
+
+p.hero{
+	font-size: 1.5*$unit-grid
+}
