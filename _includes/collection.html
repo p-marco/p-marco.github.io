@@ -4,10 +4,14 @@
 {% for item in collection %}
 
 <li class="grid-item">
-<p><small> {{ item.date }}</small></p>
+<p><small> {{ item.date }}</small> | {{ item.author }} </p>
 <a href="{{ item.url }}">
         <p class="t-heading t-b--s">{{ item.title }}</p>
+{% if page.keywords %}
+	{% include keywords.html %}
+{% endif %}
 </a>
+<br>
 </li>
 {% endfor %} 
 </ul>
