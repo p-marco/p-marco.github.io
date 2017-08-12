@@ -21,6 +21,7 @@ collections:
   research:
     output : true
     title : Research activity 
+    layout: default
   projects :
     title : Projects 
   teaching :
