@@ -16,11 +16,7 @@ breadcrumbs:
 
 # Set collections
 collections:
-  activity :
-    permalink: /:collection/:name
-  research :
-    permalink: /:collection/:name
-  projects :
-    permalink: /:collection/:name
-  teaching :
-    permalink: /:collection/:name
+  - activity 
+  - research 
+  - projects 
+  - teaching 
