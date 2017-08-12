@@ -1,0 +1,16 @@
+- link: /
+  name: Home
+- link: /services
+  name: Services
+- link: /activity
+  name: News & Events
+- link: /Research
+  name: research
+- link: /teaching
+  name: Teaching
+- link: /projects
+  name: Projects
+- link: /about/
+  name: About
+- link: /contact/
+  name: Contact
