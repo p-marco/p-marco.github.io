@@ -6,7 +6,9 @@
 {% endif %}
 {% if page.location %}
 	{% include map.html %}
-	<p>Where: {{ page.location.city }}</p>
+{% endif %}
+{% if page.location %}
+	{% include event.html %}
 {% endif %}
 	<div class="abstract">{{ content }}</div>
 
@@ -25,10 +27,16 @@
 
 	<p>
 		<small>
+			{% if page.type %}
 			<span class="list-item">{{ page.type }}</span>
+			{% endif %}
+			{% if page.status %}
 			<span class="list-item">Status: {{ page.status }} </span>
+			{% endif %}
 			<span class="list-item">{{ page.author }} {{ page.date.y }}</span>
+			{% if page.license %}
 			<span class="list-item">{{ page.license }}</span>
+			{% endif %}
 		</small>
 	</p>
 </article> 
