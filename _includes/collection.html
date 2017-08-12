@@ -4,10 +4,10 @@
 {% for item in collection %}
 
 <li class="grid-item">
-  		<p class="nav-item--page link t-heading">
+  		<p class="nav-item--page link t-heading u-m--l:0 u-p--l:0">
     		{{ item.date | date: "%-d %B %Y"}}
     	</p>
-<a class="nav-item--page link t-heading t-brandColor" href="{{ item.url }}">
+<a class="nav-item--page link t-heading t-brandColor u-m--l:0 u-p--l:0" href="{{ item.url }}">
         <h4 class="t-heading">{{ item.title }}</h4>
 </a>
 
