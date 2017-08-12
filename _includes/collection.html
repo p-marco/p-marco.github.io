@@ -1,16 +1,7 @@
 <p>hello world</p>
 
-{% if page.collection = research %}
-{% assign collection = site.research %} 
-{% endif %}
 
-{% if page.collection = projects %}
-{% assign collection = site.projects %} 
-{% endif %}
-
-{% if page.collection = activity %}
-{% assign collection = site.activity %} 
-{% endif %}
+{% assign collection = site.{{ page.collection }} %} 
 
 {% for item in collection %}
 
