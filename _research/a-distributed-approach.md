@@ -7,6 +7,7 @@ keywords:
   - Generative syntax
   - Minimalism
   - Labeling Algorithm
+layout: default
 ---
 
 Lorem ipsum
