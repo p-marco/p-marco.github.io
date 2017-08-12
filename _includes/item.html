@@ -40,10 +40,7 @@
 
 
 
-{% if page.keywords %}
-	{% include keywords.html %}
-{% endif %}
-
+<div class="grid-item">
 
 	{% if page.pdf %}
 		<div class="btn btn--block"><a href="{{ page.pdf }}">Read the pdf</a></div>
@@ -53,18 +50,17 @@
 		<div class="btn btn--block"><a href="{{ page.github }}">View on Github</a></div>
 	{% endif %}
 
-	<p>
-		<small>
+		<ul class="nav nav-items--page">
 			{% if page.type %}
-			<span class="list-item">{{ page.type }}</span>
+			<li class="nav-item--page link t-heading list">{{ page.type }}</li>
 			{% endif %}
 			{% if page.status %}
-			<span class="list-item">Status: {{ page.status }} </span>
+			<li class="nav-item--page link t-heading list">Status: {{ page.status }} </li>
 			{% endif %}
-			<span class="list-item">{{ page.author }} {{ page.date.y }}</span>
+			<li class="nav-item--page link t-heading list">{{ page.author }} {{ page.date.y }}</li>
 			{% if page.license %}
-			<span class="list-item">{{ page.license }}</span>
+			<li class="nav-item--page link t-heading list">{{ page.license }}</li>
 			{% endif %}
-		</small>
-	</p>
+		</ul>
+</div>
 </article> 
