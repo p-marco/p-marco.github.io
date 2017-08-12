@@ -1,9 +1,27 @@
 <article class="section">
-	<h1 class="t-heading t-brandColor t-b--s">{{ page.title }}</h1>
+<header class="grid-item">
+  		<p class="nav-item--page link t-heading">
+    		{{ page.date | date: "%-d %B %Y"}}
+    	</p>
+<a class="nav-item--page link t-heading t-brandColor" href="{{ item.url }}">
+        <h1 class="t-heading t-b--s">{{ page.title }}</h1>
+</a>
 
-{% if page.date %}
-	<p>{{ page.date.m }}, {{ page.date.y }}</p>
+{% if item.keywords %}
+<ul class="nav nav-items--page">
+  	{% for key in item.keywords %}
+  		<li class="nav-item--page link t-heading">
+      		{{ key }}
+    	</li>
+  	{% endfor %}
+  	</ul>
+
 {% endif %}
+<br>
+</li>
+{% endfor %} 
+</header>
+
 
 
 {% if page.location %}
