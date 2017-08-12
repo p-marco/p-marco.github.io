@@ -38,18 +38,6 @@
 	{% include collection.html %}
 {% endif %}
 
-
-
-<div class="grid-item">
-
-	{% if page.pdf %}
-		<div class="btn btn--block"><a href="{{ page.pdf }}">Read the pdf</a></div>
-	{% endif %}
-
-	{% if page.github %}
-		<div class="btn btn--block"><a href="{{ page.github }}">View on Github</a></div>
-	{% endif %}
-
 		<ul class="nav nav-items--page">
 			{% if page.type %}
 			<li class="nav-item--page link t-heading list">{{ page.type }}</li>
@@ -62,5 +50,16 @@
 			<li class="nav-item--page link t-heading list">{{ page.license }}</li>
 			{% endif %}
 		</ul>
+
+<div class="grid-item">
+
+	{% if page.pdf %}
+		<div class="btn btn--block"><a href="{{ page.pdf }}">Read the pdf</a></div>
+	{% endif %}
+
+	{% if page.github %}
+		<div class="btn btn--block"><a href="{{ page.github }}">View on Github</a></div>
+	{% endif %}
+
 </div>
 </article> 
