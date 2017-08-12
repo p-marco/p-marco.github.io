@@ -2,8 +2,29 @@
 
 ---
 
-$primary-color: #333;
+@import 'reset'
 
-body {
-  background-color: $primary-color;
+.wrapper-container--md-2{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 100vw;
+	min-height: 100vh;
+
+	@media (min-width: 840px) {
+
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		overflow: hidden;
+		height: 100vh;
+	}
 }

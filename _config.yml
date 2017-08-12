@@ -1,7 +1,7 @@
 title : Marco Petolicchio Personal Webspace
 author :
     name : Marco Petolicchio
-    image: 
+    image: assets/img/pic-72.jpg
 # Sass settings
 sass:
     sass_dir: assets/css
