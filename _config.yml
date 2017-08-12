@@ -20,7 +20,7 @@ collections:
     permalink: /:collection/:name
   research :
     permalink: /:collection/:name
-  project :
+  projects :
     permalink: /:collection/:name
   teaching :
     permalink: /:collection/:name
