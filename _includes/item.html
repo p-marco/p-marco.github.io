@@ -4,17 +4,21 @@
 {% if page.date %}
 	<p>{{ page.date.m }}, {{ page.date.y }}</p>
 {% endif %}
+
+
 {% if page.location %}
 	{% include map.html %}
-{% endif %}
-{% if page.location %}
+
 	{% include event.html %}
 {% endif %}
-{% if page.collection %}
-{% assign collection = site.research %} 
 
+
+{% if page.collection %}
+	{% assign collection = {{ page.collection }} %} 
 	{% include collection.html %}
 {% endif %}
+
+
 	<div class="abstract">{{ content }}</div>
 
 {% if page.keywords %}
