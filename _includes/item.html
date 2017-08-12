@@ -15,7 +15,7 @@
 	<div class="abstract">{{ content }}</div>
 
 {% if page.collections %}
-	{% assign collection = site.[page.collections] | sort: 'date' %} 
+	{% assign collection = site.[page.collections] | sort: 'date' | reverse %} 
 <h2 class="t-heading t-colorBrand">{{ site.collection.title }}</h2>
 
 	{% include collection.html %}
