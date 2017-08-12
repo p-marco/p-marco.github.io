@@ -3,7 +3,7 @@
 
 {% assign collection = site.{{ page.collection }} %} 
 
-{% for item in collection %}
+{% for item in site.research %}
 
 
 <a href="{{ item.url | prepend: site.baseurl }}">
