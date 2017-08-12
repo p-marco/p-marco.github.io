@@ -15,15 +15,16 @@
 	<div class="abstract">{{ content }}</div>
 
 {% if page.collections %}
-<h2 class="t-heading t-colorBrand">{{ page.collection-title }}</h2>
 	{% assign collection = site.[page.collections] %} 
+<h2 class="t-heading t-colorBrand">{{ collection.title }}</h2>
+
 	{% include collection.html %}
 {% endif %}
 
 
 
 {% if page.keywords %}
-	<p><small>{% for keyword in page.keywords %}<span class="list-item">{{ keyword }} </span> {% endfor %}</small></p>
+	{% include keywords.html %}
 {% endif %}
 
 
