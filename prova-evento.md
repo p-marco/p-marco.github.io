@@ -18,7 +18,7 @@ location:
   lat: 41.8514743
   lng: 12.5937952
   city: Rome, Italy
-date-event:
+event-date:
   start:
     y : 2017
     m : 12
