@@ -5,13 +5,15 @@ keywords:
   - Tizio
   - Caio
   - Sempronio
-license: Licensed under CC
+license: Released under a BY-CC 4.0 License
 author:
   - Tizio
   - Caio 
 date: 
   y: 2017
   m: August
+type: Working Paper
+status: Draft
 pdf: http://google.com
 github: http://google.com
 ---
