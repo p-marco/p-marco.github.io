@@ -1,6 +1,6 @@
 ---
 title: Research
-collection: research
+collections: research
 template: item
 ---
 

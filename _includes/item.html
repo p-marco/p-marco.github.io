@@ -14,9 +14,9 @@
 
 	<div class="abstract">{{ content }}</div>
 
-{% if page.collection %}
+{% if page.collections %}
 <h2 class="t-heading t-colorBrand">{{ page.collection-title }}</h2>
-	{% assign collection = site.[page.collection] %} 
+	{% assign collection = site.[page.collections] %} 
 	{% include collection.html %}
 {% endif %}
 
