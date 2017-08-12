@@ -5,7 +5,10 @@
 {% endif %}
 	<div class="abstract">{{ content }}</div>
 
-	<p><small>{{ page.keywords }}</small></p>
+{% if page.keywords %}
+	<p><small>{% for keyword in page.keywords %}<span>{{ keyword }} </span> | {% endfor %}</small></p>
+{% endif %}
+
 
 	{% if page.pdf %}
 		<span class="btn"><a href="{{ page.pdf }}">Read the pdf</a></span>
