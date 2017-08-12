@@ -5,6 +5,12 @@
 @import 'reset';
 
 $media-l: 840px ;
+$font-heading: "Montserrat", sans-serif;
+$font-base: "Open Sans", sans-serif;
+
+html, body{
+	font-family: $font-base;
+}
 
 .wrapper-container--md-2{
 	display: -webkit-box;
@@ -146,4 +152,8 @@ $media-l: 840px ;
 	    flex: 1;
 	    padding: 4.45rem;
   	}
+}
+
+.t-heading {
+	font-family: $font-heading;
 }
