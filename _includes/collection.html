@@ -14,7 +14,7 @@
   	{% for key in item.keywords %}
   		<li class="nav-item--page link">
     		<a href="{{base}}{{ item.link }}" class="t-heading {% if item.link == page.url %}active{% endif %}">
-      		{{ item.name }}
+      		{{ key }}
     		</a>
     	</li>
   	{% endfor %}
