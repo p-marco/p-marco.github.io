@@ -4,6 +4,7 @@ collection: research
 template: item
 ---
 
+{% assign collection = site.research %} 
 
 
     
