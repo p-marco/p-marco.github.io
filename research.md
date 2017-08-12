@@ -2,7 +2,6 @@
 title: Research
 collection: research
 template: item
-collection-title: Research activity
 ---
 
 

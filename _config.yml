@@ -16,7 +16,11 @@ breadcrumbs:
 
 # Set collections
 collections:
-  - activity 
-  - research 
-  - projects 
-  - teaching 
+  activity:
+    title : News & Events 
+  research:
+    title : Research activity 
+  projects :
+    title : Projects 
+  teaching :
+    title : Course materials 
