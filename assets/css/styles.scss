@@ -305,3 +305,11 @@ a{
 		text-decoration: line-through;
 	}
 }
+
+.grid-item{
+	padding: 2*$unit-grid;
+	border-bottom: solid 2px $color-accent
+	&:hover{
+		border-color: $color-brand
+	}
+}

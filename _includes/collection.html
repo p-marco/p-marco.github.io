@@ -4,17 +4,10 @@
 {% for item in collection %}
 
 <li class="grid-item">
-<par class="abstract">
 <p><small> {{ item.date }}</small></p>
 <a href="{{ item.url }}">
         <p class="t-heading t-b--s">{{ item.title }}</p>
 </a>
-</par>
 </li>
 {% endfor %} 
 </ul>
-
-<style>
-.grid-item {  border-bottom: 2px solid #e6e6e6; }
-
-</style> 
