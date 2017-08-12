@@ -10,8 +10,15 @@
 </a>
 
 {% if item.keywords %}
-{% assign page = item %}
-	{% include keywords.html %}
+<ul class="nav nav-items--page">
+  	{% for key in item.keywords %}
+  		<li class="nav-item--page link">
+    		<a href="{{base}}{{ item.link }}" class="t-heading {% if item.link == page.url %}active{% endif %}">
+      		{{ item.name }}
+    		</a>
+    	</li>
+  	{% endfor %}
+  	</ul>
 
 {% endif %}
 <br>
