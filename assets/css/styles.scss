@@ -227,9 +227,10 @@ body{
 }
 
 h1.hero{
-	font-size: 3*$unit-grid;
+	font-size: 4*$unit-grid;
 	font-weight: 600;
 }
+h1 {font-size: 2.75*$unit-grid; letter-spacing: -2px}
 
 p.hero{
 	font-size: 1.5*$unit-grid;
@@ -243,8 +244,8 @@ p.hero{
 }
 
 .abstract {
-	margin-top: 1em;
-	margin-bottom: 1em; 
+	padding-top: 2*$unit-grid;
+	padding-bottom: 2*$unit-grid; 
 	p{
 		padding-left: 2*$unit-grid ;
 	}
