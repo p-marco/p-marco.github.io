@@ -1,7 +1,7 @@
-<nav class="">
-	<ul>
+<nav class="nav nav--primary">
+	<ul class="nav nav-items--primary">
   	{% for item in site.data.navigation-primary %}
-  		<li>
+  		<li class="nav-item--primary link">
     		<a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
       		{{ item.name }}
     		</a>
