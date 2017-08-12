@@ -7,9 +7,9 @@
         <h1 class="t-heading t-b--s">{{ page.title }}</h1>
 </a>
 
-{% if item.keywords %}
+{% if page.keywords %}
 <ul class="nav nav-items--page">
-  	{% for key in item.keywords %}
+  	{% for key in page.keywords %}
   		<li class="nav-item--page link t-heading">
       		{{ key }}
     	</li>
