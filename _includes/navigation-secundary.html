@@ -1,8 +1,8 @@
-<nav class="">
-	<ul>
+<nav class="nav nav--page">
+	<ul class="nav nav-items--page">
   	{% for item in site.data.navigation-secundary %}
-  		<li>
-    		<a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
+  		<li class="nav-item--page link">
+    		<a href="{{ item.link }}" class="t-heading {% if item.link == page.url %}active{% endif %}">
       		{{ item.name }}
     		</a>
     	</li>
