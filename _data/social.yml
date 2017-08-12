@@ -1,3 +1,6 @@
+- link: mailto:marco.petolicchio@gmail.com
+  name: Email
+  icon: fa-envelope
 - link: https://api.whatsapp.com/send?phone=393289594722
   name: Whatsapp
   icon: fa-whatsapp
@@ -19,3 +22,6 @@
 - link: https://github.com/p-marco
   name: Github
   icon: fa-github
+- link: /rss
+  name: RSS
+  icon: fa-rss
