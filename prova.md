@@ -1,6 +1,6 @@
 ---
 title: Prova
-layout: item
+template: item
 keywords: Tizio, Caio, Sempronio
 license: Licensed under CC
 author: Tizio Caio & Sempronio
