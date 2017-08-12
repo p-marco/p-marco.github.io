@@ -1,0 +1,19 @@
+<article>
+	<h1>{{ page.title }}</h1>
+
+	<p>{{ page.date }}</p>
+	<par class="abstract">{{ content }}</par>
+	<br>
+
+	<p><small>{{ page.keywords }}</small></p>
+
+	{% if page.pdf %}
+		<span class="btn"><a href="{{ page.pdf }}">Read the pdf</a></span>
+	{% endif %}
+
+	{% if page.github %}
+		<span class="btn"><a href="{{ page.github }}">View on Github</a></span>
+	{% endif %}
+
+	<p><small>{{ page.type }} | Status: {{ page.status }} | {{ page.author }} {{ page.date }} | {{ page.license }}</small></p>
+</article>
