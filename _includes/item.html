@@ -11,7 +11,9 @@
 	{% include event.html %}
 {% endif %}
 {% if page.collection %}
-	{% include collection.html %}
+{% assign collection = page.collection %} 
+
+	{% include collection.html collection=page.collection %}
 {% endif %}
 	<div class="abstract">{{ content }}</div>
 
