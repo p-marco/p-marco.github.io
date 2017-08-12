@@ -18,7 +18,8 @@ breadcrumbs:
 collections:
   activity :
     permalink: /:collection/:name
-  - research : 
+  research :
+    permalink: /:collection/:name
   projects :
     permalink: /:collection/:name
   teaching :
