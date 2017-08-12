@@ -2,4 +2,8 @@ title : Marco Petolicchio Personal Webspace
 author :
     name : Marco Petolicchio
     image: 
+# Sass settings
+sass:
+    sass_dir: css
+    style: :compressed
     
