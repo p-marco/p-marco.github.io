@@ -1,6 +1,6 @@
 ---
 title: Research Activity
-collection: research
+collection: site.research
 template: item
 ---
 

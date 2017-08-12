@@ -1,9 +1,9 @@
 <p>hello world</p>
 
 
-{% assign collection = site.{{ page.collection }} %} 
+{% assign collection = page.collection %} 
 
-{% for item in site.research %}
+{% for item in collection %}
 
 
 <a href="{{ item.url | prepend: site.baseurl }}">
