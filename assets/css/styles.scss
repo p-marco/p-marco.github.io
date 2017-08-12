@@ -47,6 +47,7 @@ body{
 .nav-sidebar {
 	padding: 2.75rem;
 	background-color: inherit;
+	color: #666;
 
 
 	@media (min-width: $media-l) {
@@ -57,6 +58,10 @@ body{
 	    padding: 4.45rem 2.75rem;
 	    max-width: 32rem;
 	    border-right: 2px solid #e6e6e6;
+  	}
+  	a {
+  		text-decoration:none;
+  		color: inherit
   	}
 }
 

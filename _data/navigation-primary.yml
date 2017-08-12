@@ -1,11 +1,9 @@
-- link: /
-  name: Home
 - link: /services
   name: Services
 - link: /activity
   name: News & Events
 - link: /Research
-  name: research
+  name: Research
 - link: /teaching
   name: Teaching
 - link: /projects
