@@ -7,7 +7,7 @@
 $media-l: 840px ;
 $font-heading: "Montserrat", sans-serif;
 $font-base: "Open Sans", sans-serif;
-$color-brand: #ccc ;
+$color-brand: #1e5e2f ;
 $color-accent: #e6e6e6;
 $unit-grid: 1.5rem; 
 
@@ -226,9 +226,15 @@ body{
 }
 
 h1.hero{
-	font-size: 3*$unit-grid
+	font-size: 3*$unit-grid;
 }
 
 p.hero{
 	font-size: 1.5*$unit-grid
+}
+.hero {
+	line-height: 1
+}
+.t-brandColor{
+	color: $color-brand;
 }
