@@ -4,7 +4,14 @@
 {% for item in collection %}
 
 <li class="grid-item">
-<p><small> {{ item.date }}</small> | {{ item.author }} </p>
+<ul class="nav nav-items--page">
+  		<li class="nav-item--page link t-heading">
+    		{{ item.date }}
+    	</li>
+    	<li class="nav-item--page link t-heading">
+    		{{ item.author }}
+    	</li>
+  	</ul>
 <a href="{{ item.url }}">
         <p class="t-heading t-b--s">{{ item.title }}</p>
 </a>
@@ -12,10 +19,8 @@
 {% if item.keywords %}
 <ul class="nav nav-items--page">
   	{% for key in item.keywords %}
-  		<li class="nav-item--page link">
-    		<a href="{{base}}{{ item.link }}" class="t-heading {% if item.link == page.url %}active{% endif %}">
+  		<li class="nav-item--page link t-heading">
       		{{ key }}
-    		</a>
     	</li>
   	{% endfor %}
   	</ul>
