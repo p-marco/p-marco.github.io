@@ -3,6 +3,7 @@
 {% for item in collection %}
 
 <li>
+<p> {{ item.date.m }}, {{ item.date.y }}</p>
 <a href="{{ item.url | prepend: site.baseurl }}">
         <h3>{{ item.title }}</h3>
 </a>
