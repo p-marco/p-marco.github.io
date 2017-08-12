@@ -11,12 +11,20 @@
 
 
 	{% if page.pdf %}
-		<span class="btn"><a href="{{ page.pdf }}">Read the pdf</a></span>
+		<div class="btn btn--block"><a href="{{ page.pdf }}">Read the pdf</a></div>
 	{% endif %}
 
 	{% if page.github %}
-		<span class="btn"><a href="{{ page.github }}">View on Github</a></span>
+		<div class="btn"><a href="{{ page.github }}">View on Github</a></div>
 	{% endif %}
 
-	<p><small>{{ page.type }} | Status: {{ page.status }} | {{ page.author }} {{ page.date.y }} | {{ page.license }}</small></p>
+	<p>
+		<small>
+			<span class="list-item">{{ page.type }}</span>
+			<span class="list-item">Status: {{ page.status }} </span>
+			<span class="list-item">{{ page.author }} {{ page.date.y }}</span>
+			<span class="list-item">{{ page.license }}</span>
+		</small>
+	</p>
 </article>
+		 |  | 

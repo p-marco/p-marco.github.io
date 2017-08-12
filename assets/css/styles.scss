@@ -259,7 +259,5 @@ p {margin-top:1em}
 
 .list-item:not(:last-of-type):after {
 	display:inline-block;
-	content: "|";
-	margin-left: 1em;
-	margin-right: 1em
+	content: " | ";
 }
