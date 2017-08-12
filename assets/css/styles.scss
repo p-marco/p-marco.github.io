@@ -308,7 +308,7 @@ a{
 
 .grid-item{
 	padding: 2*$unit-grid;
-	border-bottom: solid 2px $color-accent
+	border-bottom: solid 2px $color-accent;
 	&:hover{
 		border-color: $color-brand
 	}
