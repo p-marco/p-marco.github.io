@@ -261,3 +261,11 @@ p {margin-top:1em}
 	display:inline-block;
 	content: " | ";
 }
+
+.btn {
+	line-height:3;
+	text-align:center
+	&.btn-block{
+		width:100%
+	}
+}
