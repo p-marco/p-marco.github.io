@@ -19,6 +19,7 @@ collections:
   activity:
     title : News & Events 
   research:
+    output : true
     title : Research activity 
   projects :
     title : Projects 
