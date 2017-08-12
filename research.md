@@ -4,7 +4,6 @@ collection: research
 template: item
 ---
 
-# Res
 
 
     
