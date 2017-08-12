@@ -7,9 +7,7 @@ keywords:
   - Finnish
 license: Released under a BY-CC 4.0 License
 author: Marco Petolicchio
-date: 
-  y: 2014
-  m: January
+date: 2014-01-01
 type: Paper
 status: Unpublished
 pdf: https://www.academia.edu/10019259/Finlandese_casi_grammaticali_core_
