@@ -8,8 +8,11 @@ $media-l: 840px ;
 $font-heading: "Montserrat", sans-serif;
 $font-base: "Open Sans", sans-serif;
 
-html, body{
+body{
 	font-family: $font-base;
+	font-size: 1.6rem;
+	line-height: 1.8;
+	font-weight: 300;
 }
 
 .wrapper-container--md-2{
