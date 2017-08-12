@@ -1,11 +1,11 @@
 ---
 title: Research Activity
 collection: research
+template: item
 ---
 
 # Res
 
-{% include collection.html %}
 
     
 

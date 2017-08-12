@@ -10,6 +10,9 @@
 {% if page.location %}
 	{% include event.html %}
 {% endif %}
+{% if page.collection %}
+	{% include collection.html %}
+{% endif %}
 	<div class="abstract">{{ content }}</div>
 
 {% if page.keywords %}
