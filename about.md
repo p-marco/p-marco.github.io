@@ -1,6 +1,7 @@
 ---
 title: About
 layout: default
+template: item
 ---
 
 ** I am a linguist in love with computational thinking. **
