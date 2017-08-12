@@ -12,15 +12,14 @@
 	{% include event.html %}
 {% endif %}
 
+	<div class="abstract">{{ content }}</div>
 
 {% if page.collection %}
-{{ content }}
 	{% assign collection = site.[page.collection] %} 
 	{% include collection.html %}
 {% endif %}
 
 
-	<div class="abstract">{{ content }}</div>
 
 {% if page.keywords %}
 	<p><small>{% for keyword in page.keywords %}<span class="list-item">{{ keyword }} </span> {% endfor %}</small></p>
