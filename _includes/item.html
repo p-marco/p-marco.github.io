@@ -29,20 +29,7 @@
 	{% include event.html %}
 {% endif %}
 
-	<div class="abstract grid-item">{{ content }}
-<ul class="nav nav-items--page">
-			{% if page.type %}
-			<li class="nav-item--page link t-heading list">{{ page.type }}</li>
-			{% endif %}
-			{% if page.status %}
-			<li class="nav-item--page link t-heading list">Status: {{ page.status }} </li>
-			{% endif %}
-			<li class="nav-item--page link t-heading list">{{ page.author }} {{ page.date.y }}</li>
-			{% if page.license %}
-			<li class="nav-item--page link t-heading list">{{ page.license }}</li>
-			{% endif %}
-		</ul>
-</div>
+	<div class="abstract grid-item">{{ content }}</div>
 
 {% if page.collections %}
 	{% assign collection = site.[page.collections] | sort: 'date' | reverse %} 
@@ -63,5 +50,19 @@
 		<div class="btn btn--block"><a href="{{ page.github }}">View on Github</a></div>
 	{% endif %}
 
+</div>
+<div class="grid-item">
+<ul class="nav nav-items--page">
+			{% if page.type %}
+			<li class="nav-item--page link t-heading list">{{ page.type }}</li>
+			{% endif %}
+			{% if page.status %}
+			<li class="nav-item--page link t-heading list">Status: {{ page.status }} </li>
+			{% endif %}
+			<li class="nav-item--page link t-heading list">{{ page.author }} {{ page.date.y }}</li>
+			{% if page.license %}
+			<li class="nav-item--page link t-heading list">{{ page.license }}</li>
+			{% endif %}
+		</ul>
 </div>
 </article> 
