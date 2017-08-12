@@ -242,6 +242,10 @@ p.hero{
 	color: $color-brand;
 }
 
-.abstract p{
-	margin: $unit-grid 0 $unit-grid $unit-grid;
+.abstract {
+	margin-top: 1em;
+	margin-bottom: 1em; 
+	p{
+		padding-left: 2*$unit-grid ;
+	}
 }
