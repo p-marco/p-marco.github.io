@@ -14,7 +14,7 @@
 
 
 {% if page.collection %}
-	{% assign collection = {{ page.collection }} %} 
+	{% assign collection = site.[page.collection] %} 
 	{% include collection.html %}
 {% endif %}
 
