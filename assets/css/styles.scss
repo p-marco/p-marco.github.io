@@ -265,6 +265,7 @@ p {margin-top:1em}
 .btn {
 	line-height:3;
 	text-align:center
+	background: $color-accent;
 	&.btn-block{
 		width:100%
 	}
