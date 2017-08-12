@@ -3,7 +3,7 @@ title: Research Activity
 collection: research
 ---
 
-{{ page.title }}
+# Res
 
 {% for page in site.collections.research %}
     <article>
