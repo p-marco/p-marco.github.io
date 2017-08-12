@@ -9,7 +9,7 @@ $font-heading: "Montserrat", sans-serif;
 $font-base: "Open Sans", sans-serif;
 $color-brand: #1e5e2f ;
 $color-accent: #e6e6e6;
-$unit-grid: 1.5rem; 
+$unit-grid: 1.6rem; 
 
 html{
 	font-size: 10px;
@@ -244,10 +244,10 @@ p.hero{
 }
 
 .abstract {
-	padding-top: 2*$unit-grid;
-	padding-bottom: 2*$unit-grid; 
+	margin-top: 2*$unit-grid;
+	margin-bottom: 2*$unit-grid; 
 	p{
-		padding-left: 2*$unit-grid ;
+		margin-left: 2*$unit-grid ;
 	}
 }
 
