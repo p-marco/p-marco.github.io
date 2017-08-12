@@ -7,7 +7,7 @@
 <p><small> {{ item.date }}</small> | {{ item.author }} </p>
 <a href="{{ item.url }}">
         <p class="t-heading t-b--s">{{ item.title }}</p>
-{% if page.keywords %}
+{% if item.keywords %}
 	{% include keywords.html %}
 {% endif %}
 </a>
