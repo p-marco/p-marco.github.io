@@ -29,7 +29,7 @@
 	{% include event.html %}
 {% endif %}
 
-	<div class="abstract grid-item nav-item--page link">{{ content }}</div>
+	<div class="abstract grid-item">{{ content }}</div>
 
 {% if page.collections %}
 	{% assign collection = site.[page.collections] | sort: 'date' | reverse %} 
