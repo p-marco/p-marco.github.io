@@ -47,6 +47,11 @@ body{
 	}
 }
 
+.nav a {
+  	text-decoration:none;
+  	color: inherit
+}
+
 .nav-sidebar {
 	padding: 2.75rem;
 	background-color: inherit;
@@ -61,10 +66,6 @@ body{
 	    padding: 3*$unit-grid 1.5*$unit-grid;
 	    max-width: 32rem;
 	    border-right: 2px solid $color-accent;
-  	}
-  	a {
-  		text-decoration:none;
-  		color: inherit
   	}
 }
 
