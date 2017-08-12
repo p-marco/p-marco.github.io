@@ -228,8 +228,8 @@ body{
 
 h1.hero{
 	font-size: 4*$unit-grid;
-	font-weight: 600;
 }
+
 h1 {font-size: 2.75*$unit-grid; letter-spacing: -2px}
 
 p.hero{
@@ -249,4 +249,8 @@ p.hero{
 	p{
 		padding-left: 2*$unit-grid ;
 	}
+}
+
+.t-b--s{
+	font-weight: 600
 }
