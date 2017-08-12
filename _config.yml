@@ -18,7 +18,7 @@ breadcrumbs:
 collections:
   activity :
     permalink: /:collection/:name
-  _research :
+  research :
     permalink: /:collection/:name
   project :
     permalink: /:collection/:name
