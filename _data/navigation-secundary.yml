@@ -2,7 +2,7 @@
   name: Credits
 - link: /rss
   name: RSS
-- link: /sitemap
+- link: /sitemap.xml
   name: Sitemap
 - link: /cookie-policy
   name: Cookie Policy
