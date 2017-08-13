@@ -3,17 +3,15 @@
     		{{ page.date | date: "%-d %B %Y"}}
     	</p>
 
-<span class="nav-item--page t-heading">
 
 {% if (item.url == page.url) %}
-<a class="link" href="{{ page.url }}"><h4 class="link">{{ page.title }}</h4></a>
+<a class="nav-item--page t-heading" href="{{ page.url }}"><h4 class="link">{{ page.title }}</h4></a>
 
 {% else %}
         
-        <h1 class="t-brandColor">{{ page.title }}</h1>
+        <h1 class="nav-item--page t-heading t-brandColor">{{ page.title }}</h1>
 
 {% endif %}
-</span>
 
 {% if page.image %}
   <a href="{{ page.url }}">  <img src= "{{basedir}}/{{ page.image }}" style="width:100%; max-width:100%; border-radius:5px; box-shadow: 0 0 0.5em #999; margin-top:1em; margin-bottom:1em"></a>
