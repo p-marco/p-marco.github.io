@@ -1,15 +1,20 @@
-
-{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-<nav class="nav nav--page">
-<ul class="nav nav-items--page">
-<li class="nav-item--page link">
-<a href="/" class="t-heading">Home</a></li>
-{% for crumb in crumbs offset: 1 %}
-  {% if forloop.last %}
-    <li class="nav-item--page link"><span class="t-heading"> /</span></li> <li class="nav-item--page link"><span class="t-heading"> {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</span></li>
-  {% else %}
-    <li class="nav-item--page link"><span class="t-heading"> /</span></li> <li class="nav-item--page link"> <a class="t-heading" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/.html' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+{% assign categories = include.path | split:"/" %}
+  {% assign filename_without_extension = categories | last | split:"." | first %}
+  {% if categories contains "_posts" or filename_without_extension == "index" %}
+  {% comment %} posts are like /docs/python/_posts/2016-06-06-foobar.md {% endcomment %}
+  {% comment %} OR pages are index.* i.e.: like /docs/python/index.md or index.html {% endcomment %}
+  {% assign categories = categories | pop %}
   {% endif %}
-{% endfor %}
-</ul>
-</nav>
+
+  {% assign route="" %}
+
+  <a href="{{ '/' | absolute_url }}">Home</a>
+  {% for category in categories %}
+  <span class="prompt">>></span>
+  {% assign route = route | append: '/' | append: category %}
+  {% if forloop.last %}
+  {% if include.title %}{{include.title}}{% else %}{{ category }}{% endif %}
+  {% else %}
+  <a href="{{ route | absolute_url }}">{{ category }}</a> 
+  {% endif %}
+  {% endfor %}
