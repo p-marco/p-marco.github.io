@@ -401,7 +401,7 @@ html.font--plus{
 	content: " ";
 	width:100%;
 	height: 0;
-	background-color: rgba($color-brand,.5);
+	background-color: $color-accent;
 	transition: all 0.2s;
 	z-index: -1;
 		
