@@ -302,19 +302,20 @@ p {margin-top:1em}
 }
 
 .btn-primary{
+	background: $color-accent--dark;
+	border-color: $color-accent;
+	color: #fff;
+}
+.btn-primary--outline{
+	border-color: $color-accent--dark;
+}
+.btn-secundary{
 	background: $color-accent;
 	border-color: $color-accent;
 }
-.btn-primary--outline{
-	border-color: $color-accent;
-}
-.btn-secundary{
-	background: $color-accent--dark;
-	border-color: $color-accent--dark;
-}
 
 .btn-secundary--outline{
-	border-color: $color-accent--dark;
+	border-color: $color-accent;
 }
 
 small {
