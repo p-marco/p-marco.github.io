@@ -3,7 +3,6 @@ title: About
 layout: default
 template: item
 image: assets/img/picture-woods.jpg
-permalink: about/
 ---
 
 #### I am a linguist in love with computational thinking.
