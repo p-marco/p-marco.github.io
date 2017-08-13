@@ -1,3 +1,6 @@
+- link: "#"
+  name: Add me to your contacts
+  icon: fa-plus
 - link: mailto:marco.petolicchio@gmail.com
   name: Email
   icon: fa-envelope
