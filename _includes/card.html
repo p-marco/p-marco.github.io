@@ -1,9 +1,15 @@
 <ul class="grid-item">
   	{% for item in site.data.social %}
-  		<li><a class="btn btn--block btn-primary" href="{{ item.link }}" class="btn btn--block btn-primary--outline t-heading "><i class="fa {{ item.icon }}"> </i>
+  		<li><a class="btn btn--block btn-primary--outline btn-w-2" href="{{ item.link }}" class="btn btn--block btn-primary--outline t-heading "><i class="fa {{ item.icon }}"> </i>
       		{{ item.name }}
     		</a>
     	</li>
   	{% endfor %}
   	</ul>
-</nav>
+<style>
+.btn-w-2{
+	display:inline-block !important;
+	width: 50%;
+	
+}
+</style> 
