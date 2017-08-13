@@ -10,8 +10,9 @@ author: Marco Petolicchio
 date: 2014-10-21
 type: MA Thesis
 status: Unpublished
-pdf: https://www.academia.edu/9213365/Ergativit%C3%A0_in_ittito._Un_approccio_minimalista_-_Tesi_di_Laurea_Magistrale
 layout: default
+resources:
+  - academia : "https://www.academia.edu/9213365/Ergativit%C3%A0_in_ittito._Un_approccio_minimalista_-_Tesi_di_Laurea_Magistrale"
 ---
 
 Argomento di questa Tesi di Laurea Magistrale in Linguistica è stato quello di inquadrare all'interno di una cornice teorica di riferimento una peculiarità della estinta lingua ittita che prende il nome di "ergatività scissa". 

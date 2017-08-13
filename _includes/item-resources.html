@@ -5,10 +5,19 @@
 		<div class="btn btn--block"><a href="{{ resource.pdf }}">Read the pdf</a></div>
 	{% endif %}
 	{% if resource.academia %}
-		<div class="btn btn--block"><a href="{{ resource.academia }}">View on Academia</a></div>
+		<div class="btn btn--block"><a href="{{ resource.academia }}">Read on Academia.edu</a></div>
 	{% endif %}
 	{% if resource.github %}
 		<div class="btn btn--block"><a href="{{ resource.github }}">View on Github</a></div>
+	{% endif %}
+	{% if resource.original %}
+		<div class="btn btn--block"><a href="{{ resource.original }}">View on original location</a></div>
+	{% endif %}
+	{% if resource.doi %}
+		<div class="btn btn--block"><a href="{{ resource.doi }}">View data DOI</a></div>
+	{% endif %}
+	{% if resource.journal %}
+		<div class="btn btn--block"><a href="{{ resource.journal }}">Read on journal</a></div>
 	{% endif %}
 {% endfor %}
 
