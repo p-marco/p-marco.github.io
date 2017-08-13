@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="{% if page.lang %} {{ page.lang }}
+    {% else %} {{ site.lang }}
+    {% endif %}">
+{% include head.html %}
+{% include basedir.html %}
+<body>
+	<div class="wrapper wrapper-container--md-2">
+<div class="nav nav-sidebar">
+	<div class="nav--logo">
+	<a href="{{base}}"> <img class="img nav-img" src="{{base}}/{{ site.author.image }}" alt=""></a>
+	</div>
+	<p class="t-heading" style="text-align:center"><strong>{{ site.author.name }}</strong><br>
+	<small>{{ site.author.headline }}</small></p>
+</div>
+		<nav class="nav grid-item">
+	<ul class="nav-items--social">
+  	{% for item in site.data.social %}
+  		<li class="nav-item--social link">
+    		<a href="{{ item.link }}" target="_blank"><i class="fa {{ item.icon }}"> {{ item }}</i>
+    		</a>
+    	</li>
+  	{% endfor %}
+  	</ul>
+</nav>
+		<section class="container main-wrapper">
+		{% include header.html %}
+		{% if page.template %}{% include {{ page.template }}.html %}
+		{% else %}{% include page.html %}{% endif %}
+		{% include footer.html %}
+		</section>
+	</div>
+</body>
+</html>
