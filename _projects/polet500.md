@@ -13,4 +13,6 @@ layout: default
 image: assets/img/polet500-screen.png
 ---
 
-Analisi 
+Polet500 è un progetto in costruzione di schedatura elettronica di polemiche letterarie del cinquecento italiano. 
+
+Il mio ruolo consiste nell'elaborare una strategia operativa che fornisca ai vari collaboratori un sistema agevole per il lavoro distribuito; mentre per la piattaforma web è stata prevista un'architettura altamente ipertestuale che permetta all'utente una navigazione confortevole.
