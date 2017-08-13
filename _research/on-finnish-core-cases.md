@@ -12,7 +12,7 @@ type: Paper
 status: Unpublished
 layout: default
 resources:
-  academia: https://www.academia.edu/10019259/Finlandese_casi_grammaticali_core_
+  - academia: https://www.academia.edu/10019259/Finlandese_casi_grammaticali_core_
 
 ---
 
