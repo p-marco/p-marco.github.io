@@ -8,8 +8,8 @@ keywords:
 license: Released under a BY-CC 4.0 License
 author: Marco Petolicchio
 date: 2017-08-08
-type: Masd
-status: Unpublished
+type: Article
+status: "Published in Filologia Risorse Informatiche, Jan-Feb 2017, ISSN: 2496-6223"
 pdf: https://www.academia.edu/9213365/Ergativit%C3%A0_in_ittito._Un_approccio_minimalista_-_Tesi_di_Laurea_Magistrale
 layout: default
 ---
