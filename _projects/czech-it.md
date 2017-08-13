@@ -14,6 +14,7 @@ image: assets/img/czech-it-screen.png
 resources:
   - url : "https://czech-it.github.io"
   - github : "https://github.com/czech-it/czech-it.github.io/"
+  - doi : "10.5281/zenodo.824984"
 ---
 
 Czech-IT! is an open-source and open-data linguistic corpus of native Czech learners acquiring Italian language, composed by different kinds of communicative situations, in order to reveal a wide range of phenomena.

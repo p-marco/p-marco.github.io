@@ -14,7 +14,7 @@
 		<div class="btn btn--block"><a href="{{ resource.original }}">View on original location</a></div>
 	{% endif %}
 	{% if resource.doi %}
-		<div class="btn btn--block"><a href="{{ resource.doi }}">View data DOI</a></div>
+		<div class="btn btn--block"><a href="doi.org/{{ resource.doi }}">DOI {{ resource.doi }}</a></div>
 	{% endif %}
 	{% if resource.journal %}
 		<div class="btn btn--block"><a href="{{ resource.journal }}">Read on journal</a></div>
