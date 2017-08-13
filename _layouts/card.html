@@ -12,7 +12,13 @@
 	</div>
 	<p class="t-heading" style="text-align:center"><strong>{{ site.author.name }}</strong><br>
 	<small>{{ site.author.headline }}</small></p>
-<nav class="nav nav--primary">
+
+</div>
+
+
+		<section class="container main-wrapper">
+		{% include header.html %}
+		<nav class="nav nav--primary">
 	<ul class="nav nav-items--primary">
   	{% for item in site.data.social %}
   		<li class="nav-item--primary link">
@@ -23,12 +29,6 @@
   	{% endfor %}
   	</ul>
 </nav>
-</div>
-
-
-		<section class="container main-wrapper">
-		{% include header.html %}
-		
 		{% include footer.html %}
 		</section>
 	</div>
