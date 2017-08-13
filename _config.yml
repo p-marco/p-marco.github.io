@@ -22,6 +22,5 @@ collections:
   teaching :
     output : true
     title : Course materials 
-
-gems:
-  - jekyll-feed
+plugins:
+  - jekyll-sitemap
