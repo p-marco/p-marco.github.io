@@ -4,10 +4,11 @@
     	</p>
 <span class="nav-item--page link t-heading t-brandColor">
 {% if (item.url == page.url) %}
-        <h1 class="t-heading">{{ page.title }}</h1>
+<a class="t-heading" href="{{ page.url }}"><h4>{{ page.title }}</h4></a>
 
 {% else %}
-        <a class="t-heading" href="{{ page.url }}"><h4>{{ page.title }}</h4></a>
+        
+        <h1 class="t-heading">{{ page.title }}</h1>
 
 {% endif %}
 </span>
