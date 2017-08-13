@@ -1,27 +1,8 @@
 <h2> {{ site.collection.title }}</h2>
-<ul class="grid-items">
+<section class="grid-items">
 
 {% for item in collection %}
-
-<li class="grid-item">
-  		<p class="nav-item--page link t-heading u-m--l-0 u-p--l-0">
-    		{{ item.date | date: "%-d %B %Y"}}
-    	</p>
-<a class="nav-item--page link t-heading t-brandColor u-m--l-0 u-p--l-0" href="{{ item.url }}">
-        <h4 class="t-heading">{{ item.title }}</h4>
-</a>
-
-{% if item.keywords %}
-<ul class="nav nav-items--page">
-  	{% for key in item.keywords %}
-  		<li class="nav-item--page link t-heading list">
-      		{{ key }}
-    	</li>
-  	{% endfor %}
-  	</ul>
-
-{% endif %}
-<br>
-</li>
-{% endfor %} 
-</ul>
+	{% assign item=page %}
+	{% include item-header.html %}
+	{% endfor %} 
+</section>

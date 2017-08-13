@@ -1,0 +1,21 @@
+<header class="grid-item">
+  		<p class="nav-item--page link t-heading">
+    		{{ page.date | date: "%-d %B %Y"}}
+    	</p>
+<span class="nav-item--page link t-heading t-brandColor">
+        <h1 class="t-heading">{{ page.title }}</h1>
+</span>
+
+{% if page.keywords %}
+<ul class="nav nav-items--page">
+  	{% for key in page.keywords %}
+  		<li class="nav-item--page link t-heading list">
+      		{{ key }}
+    	</li>
+  	{% endfor %}
+  	</ul>
+
+{% endif %}
+<br>
+</li>
+</header>
