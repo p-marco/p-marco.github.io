@@ -10,6 +10,7 @@ date: 2013-09-01
 type: Paper
 status: Unpublished
 layout: default
+lang: it-IT
 resources: 
   - academia : "https://www.academia.edu/10019248/Analisi_dei_vv.3250-3300_del_G._De_Dole_di_Jean_Renart"
 ---

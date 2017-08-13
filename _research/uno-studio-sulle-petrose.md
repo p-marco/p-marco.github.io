@@ -11,6 +11,7 @@ date: 2012-03-22
 type: BA Thesis
 status: Unpublished
 layout: default
+lang: it-IT
 resources:
   - academia : "https://www.academia.edu/31026006/Uno_studio_sulle_Petrose_di_Dante_-_Tesi_di_Laurea_Triennale"
 ---
