@@ -8,7 +8,7 @@
   {% if forloop.last %}
     <li class="nav-item--page link"><span class="t-heading"> /</span></li> <li class="nav-item--page link"><span class="t-heading"> {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</span></li>
   {% else %}
-    <li class="nav-item--page link"><span class="t-heading"> /</span></li> <li class="nav-item--page link"> <a class="t-heading" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: ' ' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+    <li class="nav-item--page link"><span class="t-heading"> /</span></li> <li class="nav-item--page link"> <a class="t-heading" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
