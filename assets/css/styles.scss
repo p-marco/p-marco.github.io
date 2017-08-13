@@ -332,6 +332,7 @@ a{
 	color: $color-accent--dark;
 	font-size: 1.05*$unit-grid;
 	@include hyphens;
+	font-weight: 400;
 }
 
 html.font--plus{
