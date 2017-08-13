@@ -13,20 +13,21 @@
 	<p class="t-heading" style="text-align:center"><strong>{{ site.author.name }}</strong><br>
 	<small>{{ site.author.headline }}</small></p>
 </div>
-		<nav class="nav grid-item">
-	<ul class="nav-items--social">
+<nav class="nav nav--primary">
+	<ul class="nav nav-items--primary">
   	{% for item in site.data.social %}
-  		<li class="nav-item--social link">
-    		<a href="{{ item.link }}" target="_blank"><i class="fa {{ item.icon }}"> {{ item }}</i>
+  		<li class="nav-item--primary link">
+    		<a href="{{ item.link }}" class="t-heading "><i class="fa {{ item.icon }}"> </i>
+      		{{ item.name }}
     		</a>
     	</li>
   	{% endfor %}
   	</ul>
 </nav>
+
 		<section class="container main-wrapper">
 		{% include header.html %}
-		{% if page.template %}{% include {{ page.template }}.html %}
-		{% else %}{% include page.html %}{% endif %}
+		
 		{% include footer.html %}
 		</section>
 	</div>
