@@ -19,6 +19,9 @@
 	{% if resource.journal %}
 		<div class="btn btn--block"><a href="{{ resource.journal }}">Read on journal</a></div>
 	{% endif %}
+	{% if resource.url %}
+		<div class="btn btn--block"><a href="{{ resource.journal }}">Go to website</a></div>
+	{% endif %}
 {% endfor %}
 
 </div>

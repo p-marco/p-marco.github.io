@@ -11,6 +11,9 @@ date: 2016-10-21
 type: Digital
 layout: default
 image: assets/img/polet500-screen.png
+resources:
+  - url : "http://nuovorinascimento.org/polet500"
+  - github :  "https://github.com/p-marco/polet500"
 ---
 
 Polet500 è un progetto in costruzione di schedatura elettronica di polemiche letterarie del cinquecento italiano. 
