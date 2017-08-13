@@ -1,11 +1,11 @@
-<div class="grid-item">
+<ul class="grid-item">
 
 {% for resource in page.resources %}
 	{% if resource.pdf %}
 		<div class="btn btn--block"><a href="{{ resource.pdf }}">Read the pdf</a></div>
 	{% endif %}
 	{% if resource.academia %}
-		<a class="btn btn--block" href="{{ resource.academia }}">Read on Academia.edu</a>
+		<li class="btn btn--block"><a href="{{ resource.academia }}">Read on Academia.edu</a></li>
 	{% endif %}
 	{% if resource.github %}
 		<div class="btn btn--block"><a href="{{ resource.github }}">View on Github</a></div>
@@ -24,4 +24,4 @@
 	{% endif %}
 {% endfor %}
 
-</div>
+</ul>
