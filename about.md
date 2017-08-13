@@ -2,6 +2,7 @@
 title: About
 layout: default
 template: item
+image: assets/img/picture-woods.jpg
 ---
 
 #### I am a linguist in love with computational thinking.
@@ -12,7 +13,6 @@ My research interests span across two major fields: syntax in generative models 
 
 My linguistic background and the digital skills are useful for corporates: texts analyses, good communication, eye-catching messages are a plus in these activities.
 
-<img src="/assets/img/picture-woods.jpg"  style="width:100%; max-width:100%; border-radius:2px; margin-top:1em; margin-bottom:1em">
 
 #### Passionate about humanities and digital technologies, I love to interact with data.
 
