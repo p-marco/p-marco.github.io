@@ -14,6 +14,12 @@
 
 {% endif %}
 </span>
+
+{% if page.image %}
+    <img src= "{{basedir}}/{{ page.image }}" style="width:100%; max-width:100%; border-radius:5px; box-shadow: 0 0 0.5em #666">
+{% endif %}
+
+
       <p class="nav-item--page link t-heading">
       {% for auth in page.author %}
       <span class="list">
@@ -34,7 +40,4 @@
 {% endif %}
 <br>
 </li>
-{% if page.image %}
-    <img src= "{{basedir}}/{{ page.image }}" style="width:100%; max-width:100%; border-radius:5px; box-shadow: 0 0 0.5em #666">
-{% endif %}
 </header>
