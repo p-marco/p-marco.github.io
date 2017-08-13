@@ -3,7 +3,11 @@
     		{{ page.date | date: "%-d %B %Y"}}
     	</p>
 <span class="nav-item--page link t-heading t-brandColor">
+{% if (item.url !== page.url) %}
+        <a class="t-heading" href="{{ page.url }}"><h4>{{ page.title }}</h4></a>
+{% else %}
         <h1 class="t-heading">{{ page.title }}</h1>
+{% endif %}
 </span>
 
 {% if page.keywords %}
