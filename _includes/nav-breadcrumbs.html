@@ -1,15 +1,21 @@
 
-{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+{% unless page.hide-breadcrumbs %}
 <nav class="nav nav--page">
+
 <ul class="nav nav-items--page">
-<li class="nav-item--page link">
-<a href="/" class="t-heading">Home</a></li>
-{% for crumb in crumbs offset: 1 %}
-  {% if forloop.last %}
-    <li class="nav-item--page link"><span class="t-heading"> /</span></li> <li class="nav-item--page link"><span class="t-heading"> {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</span></li>
-  {% else %}
-    <li class="nav-item--page link"><span class="t-heading"> /</span></li> <li class="nav-item--page link"> <a class="t-heading" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' |split: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+    <li class="nav-item--page link"><a href="/" class="t-heading">{{site.title}}</a> </li>
+    {% assign crumbs = page.url | split: '/' %}
+    {% for crumb in crumbs offset:1 %}
+      <li class="nav-item--page link {% if forloop.last %}active"{% endif %}>
+        {% unless forloop.last %}
+          <a class="t-heading" href="/{% for crumb in crumbs offset:1 limit:forloop.index %}{{crumb}}/{% endfor %}">
+            {{ crumb | capitalize }}
+          </a>
+        {% else %}
+          <span class="t-heading"> {{ crumb | capitalize }}</span>
+        {% endunless %}
+      </li>
+    {% endfor %}
+  </ul>
 </nav>
+{% endunless %}
