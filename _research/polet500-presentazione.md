@@ -1,17 +1,18 @@
 ---
-title: Polemiche Letterarie del Cinquecento (PoLet500): presentazione del progetto
+title: "Polemiche Letterarie del Cinquecento (PoLet500): presentazione del progetto"
 template: item
 keywords: 
   - Digital Humanities
   - Italian Literature
 license: Released under a BY-CC 4.0 License
-author: Antonello F. Caterino Marco Petolicchio 
+author: Marco Petolicchio
 date: 2017-01-18
 type: Article
-status: Published in Filologia Risorse Informatiche, Jan-Feb 2017, ISSN: 2496-6223
+status: "Published in Filologia Risorse Informatiche, Jan-Feb 2017, ISSN: 2496-6223"
 pdf: http://www.academia.edu/30975804/Polemiche_Letterarie_del_Cinquecento_PoLet500_presentazione_del_progetto_in_Filologia_Risorse_Informatiche_gennaio-febbraio_2017
 layout: default
 ---
+
 
 Polemiche letterarie del Cinquecento (PoLet500) nasce da una proposta presentata al XX Congresso dell’ADI (Associazione degli Italianisti), all’interno del panel Eterodossie e Rinascimento, e mira a schedare le tante, forse troppe querelle di argomento letterario che caratterizzarono il secolo sedicesimo.
 
