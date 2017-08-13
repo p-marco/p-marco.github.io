@@ -2,7 +2,6 @@
 title: Research
 collections: research
 template: item
-breadcrumb: Research
 ---
 
 
