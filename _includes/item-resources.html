@@ -1,9 +1,9 @@
 <div class="grid-item">
 
 {% case page.resources %}
-	{% when pdf %}
+	{% when resources.pdf %}
 	<div class="btn btn--block"><a href="{{ page.pdf }}">Read the pdf</a></div>
-	{% when academia %}
+	{% when resources.academia %}
 	<div class="btn btn--block"><a href="{{ page.github }}">View on Academia</a></div>
 	{% when github %}
 	<div class="btn btn--block"><a href="{{ page.github }}">View on Github</a></div>
