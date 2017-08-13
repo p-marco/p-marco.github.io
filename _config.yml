@@ -22,3 +22,7 @@ collections:
   teaching :
     output : true
     title : Course materials 
+    
+# Plugins
+plugins:
+  - jekyll-feed
