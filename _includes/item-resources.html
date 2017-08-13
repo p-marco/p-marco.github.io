@@ -1,14 +1,14 @@
 <div class="grid-item">
 
 {% for resource in page.resources %}
-	{%  if resource.pdf %}
-		<div class="btn btn--block"><a href="{{ resource }}">Read the pdf</a></div>
+	{% if resource.pdf %}
+		<div class="btn btn--block"><a href="{{ resource.pdf }}">Read the pdf</a></div>
 	{% endif %}
 	{% if resource.academia %}
-		<div class="btn btn--block"><a href="{{ resource }}">View on Academia</a></div>
+		<div class="btn btn--block"><a href="{{ resource.academia }}">View on Academia</a></div>
 	{% endif %}
-	{% if.resource.github %}
-		<div class="btn btn--block"><a href="{{ resource }}">View on Github</a></div>
+	{% if resource.github %}
+		<div class="btn btn--block"><a href="{{ resource.github }}">View on Github</a></div>
 	{% endif %}
 {% endfor %}
 
