@@ -1,5 +1,5 @@
 ---
-title: Prova
+title: "Polemiche Letterarie del Cinquecento (PoLet500): presentazione del progetto"
 template: item
 keywords: 
   - Digital Humanities
@@ -9,7 +9,7 @@ author: Marco Petolicchio
 date: 2017-08-08
 type: Article
 status: "Published in Filologia Risorse Informatiche, Jan-Feb 2017, ISSN: 2496-6223"
-pdf: https://www.academia.edu/9213365/Ergativit%C3%A0_in_ittito._Un_approccio_minimalista_-_Tesi_di_Laurea_Magistrale
+pdf: http://www.academia.edu/30975804/Polemiche_Letterarie_del_Cinquecento_PoLet500_presentazione_del_progetto_in_Filologia_Risorse_Informatiche_gennaio-febbraio_2017
 layout: default
 ---
 
