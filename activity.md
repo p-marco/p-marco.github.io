@@ -4,8 +4,3 @@ collections: activity
 template: item
 ---
 
-
-The activity.
-
-    
-
