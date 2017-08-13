@@ -1,12 +1,14 @@
 <div class="grid-item">
 
 {% case page.resources %}
-	{% when resources.pdf %}
+{% for resource in page.resources %}
+	{% when resource.pdf %}
 	<div class="btn btn--block"><a href="{{ page.pdf }}">Read the pdf</a></div>
-	{% when resources.academia %}
+	{% when resource.academia %}
 	<div class="btn btn--block"><a href="{{ page.github }}">View on Academia</a></div>
 	{% when github %}
 	<div class="btn btn--block"><a href="{{ page.github }}">View on Github</a></div>
+{% endfor %}
 {% endcase %}
 
 </div>
