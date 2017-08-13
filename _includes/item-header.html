@@ -1,15 +1,19 @@
 <header class="grid-item">
-  		<p class="nav-item--page link t-heading">
-    		{{ page.date | date: "%-d %B %Y"}}
-    	</p>
+
 
 
 {% if (item.url == page.url) %}
   <a class="nav-item--page t-heading" href="{{ page.url }}">
+        <p class="nav-item--page link t-heading">
+        {{ page.date | date: "%-d %B %Y"}}
+      </p>
     <h4 class="link">{{ page.title }}</h4>
   </a>
 {% else %}
   <h1 class="nav-item--page t-heading t-brandColor">{{ page.title }}</h1>
+        <p class="nav-item--page link t-heading">
+        {{ page.date | date: "%-d %B %Y"}}
+      </p>
 {% endif %}
 
 
