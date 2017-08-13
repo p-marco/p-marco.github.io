@@ -2,25 +2,25 @@
 
 {% for resource in page.resources %}
 	{% if resource.pdf %}
-		<div class="btn btn--block"><a href="{{ resource.pdf }}">Read the pdf</a></div>
+		<li><a class="btn btn--block btn-primary" href="{{ resource.pdf }}"><span>Read the pdf</span></a></li>
 	{% endif %}
 	{% if resource.academia %}
-		<li><a class="btn btn--block" style="display:block" href="{{ resource.academia }}"><span>Read on Academia.edu</span></a></li>
+		<li><a class="btn btn--block btn-primary-outline" href="{{ resource.academia }}"><span>Read on Academia.edu</span></a></li>
 	{% endif %}
 	{% if resource.github %}
-		<div class="btn btn--block"><a href="{{ resource.github }}">View on Github</a></div>
+		<li><a class="btn btn--block btn-secundary--outline" href="{{ resource.github }}"><span>View on Github</span></a></li>
 	{% endif %}
 	{% if resource.original %}
-		<div class="btn btn--block"><a href="{{ resource.original }}">View on original location</a></div>
+		<li><a class="btn btn--block btn-secundary" href="{{ resource.original }}"><span>View on original location</span></a></li>
 	{% endif %}
 	{% if resource.doi %}
-		<div class="btn btn--block"><a href="http://doi.org/{{ resource.doi }}">DOI {{ resource.doi }}</a></div>
+		<li><a class="btn btn--block btn-secundary--outline" href="http://doi.org/{{ resource.doi }}"><span>DOI {{ resource.doi }}</span></a></li>
 	{% endif %}
 	{% if resource.journal %}
-		<div class="btn btn--block"><a href="{{ resource.journal }}">Read on journal</a></div>
+		<li><a class="btn btn--block btn-secundary--outline" href="{{ resource.journal }}"><span>Read on journal</span></a></li>
 	{% endif %}
 	{% if resource.url %}
-		<div class="btn btn--block"><a href="{{ resource.url }}">Go to website</a></div>
+		<li><a class="btn btn--block btn-primary--outline" href="{{ resource.url }}"><span>Go to website</span></a></li>
 	{% endif %}
 {% endfor %}
 

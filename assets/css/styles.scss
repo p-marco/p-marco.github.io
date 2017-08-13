@@ -289,13 +289,34 @@ p {margin-top:1em}
 .btn {
 	line-height:3;
 	text-align:center;
-	background: $color-accent;
+	
 	margin-top:1em;
 	margin-bottom:1em; 
+	border-size: 2px;
+	border-style:solid;
+	color: $color-brand;
 }
 .btn--block{
-	width:100%	
+	width:100%	;
+	display: block
 }
+
+.btn-primary{
+	background: $color-accent;
+	border-color: $color-accent;
+}
+.btn-primary--outline{
+	border-color: $color-accent;
+}
+.btn-secundary{
+	background: $color-accent--dark;
+	border-color: $color-accent--dark;
+}
+
+.btn-secundary--outline{
+	border-color: $color-accent--dark;
+}
+
 small {
 	font-size: 0.8em
 }
