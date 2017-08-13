@@ -4,9 +4,11 @@
 
 
 {% if page.location %}
+<div class="abstract grid-item">
 	{% include map.html %}
 
 	{% include event.html %}
+</div>
 {% endif %}
 
 	<div class="abstract grid-item">{{ content }}</div>
