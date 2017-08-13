@@ -24,17 +24,8 @@
 
 		
 
-<div class="grid-item">
+{% include item-resources.html %}
 
-	{% if page.pdf %}
-		<div class="btn btn--block"><a href="{{ page.pdf }}">Read the pdf</a></div>
-	{% endif %}
-
-	{% if page.github %}
-		<div class="btn btn--block"><a href="{{ page.github }}">View on Github</a></div>
-	{% endif %}
-
-</div>
 <div class="grid-item">
 <ul class="nav nav-items--page">
 			{% if page.type %}
