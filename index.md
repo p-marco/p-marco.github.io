@@ -1,6 +1,7 @@
 ---
-title: Home
-template:item
+title: Welcome
+layout: default
+template: item
 ---
 <section class="grid-item">
 <h1 class="hero t-heading t-brandColor t-b--s"> hello, <br> I am Marco <br> Petolicchio.</h1>
