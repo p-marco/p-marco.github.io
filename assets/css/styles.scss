@@ -319,7 +319,8 @@ a{
 
 .content p {
 	color: $color-accent--dark;
-	font-size: 1.15*$unit-grid
+	font-size: 1.15*$unit-grid;
+	width:70%;
 }
 
 html.font--plus{
