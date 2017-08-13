@@ -5,12 +5,11 @@
 
 
 {% if (item.url == page.url) %}
-<a class="nav-item--page t-heading" href="{{ page.url }}"><h4 class="link">{{ page.title }}</h4></a>
-
+  <a class="nav-item--page t-heading" href="{{ page.url }}">
+    <h4 class="link">{{ page.title }}</h4>
+  </a>
 {% else %}
-        
-        <h1 class="nav-item--page t-heading t-brandColor">{{ page.title }}</h1>
-
+  <h1 class="nav-item--page t-heading t-brandColor">{{ page.title }}</h1>
 {% endif %}
 
 {% if page.image %}
