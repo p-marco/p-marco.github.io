@@ -9,7 +9,6 @@ author: Marco Petolicchio
 date: 2017-01-18
 type: Masd
 status: Unpublished
-pdf: http://www.academia.edu/30975804/Polemiche_Letterarie_del_Cinquecento_PoLet500_presentazione_del_progetto_in_Filologia_Risorse_Informatiche_gennaio-febbraio_2017
 layout: default
 ---
 
