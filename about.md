@@ -12,6 +12,8 @@ My research interests span across two major fields: syntax in generative models 
 
 My linguistic background and the digital skills are useful for corporates: texts analyses, good communication, eye-catching messages are a plus in these activities.
 
+![alt text](/assets/img/picture-woods.jpg "Logo Title Text 1")
+
 ### Passionate about humanities and digital technologies, I love to interact with data.
 
 I am currently collaborating at PoLet500 - Polemiche Letterarie del Cinquecento for the digital planning of the project, as IT Supervisor.
