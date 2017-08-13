@@ -331,9 +331,6 @@ a{
 	color: $color-accent--dark;
 	font-size: 1.05*$unit-grid;
 	@include hyphens;
-	@media only screen and (min-width: $media-l){
-		width:65%;
-	}
 }
 
 html.font--plus{
