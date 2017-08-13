@@ -302,7 +302,7 @@ p {margin-top:1em}
 	display: block;
 	content: " ";
 	width: 100%;
-	height: 0;
+	height: 100%;
 	background-color: $color-brand;
 }
 .btn:hover{
@@ -387,4 +387,33 @@ html.font--plus{
 	box-shadow: 0 0 0.5em #999; 
 	margin-top:1em; 
 	margin-bottom:1em;
+}
+
+.nav-item--social.link, .btn{
+	position:relative;
+	overflow: hidden;
+}
+.btn::before, 
+.nav-item--social.link::before{
+	position: absolute;
+	top:0; left:0;
+	display: block;
+	content: " ";
+	width:100%;
+	height: 0;
+	background-color: rgba($color-brand,.5);
+	transition: all 0.2s;
+	z-index: -1;
+		
+}
+.btn:hover::before, 
+.nav-item--social.link:hover::before{
+	width:100%;
+	height:100%
+}
+.nav-item--social.link{
+	margin:0; padding: 0
+}
+.nav-item--social.link a {
+	padding:1em
 }
