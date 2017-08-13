@@ -341,3 +341,12 @@ html.font--plus{
 .u-bord--b{
 	border-bottom: solid 2px $color-accent;
 }
+
+.img--fullw{
+	width:100%; 
+	max-width:100%; 
+	border-radius:5px;
+	box-shadow: 0 0 0.5em #999; 
+	margin-top:1em; 
+	margin-bottom:1em;
+}
