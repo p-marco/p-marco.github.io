@@ -319,8 +319,10 @@ a{
 
 .content p {
 	color: $color-accent--dark;
-	font-size: 1.15*$unit-grid;
-	width:70%;
+	font-size: 1.05*$unit-grid;
+	@media only screen and (min-width: $media-l){
+		width:65%;
+	}
 }
 
 html.font--plus{
