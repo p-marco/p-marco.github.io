@@ -295,6 +295,20 @@ p {margin-top:1em}
 	border-width: 2px;
 	border-style:solid;
 	color: $color-brand;
+	position:relative;
+	overflow: hidden;
+}
+.btn:before{
+	display: block;
+	content: " ";
+	width: 100%;
+	height: 0;
+	background-color: $color-brand;
+}
+.btn:hover{
+	&:before{
+		height: 100%
+	}
 }
 .btn--block{
 	width:100%	;
