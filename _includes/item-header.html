@@ -34,4 +34,7 @@
 {% endif %}
 <br>
 </li>
+{% if page.image %}
+    <img src= "{{basedir}}/{{ page.image }}" style="width:100%; max-width:100%; border-radius:5px">
+{% endif %}
 </header>
