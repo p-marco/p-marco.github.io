@@ -1,10 +1,9 @@
 ---
-title: Prova
+title: Polemiche Letterarie del Cinquecento (PoLet500): presentazione del progetto
 template: item
 keywords: 
-  - Historical Linguistics
-  - Syntax
-  - Split Ergativity
+  - Digital Humanities
+  - Italian Literature
 license: Released under a BY-CC 4.0 License
 author: Marco Petolicchio
 date: 2017-08-08
