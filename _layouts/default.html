@@ -5,12 +5,14 @@
 <body>
 	<div class="wrapper wrapper-container--md-2">
 		{% include nav.html %}
-		<article class="container main-wrapper">
+		<div class="container main-wrapper">
+		<main>
 		{% include header.html %}
 		{% if page.template %}{% include {{ page.template }}.html %}
 		{% else %}{% include page.html %}{% endif %}
+		</main>
 		{% include footer.html %}
-		</article>
+		</div>
 	</div>
 </body>
 </html>
