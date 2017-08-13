@@ -1,5 +1,5 @@
 ---
-title: Polemiche Letterarie del Cinquecento (PoLet500): presentazione del progetto
+title: Prova
 template: item
 keywords: 
   - Digital Humanities
