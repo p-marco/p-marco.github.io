@@ -2,6 +2,11 @@
   		<p class="nav-item--page link t-heading">
     		{{ page.date | date: "%-d %B %Y"}}
     	</p>
+      <p class="nav-item--page link t-heading">
+      {% for auth in page.author %}
+        {{ auth }}
+      {% endfor %}
+      </p>
 <span class="nav-item--page t-heading">
 
 {% if (item.url == page.url) %}

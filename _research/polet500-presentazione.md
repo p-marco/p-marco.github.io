@@ -5,7 +5,9 @@ keywords:
   - Digital Humanities
   - Italian Literature
 license: Released under a BY-CC 4.0 License
-author: Marco Petolicchio
+author:
+  - Antonello F. Caterino 
+  - Marco Petolicchio
 date: 2017-01-18
 type: Article
 status: "Published in Filologia Risorse Informatiche, Jan-Feb 2017, ISSN: 2496-6223"
