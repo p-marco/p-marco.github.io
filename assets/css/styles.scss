@@ -12,6 +12,16 @@ $color-accent: #e6e6e6;
 $color-accent--dark: #666;
 $unit-grid: 1.6rem; 
 
+
+@mixin hyphens {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+
 html{
 	font-size: 10px;
 }
@@ -320,6 +330,7 @@ a{
 .content p {
 	color: $color-accent--dark;
 	font-size: 1.05*$unit-grid;
+	@include hyphens;
 	@media only screen and (min-width: $media-l){
 		width:65%;
 	}
