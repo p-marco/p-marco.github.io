@@ -1,5 +1,5 @@
 ---
 title: Card
-layout: card
-template: item
+layout: default
+template: card
 ---

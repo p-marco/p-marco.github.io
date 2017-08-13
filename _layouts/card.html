@@ -1,36 +1,9 @@
-<!doctype html>
-<html lang="{% if page.lang %} {{ page.lang }}
-    {% else %} {{ site.lang }}
-    {% endif %}">
-{% include head.html %}
-{% include basedir.html %}
-<body>
-	<div class="wrapper wrapper-container--md-2">
-<div class="nav nav-sidebar">
-	<div class="nav--logo">
-	<a href="{{base}}"> <img class="img nav-img" src="{{base}}/{{ site.author.image }}" alt=""></a>
-	</div>
-	<p class="t-heading" style="text-align:center"><strong>{{ site.author.name }}</strong><br>
-	<small>{{ site.author.headline }}</small></p>
-
-</div>
-
-
-		<section class="container main-wrapper">
-		{% include header.html %}
-		<nav class="nav nav--primary">
-	<ul class="nav nav-items--primary">
+<ul class="grid-item">
   	{% for item in site.data.social %}
-  		<li class="nav-item--primary link">
-    		<a href="{{ item.link }}" class="btn btn--block btn-primary--outline t-heading "><i class="fa {{ item.icon }}"> </i>
+  		<li><a class="btn btn--block btn-primary" href="{{ item.link }}" class="btn btn--block btn-primary--outline t-heading "><i class="fa {{ item.icon }}"> </i>
       		{{ item.name }}
     		</a>
     	</li>
   	{% endfor %}
   	</ul>
 </nav>
-		{% include footer.html %}
-		</section>
-	</div>
-</body>
-</html>
