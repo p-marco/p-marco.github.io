@@ -9,7 +9,7 @@ license: Released under a BY-CC 4.0 License
 author: Marco Petolicchio 
 date: 2017-02-04
 type: Article
-status: Published in Filologia Risorse Informatiche, Jan-Feb 2017, ISSN: 2496-6223
+status: "Published in Filologia Risorse Informatiche, Jan-Feb 2017, ISSN: 2496-6223"
 pdf: https://www.academia.edu/31229297/Risorse_digitali_per_gli_studi_linguistici_un_breve_appunto_in_Filologia_Risorse_Informatiche_gennaio-febbraio_2017
 layout: default
 ---
