@@ -1,7 +1,8 @@
 title : Marco Petolicchio Personal Webspace
 author :
-    name : Marco Petolicchio
-    image: assets/img/pic-72.jpg
+  name : Marco Petolicchio
+  image: assets/img/pic-72.jpg
+  headline: Linguist & tech enthusiast
 # Sass settings
 sass:
     sass_dir: assets/css
