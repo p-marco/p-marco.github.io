@@ -5,3 +5,6 @@ html {
 	color: #fff !important;
 	border-color: #ccc !important;
 }
+.btn:before{
+	background-color: #666 !important;
+}
