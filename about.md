@@ -12,6 +12,7 @@ My research interests span across two major fields: syntax in generative models 
 
 My linguistic background and the digital skills are useful for corporates: texts analyses, good communication, eye-catching messages are a plus in these activities.
 
+<br>
 
 #### Passionate about humanities and digital technologies, I love to interact with data.
 
