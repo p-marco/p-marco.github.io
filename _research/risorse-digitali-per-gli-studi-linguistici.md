@@ -1,5 +1,5 @@
 ---
-title: Risorse digitali per gli studi linguistici: un breve appunto
+title: "Risorse digitali per gli studi linguistici: un breve appunto"
 template: item
 keywords: 
   - Digital Humanities
