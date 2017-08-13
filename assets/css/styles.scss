@@ -9,6 +9,7 @@ $font-heading: "Montserrat", sans-serif;
 $font-base: "Open Sans", sans-serif;
 $color-brand: #1e5e2f ;
 $color-accent: #e6e6e6;
+$color-accent--dark: #666;
 $unit-grid: 1.6rem; 
 
 html{
@@ -54,7 +55,7 @@ body{
 .nav-sidebar {
 	padding: 2.75rem;
 	background-color: inherit;
-	color: #666;
+	color: $color-accent--dark;
 
 
 	@media (min-width: $media-l) {
@@ -314,4 +315,8 @@ a{
 }
 .u-p--l-0{
 	padding-left:0
+}
+
+p {
+	color: $color-accent--dark
 }
