@@ -1,5 +1,5 @@
 ---
-title: "hello, I am Marco."
+title: "Welcome"
 layout: default
 ---
 
@@ -11,3 +11,4 @@ layout: default
 <div class="grid-item">
   <a class="btn btn--block btn-primary-outline" href="#continue"><span>More</span></a>
 </div>
+
