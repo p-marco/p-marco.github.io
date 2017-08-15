@@ -30,7 +30,7 @@ layout: default
 		<p class="nav-item--page link t-heading">
   			<span class="list">Corporate communication, SEO oriented content writing.</span>
   		</p>
-  		<a class="btn btn--block btn-primary-outline" href="#continue">Read papers</a>
+  		<a class="btn btn--block btn-secundary-outline" href="#continue">Read papers</a>
 	</div>
 	<div class="u-display--in u-t--c grid-item">
 		<i class="fa fa-bar-chart nav-item--page link" style="font-size:6rem"></i>
@@ -38,7 +38,7 @@ layout: default
 		<p class="nav-item--page link t-heading">
   			<span class="list">Collaborative studies in linguistics and digital humanities.</span>
   		</p>
-  		<a class="btn btn--block btn-primary-outline" href="#continue">Read papers</a>
+  		<a class="btn btn--block btn-secundary-outline" href="#continue">Read papers</a>
 	</div>
 	<div class="u-display--in u-t--c grid-item">
 		<i class="fa fa-desktop nav-item--page link" style="font-size:6rem"></i>
@@ -46,6 +46,6 @@ layout: default
 		<p class="nav-item--page link t-heading">
   			<span class="list">Social media, programming, web development.</span>
   		</p>
-  		<a class="btn btn--block btn-primary-outline" href="#continue">See the projects</a>
+  		<a class="btn btn--block btn-secundary-outline" href="#continue">See the projects</a>
 	</div>
 </section>
