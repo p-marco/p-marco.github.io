@@ -30,8 +30,8 @@ layout: default
 		<p class="nav-item--page link t-heading">
   			<span class="list">Corporate communication, SEO oriented content writing.</span>
   		</p>
+  		<a class="btn btn--block btn-primary-outline" href="#continue">Read papers</a>
 	</div>
-	<a class="btn btn--block btn-primary-outline" href="#continue">
 	<div class="u-display--in u-t--c grid-item">
 		<i class="fa fa-bar-chart link" style="font-size:6rem"></i>
 		<h4 class="link">Research</h4>
@@ -40,12 +40,12 @@ layout: default
   		</p>
   		<a class="btn btn--block btn-primary-outline" href="#continue">Read papers</a>
 	</div>
-	</a>
 	<div class="u-display--in u-t--c">
 		<i class="fa fa-desktop link" style="font-size:6rem"></i>
 		<h4 class="link">Digital</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Social media, programming, web development.</span>
   		</p>
+  		<a class="btn btn--block btn-primary-outline" href="#continue">See projects</a>
 	</div>
 </section>
