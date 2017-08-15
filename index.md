@@ -11,7 +11,29 @@ layout: default
 		width:auto;
 		max-width: 30%;
 	}
-</style> 
+	.bg-img{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('https://p-marco.github.io/assets/img/picture-woods.jpg');
+  width: 100ww;
+  height: 100wh;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+
+	</style> 
+<div class="bg-img"></div>
+<div class="content">
+  
 <header class="grid-item u-t--c" style="margin-top:25vh">
   <h1 class="nav-item--page t-heading t-brandColor" style=" line-height:1">hello, I am Marco.</h1>
   <p style="font-size:2.5rem;">Linguist and tech enthusiast.</p>
@@ -21,7 +43,7 @@ layout: default
   <a class="btn btn--block btn-primary-outline" href="#continue"><span>More</span></a>
 </div>
 
-<section class="grid item u-t--c" style="margin-top:25vh">
+<section class="grid item u-t--c" style="margin-top:25vh; background:#fff">
 	<h2 class="nav-item--page t-heading t-brandColor">Services</h2>
 	<br><br>
 	<div class="u-display--in u-t--c grid-item">
@@ -49,3 +71,4 @@ layout: default
   		<a class="btn btn--block btn-secundary--outline" href="#continue">See the projects</a>
 	</div>
 </section>
+</div>
