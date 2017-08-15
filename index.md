@@ -46,6 +46,6 @@ layout: default
 		<p class="nav-item--page link t-heading">
   			<span class="list">Social media, programming, web development.</span>
   		</p>
-  		<a class="btn btn--block btn-primary-outline" href="#continue">See projects</a>
+  		<a class="btn btn--block btn-primary-outline" href="#continue">See the projects</a>
 	</div>
 </section>
