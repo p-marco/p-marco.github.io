@@ -49,9 +49,9 @@ layout: default
   		<a class="btn btn--block btn-secundary--outline" href="#continue">See the projects</a>
 	</div>
 </section>
-<section class="grid-item">
-	<p class="nav-item--page link t-heading">
-  		<span class="list">Do you have something in mind?</span>
+<section class="grid-item" style="margin-top:1em; margin-bottom:1rem; padding-top:2rem; padding-bottom:2rem">
+	<p class="u-t--c">
+  		<span class="btn btn--block btn-secundary--outline" style="display: inline-block">Do you have something in mind?</span>
   		<a class="btn btn--block btn-secundary--outline" style="display: inline-block" href="#continue">Contact me</a>
   	</p><br>
 </section>
