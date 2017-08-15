@@ -12,7 +12,7 @@ layout: default
   <a class="btn btn--block btn-primary-outline" href="#continue"><span>More</span></a>
 </div>
 
-<section class="grid item">
-	 <h1 class="nav-item--page t-heading t-brandColor">Services</h1>
+<section class="grid item" style="text-align:center; margin-top:25vh">
+	 <h2 class="nav-item--page t-heading t-brandColor">Services</h2>
 
 </section>
