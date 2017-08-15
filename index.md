@@ -26,26 +26,26 @@ layout: default
 	<br><br>
 	<div class="u-display--in u-t--c grid-item">
 		<i class="fa fa-bullhorn nav-item--page link" style="font-size:6rem"></i>
-		<h4 class="link">Communication</h4>
+		<h4 class="nav-item--page link t-heading" style="letter-spacing:1px">Communication</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Corporate communication, SEO oriented content writing.</span>
-  		</p>
+  		</p><br>
   		<a class="btn btn--block btn-secundary-outline" href="#continue">Read papers</a>
 	</div>
 	<div class="u-display--in u-t--c grid-item">
 		<i class="fa fa-bar-chart nav-item--page link" style="font-size:6rem"></i>
-		<h4 class="link">Research</h4>
+		<h4 class="nav-item--page link t-heading" style="letter-spacing:1px">Research</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Collaborative studies in linguistics and digital humanities.</span>
-  		</p>
+  		</p><br>
   		<a class="btn btn--block btn-secundary-outline" href="#continue">Read papers</a>
 	</div>
 	<div class="u-display--in u-t--c grid-item">
 		<i class="fa fa-desktop nav-item--page link" style="font-size:6rem"></i>
-		<h4 class="link" style="letter-spacing:1px">Digital</h4>
+		<h4 class="nav-item--page link t-heading" style="letter-spacing:1px">Digital</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Social media, programming, web development.</span>
-  		</p>
+  		</p><br>
   		<a class="btn btn--block btn-secundary-outline" href="#continue">See the projects</a>
 	</div>
 </section>
