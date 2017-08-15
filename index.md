@@ -8,6 +8,8 @@ layout: default
 	}
 	.u-display--in{
 		display: inline-block;
+		width:auto;
+		max-width: 30%;
 	}
 </style> 
 <header class="grid-item u-t--c" style="margin-top:25vh">
@@ -22,21 +24,21 @@ layout: default
 <section class="grid item u-t--c" style="margin-top:25vh">
 	<h2 class="nav-item--page t-heading t-brandColor">Services</h2>
 	<div class="u-display--in u-t--c">
-		<i class="fa fa-bullhorn" style="font-size:4rem"></i>
+		<i class="fa fa-bullhorn t-brandColort-brandColor" style="font-size:6rem"></i>
+		<h4 class="link">Communication</h4>
+		<p class="nav-item--page link t-heading">
+  			<span class="list">Corporate communication, SEO oriented content writing.</span>
+  		</p>
+	</div>
+	<div class="u-display--in u-t--c grid-item">
+		<i class="fa fa-bullhorn t-brandColor" style="font-size:6rem"></i>
 		<h4 class="link">Communication</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Corporate communication, SEO oriented content writing.</span>
   		</p>
 	</div>
 	<div class="u-display--in u-t--c">
-		<i class="fa fa-bullhorn" style="font-size:4rem"></i>
-		<h4 class="link">Communication</h4>
-		<p class="nav-item--page link t-heading">
-  			<span class="list">Corporate communication, SEO oriented content writing.</span>
-  		</p>
-	</div>
-	<div class="u-display--in u-t--c">
-		<i class="fa fa-bullhorn" style="font-size:4rem"></i>
+		<i class="fa fa-bullhorn t-brandColor" style="font-size:6rem"></i>
 		<h4 class="link">Communication</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Corporate communication, SEO oriented content writing.</span>
