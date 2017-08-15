@@ -24,8 +24,8 @@ layout: default
 <section class="grid item u-t--c" style="margin-top:25vh">
 	<h2 class="nav-item--page t-heading t-brandColor">Services</h2>
 	<br><br>
-	<div class="u-display--in u-t--c">
-		<i class="fa fa-bullhorn link" style="font-size:6rem"></i>
+	<div class="u-display--in u-t--c grid-item">
+		<i class="fa fa-bullhorn nav-item--page link" style="font-size:6rem"></i>
 		<h4 class="link">Communication</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Corporate communication, SEO oriented content writing.</span>
@@ -33,15 +33,15 @@ layout: default
   		<a class="btn btn--block btn-primary-outline" href="#continue">Read papers</a>
 	</div>
 	<div class="u-display--in u-t--c grid-item">
-		<i class="fa fa-bar-chart link" style="font-size:6rem"></i>
+		<i class="fa fa-bar-chart nav-item--page link" style="font-size:6rem"></i>
 		<h4 class="link">Research</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Collaborative studies in linguistics and digital humanities.</span>
   		</p>
   		<a class="btn btn--block btn-primary-outline" href="#continue">Read papers</a>
 	</div>
-	<div class="u-display--in u-t--c">
-		<i class="fa fa-desktop link" style="font-size:6rem"></i>
+	<div class="u-display--in u-t--c grid-item">
+		<i class="fa fa-desktop nav-item--page link" style="font-size:6rem"></i>
 		<h4 class="link">Digital</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Social media, programming, web development.</span>
