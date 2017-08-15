@@ -42,7 +42,7 @@ layout: default
 	</div>
 	<div class="u-display--in u-t--c grid-item">
 		<i class="fa fa-desktop nav-item--page link" style="font-size:6rem"></i>
-		<h4 class="link">Digital</h4>
+		<h4 class="link" style="letter-spacing:1px">Digital</h4>
 		<p class="nav-item--page link t-heading">
   			<span class="list">Social media, programming, web development.</span>
   		</p>
