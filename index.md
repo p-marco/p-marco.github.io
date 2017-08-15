@@ -49,7 +49,7 @@ layout: default
   		<a class="btn btn--block btn-secundary--outline" href="#continue">See the projects</a>
 	</div>
 </section>
-<section class="grid-item" style="margin-top:3rem; margin-bottom:3rem; padding-top:3rem; padding-bottom:3rem; background-color: #e6e6e6; width:100%">
+<section class="grid-item" style="margin-top:8rem; margin-bottom:3rem; padding-top:3rem; padding-bottom:3rem; background-color: #e6e6e6; width:100%">
 	<p class="u-t--c">
   		<span class="btn btn--block btn-secundary--outline" style="display: inline-block; border-color:transparent">Do you have something in mind?</span>
   		<a class="btn btn--block btn-primary" style="display: inline-block" href="#continue">Contact me</a>
