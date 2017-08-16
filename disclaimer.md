@@ -12,8 +12,8 @@ This website is provided “as is” without any representations or warranties, 
 
 Without prejudice to the generality of the foregoing paragraph, marcopetolicchio.com does not warrant that:
 
-	* this website will be constantly available, or available at all; or
-	* the information on this website is complete, true, accurate or non-misleading.
+* this website will be constantly available, or available at all; or
+* the information on this website is complete, true, accurate or non-misleading.
 
 Nothing on this website constitutes, or is meant to constitute, advice of any kind. If you require advice in relation to any legal, financial or medical matter you should consult an appropriate professional.
 
