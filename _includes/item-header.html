@@ -1,0 +1,42 @@
+<header class="grid-item">
+
+
+
+{% if (item.url == page.url) %}
+  <a class="nav-item--page t-heading" href="{{ page.url }}">
+        <p class="nav-item--page link t-heading">
+        {{ page.date | date: "%-d %B %Y"}}
+      </p>
+    <h4 class="link">{{ page.title }}</h4>
+  </a>
+{% else %}
+  <h1 class="nav-item--page t-heading t-brandColor">{{ page.title }}</h1>
+        <p class="nav-item--page link t-heading">
+        {{ page.date | date: "%-d %B %Y"}}
+      </p>
+{% endif %}
+
+
+<p class="nav-item--page link t-heading">
+  {% for auth in page.author %}
+    <span class="list"> {{ auth }}</span>
+  {% endfor %}
+</p>
+
+{% if page.keywords %}
+  <ul class="nav nav-items--page">
+  	{% for key in page.keywords %}
+  		<li class="nav-item--page link t-heading list">
+      		{{ key }}
+    	</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.image %}
+  <a href="{{ page.url }}">  
+    <img src= "{{basedir}}/{{ page.image }}" class="img img--fullw">
+  </a>
+{% endif %}
+
+</header>

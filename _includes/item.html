@@ -1,0 +1,46 @@
+<article class="section">
+{% include item-header.html %}
+
+
+
+
+
+{% if page.location %}
+<div class="abstract grid-item">
+	{% include map.html %}
+
+	{% include event.html %}
+</div>
+{% endif %}
+
+	<div class="abstract grid-item content">{{ content }}</div>
+
+{% if page.collections %}
+	{% assign collection = site.[page.collections] | sort: 'date' | reverse %} 
+		<h2 class="t-heading t-colorBrand">{{ site.collection.title }}</h2>
+	{% include collection.html %}
+{% endif %}
+
+		
+<aside class="section">
+{% include item-resources.html %}
+
+<div class="grid-item">
+<ul class="nav nav-items--page">
+			{% if page.type %}
+			<li class="nav-item--page link t-heading list">{{ page.type }}</li>
+			{% endif %}
+			{% if page.status %}
+			<li class="nav-item--page link t-heading list">{{ page.status }} </li>
+			{% endif %}
+			<li class="nav-item--page link t-heading list">{{ page.author }} {{ page.date.y }}</li>
+			{% if page.license %}
+			<li class="nav-item--page link t-heading list">{{ page.license }}</li>
+			{% endif %}
+			{% if page.lang %}
+			<li class="nav-item--page link t-heading list">{{ page.lang }}</li>
+			{% endif %}
+		</ul>
+</div>
+</aside> 
+</article>
