@@ -1,12 +1,10 @@
-- link: /services
-  name: Services
 - link: /activity
   name: News & Events
-- link: /research
+- link: /archive/research
   name: Research
-- link: /teaching
+- link: /archive/teaching
   name: Teaching
-- link: /projects
+- link: /archive/projects
   name: Projects
 - link: /about
   name: About
