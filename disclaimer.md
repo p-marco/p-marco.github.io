@@ -83,6 +83,6 @@ No warranties are given. The license may not give you all of the permissions nec
 
 Third part contents:
 
-* The section "Impressum" was created using a Contractology template available [here](http://www.contractology.com)
-* The avatar image was courtesely shooted by Mr. Matteo Manzi
-* The website is hosted on Github and developed with Jekyll
+* The section "Legal Notice" was created using a *Contractology* template available [here](http://www.contractology.com)
+* The avatar image was courtesely shooted by *Matteo Manzi*
+* The website is hosted on *Github* and developed with *Jekyll*
