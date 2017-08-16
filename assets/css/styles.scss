@@ -426,3 +426,10 @@ strong{
 .nav-sidebar{
 	overflow:auto;
 }
+
+article ul {
+	list-style-type: initial;
+	li{
+		padding:initial
+	}
+}
