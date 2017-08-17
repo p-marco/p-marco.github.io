@@ -44,7 +44,7 @@
 
 		$font-heading: "Montserrat", sans-serif;
 
-		$font-base: Optima,Segoe UI,Candara,Calibri,Arial,sans-serif;
+		$font-base:  Gill Sans,Segoe UI,Optima,Candara,Calibri,Arial,sans-serif;
 
 		$unit-font: 1rem; 
 		
@@ -522,3 +522,23 @@ article ul {
 		max-width:$media-l;
 	}
 }
+
+a.after:after{
+	content: "";
+	display: block;
+	margin:0 auto;
+	height: 2px;
+	width:0;
+	transition: all 1s;
+}
+
+a.after:hover:after{
+	width: 100%
+	@media (min-width:$media-l){
+		width:100vw;
+	}
+}
+
+a:hover{color: #4caf50}
+a:after{background: #4caf50; transition: all .25s}
+a.after, a.after:hover{text-decoration:none}
