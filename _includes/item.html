@@ -1,4 +1,4 @@
-<article class="section">
+<article class="grid grid-section">
 {% include item-header.html %}
 
 
@@ -22,7 +22,7 @@
 {% endif %}
 
 		
-<aside class="section">
+<aside class="grid grid-section">
 {% if item.resources %}
 {% include item-resources.html %}
 {% endif %}
@@ -31,17 +31,17 @@
 <div class="grid-item">
 <ul class="nav nav-items--page">
 			{% if page.type %}
-			<li class="nav-item--page link t-heading list">{{ page.type }}</li>
+			<li class="nav-item--page link t-heading list"><small>{{ page.type }}</small></li>
 			{% endif %}
 			{% if page.status %}
-			<li class="nav-item--page link t-heading list">{{ page.status }} </li>
+			<li class="nav-item--page link t-heading list"><small>{{ page.status }}</small> </li>
 			{% endif %}
-			<li class="nav-item--page link t-heading list">{{ page.author }} {{ page.date.y }}</li>
+			<li class="nav-item--page link t-heading list"><small>{{ page.author }} {{ page.date.y }}</small></li>
 			{% if page.license %}
-			<li class="nav-item--page link t-heading list">{{ page.license }}</li>
+			<li class="nav-item--page link t-heading list"><small>{{ page.license }}</small></li>
 			{% endif %}
 			{% if page.lang %}
-			<li class="nav-item--page link t-heading list">{{ page.lang }}</li>
+			<li class="nav-item--page link t-heading list"><small>{{ page.lang }}</small></li>
 			{% endif %}
 		</ul>
 </div>
