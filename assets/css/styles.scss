@@ -542,3 +542,22 @@ a.after:hover:after{
 a:hover{color: #4caf50}
 a:after{background: #4caf50; transition: all .25s}
 a.after, a.after:hover{text-decoration:none}
+
+
+.u-layout{
+	&.u-mar--0{
+		margin:0;
+	}
+	&.u-inline{
+		display:inline-block;
+	}
+	&.u-block{
+		display:block;
+		&.u-media--l{
+			display:inherit;
+			@media (min-width:$media-l){
+				display:block 
+			}
+		}
+	}
+}
