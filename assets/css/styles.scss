@@ -71,12 +71,23 @@
 
 /* FUNCTIONS */
 
-@mixin vendor-function( $function, $var ) {
-	@each $prefix in $vendor-prefixes{
-    	#{$prefix}#{$function}:$var;
-    }
-    $function:$var;
-}
+	@mixin border-function($side, $style, $color, $width) {
+  		@if $side == all {
+			border-style: $style;
+  		} 
+  		@else {
+			border-#{$side}-style: $style;
+  		}
+  		border-color:$color;
+  		border-width:$width;
+	} 
+
+	@mixin vendor-function( $function, $var ) {
+		@each $prefix in $vendor-prefixes{
+	    	#{$prefix}#{$function}:$var;
+	    }
+	    $function:$var;
+	}
 
 /* TYPOGRAPHY */
 html{
@@ -195,7 +206,7 @@ body{
 	    flex: 0 0 18rem;
 	    padding: 3*$unit-grid 1.5*$unit-grid;
 	    max-width: 18rem;
-	    border-right: 2px solid $color-base--light;
+	   	@include border-function(all,solid,$color-base--light,0.1*$unit-grid);
   	}
 }
 
