@@ -1,4 +1,5 @@
 ---
+comments: true
 title: "Risorse digitali per gli studi linguistici: un breve appunto"
 template: item
 keywords: 
