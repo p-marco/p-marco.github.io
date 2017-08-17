@@ -99,12 +99,12 @@
 
 
 html{
-	font-size: 100%;
+	font-size: 150%;
 	@media (min-width:$media-l){
-		font-size: 75%;
+		font-size: 125%;
 	}
 	@media (min-width:$media-xl){
-		font-size: 62.5%;
+		font-size: 100%;
 	}
 }
 
