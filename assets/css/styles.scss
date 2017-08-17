@@ -515,6 +515,10 @@ article ul {
 }
 
 .grid-section{
-	max-width:20em;
 	margin:0 auto;
+	width:90%;
+	max-width:$media-l;
+	@media (min-width: $media-l){
+		max-width:$media-l;
+	}
 }
