@@ -2,16 +2,57 @@
 
 ---
 
+
+/* 	
+	FRONTMATTER
+
+		Info:
+			website:	http://marcopetolicchio.com 
+   			year:		2017
+   			license: 	none (public domain)
+   			author:		Marco Petolicchio
+
+		Table of contents:
+			* Import
+			* Variables
+			* Functions 
+			* Typography
+			* Grid
+			* Components
+			* Shame
+*/
+
+
+/* 	IMPORT 	*/
+
 @import 'reset';
 
+
+
+/*	VARIABLES */
+
 $media-l: 840px ;
+
 $font-heading: "Montserrat", sans-serif;
+
 $font-base: "Open Sans", sans-serif;
+
 $color-brand: #1e5e2f ;
+
 $color-accent: #e6e6e6;
+
 $color-accent--dark: #333;
+
 $unit-grid: 1.6rem; 
 
+$vendor-prefixes:
+    -webkit-,
+    -moz-,
+    -o-,
+    -ms-,
+    ;
+
+/* FUNCTIONS */
 
 @mixin hyphens {
   -webkit-hyphens: auto;
@@ -20,6 +61,21 @@ $unit-grid: 1.6rem;
   hyphens: auto;
   word-wrap: break-word;
 }
+
+@mixin vendor-function( $function, $var ) {
+	@each $prefix in $vendor-prefixes{
+    	#{$prefix}#{$function}:$var;
+    }
+}
+
+/* TYPOGRAPHY */
+
+/* GRID */
+
+/* SHAME */
+.prova{
+      @include vendor-function(border-radius, 0 0 2em 2em);
+    }
 
 
 html{
