@@ -73,6 +73,12 @@ html{
 	font-size: 18px;
 }
 
+body{
+	font-family: $font-base;
+	line-height: 1.8;
+	font-weight: 300;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-heading
 }
@@ -126,12 +132,7 @@ p.hero{
 
 
 
-body{
-	font-family: $font-base;
-	font-size: $unit-grid;
-	line-height: 1.8;
-	font-weight: 300;
-}
+
 
 .wrapper-container--md-2{
 	display: -webkit-box;
