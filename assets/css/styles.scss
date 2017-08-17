@@ -45,12 +45,13 @@ $color-accent--dark: #333;
 
 $unit-grid: 1.6rem; 
 
-$vendor-prefixes:
+$vendor-prefixes: (
     -webkit-,
     -moz-,
     -o-,
     -ms-,
     ;
+);
 
 /* FUNCTIONS */
 
@@ -69,6 +70,52 @@ $vendor-prefixes:
 }
 
 /* TYPOGRAPHY */
+html{
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-heading
+}
+	
+h1 {
+	font-size: 1.75*$unit-grid; 
+	letter-spacing: -2px
+	.hero{
+		font-size: 2*$unit-grid;
+	}
+}
+
+h2 {
+	font-size: 1.5*$unit-grid; 
+	letter-spacing: -2px
+}
+
+h3 {
+	font-size: 1.25*$unit-grid; 
+	letter-spacing: -2px
+}
+
+h4 {
+	font-size: 1*$unit-grid; 
+	letter-spacing: -2px
+}
+p {
+	font-size: 1*$unit-grid;
+}
+
+p.hero{
+	font-size: 1.5*$unit-grid;
+	line-height:3
+}
+
+.hero {
+	line-height: 1
+}
+
+.t-brandColor{
+	color: $color-brand;
+}
 
 /* GRID */
 
@@ -78,9 +125,7 @@ $vendor-prefixes:
     }
 
 
-html{
-	font-size: 10px;
-}
+
 
 body{
 	font-family: $font-base;
@@ -296,36 +341,7 @@ body{
   font-size: 1.2rem;
 }
 
-h1.hero{
-	font-size: 4*$unit-grid;
-}
 
-h1 {
-	font-size: 2.75*$unit-grid; 
-	letter-spacing: -2px
-}
-h2 {
-	font-size: 2.25*$unit-grid; 
-	letter-spacing: -2px
-}
-h3 {
-	font-size: 2*$unit-grid; 
-	letter-spacing: -2px
-}
-h4 {
-	font-size: 1.8*$unit-grid; 
-	letter-spacing: -2px
-}
-p.hero{
-	font-size: 1.5*$unit-grid;
-	line-height:3
-}
-.hero {
-	line-height: 1
-}
-.t-brandColor{
-	color: $color-brand;
-}
 
 .abstract {
 	margin-top: 2*$unit-grid;
