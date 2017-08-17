@@ -9,7 +9,7 @@ sass:
   style: compressed
 
 # Set collections
-collections:
+coladslections:
   activity:
     output : true
     title : News & Events 
