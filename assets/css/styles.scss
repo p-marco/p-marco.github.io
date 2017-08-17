@@ -36,7 +36,8 @@
 /*	VARIABLES */
 
 	/* MEDIA */
-		$media-l: 840px ;
+		$media-l: 40em ;
+		$media-xl: 64em ;
 
 	
 	/* TYPOGRAPHY */
@@ -98,7 +99,13 @@
 
 
 html{
-	font-size: 12px;
+	font-size: 100%;
+	@media (min-width:$media-l){
+		font-size: 75%;
+	}
+	@media (min-width:$media-xl){
+		font-size: 62.5%;
+	}
 }
 
 body{
