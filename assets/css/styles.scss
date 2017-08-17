@@ -226,7 +226,6 @@ body{
 .nav-item--social.link {
   display: block;
   margin: 0.25em;
-  font-size: 1.15*$unit-grid;
 }
 
 
@@ -347,8 +346,7 @@ body{
   display: block;
   padding: 0.4rem;
   padding-left:0;
-  color: #909090;
-  font-size: 1.2rem;
+  color: $color-accent;
 }
 
 
