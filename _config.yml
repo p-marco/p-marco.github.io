@@ -6,7 +6,7 @@ author :
 # Sass settings
 sass:
     sass_dir: assets/css
-    style: : uncompressed
+    style: : nested
 
 # Set collections
 collections:
