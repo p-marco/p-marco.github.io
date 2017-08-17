@@ -6,8 +6,6 @@ template: item
 
 ## Legal Notice 
 
-### No warranties
-
 This website is provided “as is” without any representations or warranties, express or implied.  marcopetolicchio.com makes no representations or warranties in relation to this website or the information and materials provided on this website.  
 
 Without prejudice to the generality of the foregoing paragraph, marcopetolicchio.com does not warrant that:
@@ -57,9 +55,8 @@ If any provision of this website disclaimer is, or is found to be, unenforceable
 Unless otherwise indicated, the contents are released under a Creative Commons 4.0 BY License.
 You can read the legal page [here](https://creativecommons.org/licenses/by/4.0/legalcode).
 
-### Creative Commons 4.0 Human Readable
 
-#### You are free to
+### You are free to
 
 * Share — copy and redistribute the material in any medium or format
 * Adapt — remix, transform, and build upon the material for any purpose, even commercially.
@@ -68,12 +65,12 @@ This license is acceptable for Free Cultural Works.
 
 The licensor cannot revoke these freedoms as long as you follow the license terms.
 
-#### Under the following terms
+### Under the following terms
 
 * Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 * No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-#### Notices:
+### Notices
 
 You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
