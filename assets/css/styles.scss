@@ -472,7 +472,7 @@ a{
 
 
 .u-bord--b{
-	border-bottom: solid 2px $color-base;
+	@include border-function(bottom,solid,$color-base--light,0.1*$unit-grid);
 }
 
 .img--fullw{
