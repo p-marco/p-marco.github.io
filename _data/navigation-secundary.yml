@@ -8,3 +8,4 @@
   name: Cookie Policy
 - link: "https://github.com/p-marco/p-marco.github.io"
   name: Source
+  absolute: true
