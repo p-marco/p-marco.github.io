@@ -2,7 +2,7 @@
 	<ul class="nav nav-items--page">
   	{% for item in site.data.navigation-secundary %}
   		<li class="nav-item--page link list">
-    		<a href="{% unless item.absolute %}{{base}}{% unless %}{{ item.link }}" class="t-heading {% if item.link == page.url %}active{% endif %}">
+    		<a href="{{base}}{{ item.link }}" class="t-heading {% if item.link == page.url %}active{% endif %}">
       		{{ item.name }}
     		</a>
     	</li>
