@@ -298,32 +298,23 @@ body{
 
 .nav-item--primary .link {
 	display: block;
-	padding: 0 0.4rem;
-	color: #166888;
-	font-size: $unit-grid;
-	font-weight: 300;
-	line-height: 1.8;
-	padding-left:0;
 
 	&:hover{
 		color:#fff;
 	}
-	@media (min-width: 840px) {
+	
+	@media (min-width: $media-l) {
    		display: inline-block;
-    	padding: 0.4rem;
-    	padding-left:0;
   }
 }
 
 .main-wrapper {
 	overflow: auto;
-	padding: 3*$unit-grid 1.5*$unit-grid;
-	@media (min-width: 840px) {
+	@media (min-width: $media-l) {
 	    -webkit-box-flex: 1;
 	    -webkit-flex: 1;
 	    -ms-flex: 1;
 	    flex: 1;
-	    padding: 3*$unit-grid;
   	}
 }
 

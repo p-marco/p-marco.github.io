@@ -31,13 +31,13 @@
 </p>
 
 {% if page.keywords %}
-  <ul class="nav nav-items--page">
+  <p><ul class="nav nav-items--page">
   	{% for key in page.keywords %}
   		<li class="nav-item--page link t-heading list"><small>
       		{{ key }}
     	</small></li>
     {% endfor %}
-  </ul>
+  </ul></p>
 {% endif %}
 
 {% if page.image %}
