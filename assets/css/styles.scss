@@ -77,13 +77,11 @@
 
 	@mixin border-function($side, $style, $color, $width) {
   		@if $side == all {
-			border-style: $style;
+			border: $width $style $color;
   		} 
   		@else {
-			border-#{$side}-style: $style;
+			border-#{$side}: $width $style $color;
   		}
-  		border-color:$color;
-  		border-width:$width;
 	} 
 
 	@mixin vendor-function( $function, $var ) {
