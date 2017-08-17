@@ -211,7 +211,7 @@ body{
 	    flex: 0 0 18rem;
 	    padding: 3*$unit-grid 1.5*$unit-grid;
 	    max-width: 18rem;
-	   	@include border-function(all,solid,$color-base--light,0.1*$unit-grid);
+	   	@include border-function(right,solid,$color-base--light,0.1*$unit-grid);
   	}
 }
 
@@ -328,7 +328,7 @@ body{
 .section{
 	margin-bottom: 3*$unit-grid;
 	padding-bottom: $unit-grid;
-	border-bottom: solid 2px $color-base--light;
+	@include border-function(bottom,solid,$color-base--light,0.1*$unit-grid);
 	&:last-child {
   		margin-bottom: 0;
   		padding-bottom: 0;
