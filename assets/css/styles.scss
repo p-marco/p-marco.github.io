@@ -554,7 +554,7 @@ a.after, a.after:hover{text-decoration:none}
 	&.u-block{
 		display:block;
 		&.u-media--l{
-			display:inherit
+			display:inherit;
 			@media (min-width:$media-l){
 				display:block 
 			}
