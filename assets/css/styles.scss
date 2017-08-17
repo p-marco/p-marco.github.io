@@ -73,6 +73,10 @@ html{
 	font-size: 18px;
 }
 
+body{
+	color: $color-accent--dark;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-heading
 }
@@ -101,11 +105,18 @@ h4 {
 }
 p, li {
 	font-size: 0.6*$unit-grid;
+	.hero{
+		font-size: 1*$unit-grid;
+		line-height:3
+	}
 }
 
-p.hero{
-	font-size: 1.5*$unit-grid;
-	line-height:3
+.content p {
+	@include hyphens;
+}
+
+html.font--plus{
+	font-size: 14px;
 }
 
 .hero {
@@ -439,16 +450,6 @@ a{
 	padding-left:0
 }
 
-.content p {
-	color: $color-accent--dark;
-	font-size: 1.05*$unit-grid;
-	@include hyphens;
-	font-weight: 300;
-}
-
-html.font--plus{
-	font-size: 14px;
-}
 
 .u-bord--b{
 	border-bottom: solid 2px $color-accent;
