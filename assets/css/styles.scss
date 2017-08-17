@@ -302,7 +302,7 @@ body{
 	&:hover{
 		color:#fff;
 	}
-	
+
 	@media (min-width: $media-l) {
    		display: inline-block;
   }
@@ -514,4 +514,9 @@ article ul {
 	li{
 		padding:initial
 	}
+}
+
+.grid-section{
+	max-width:20em;
+	margin:0 auto;
 }
