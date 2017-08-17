@@ -13,28 +13,29 @@
   </a>
 {% else %}
   <h1 class="nav-item--page t-heading t-brandColor">{{ page.title }}</h1>
+    <p>
       {% if page.date %}
-        <p class="nav-item--page link t-heading">
+        <span class="nav-item--page link t-heading">
         {{ page.date | date: "%-d %B %Y"}}
-      </p>
+      </span>
     {% endif %}
 {% endif %}
 
 {% if page.author %}
-<p class="nav-item--page link t-heading">
+<span class="nav-item--page link t-heading">
   {% for auth in page.author %}
     <span class="list"> {{ auth }}</span>
   {% endfor %}
-</p>
+</span>
 {% endif %}
-
+</p>
 
 {% if page.keywords %}
   <ul class="nav nav-items--page">
   	{% for key in page.keywords %}
-  		<li class="nav-item--page link t-heading list">
+  		<li class="nav-item--page link t-heading list"><small>
       		{{ key }}
-    	</li>
+    	</small></li>
     {% endfor %}
   </ul>
 {% endif %}
