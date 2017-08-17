@@ -47,3 +47,7 @@
 </div>
 </aside> 
 </article>
+
+{% if page.comments %}
+	{% include disqus.html %}
+{% endif %}
