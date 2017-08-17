@@ -29,7 +29,13 @@
 
 
 
+
+
+
+
+
 /*	VARIABLES */
+
 
 $media-l: 840px ;
 
@@ -52,7 +58,14 @@ $vendor-prefixes: (
     -ms-,
 );
 
+
+
+
+
+
+
 /* FUNCTIONS */
+
 
 @mixin hyphens {
   -webkit-hyphens: auto;
@@ -68,7 +81,17 @@ $vendor-prefixes: (
     }
 }
 
+
+
+
+
+
+
+
 /* TYPOGRAPHY */
+
+
+
 html{
 	font-size: 18px;
 }
@@ -105,26 +128,49 @@ h4 {
 	font-size: 1*$unit-grid; 
 	letter-spacing: -2px
 }
-p {
+p, li {
 	font-size: 0.6*$unit-grid;
+	.hero{
+		font-size: 1.5*$unit-grid;
+	}
 }
 
-p.hero{
-	font-size: 1.5*$unit-grid;
-	line-height:3
-}
-
-.hero {
-	line-height: 1
+small {
+	font-size: 0.8em
 }
 
 .t-brandColor{
 	color: $color-brand;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* GRID */
 
+
+
+
+
+
+
+
+
+
 /* SHAME */
+
+
+
+
+
+
 .prova{
       @include vendor-function(border-radius, 0 0 2em 2em);
     }
@@ -132,6 +178,7 @@ p.hero{
 
 
 
+/* STYLE */
 
 
 .wrapper-container--md-2{
@@ -404,9 +451,6 @@ p {margin-top:1em}
 	border-color: $color-accent;
 }
 
-small {
-	font-size: 0.8em
-}
 
 #map {
 	width: 400px;
