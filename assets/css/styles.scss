@@ -31,41 +31,51 @@
 
 /*	VARIABLES */
 
-$media-l: 840px ;
+	/* MEDIA */
+		$media-l: 840px ;
 
-$font-heading: "Montserrat", sans-serif;
+	
+	/* TYPOGRAPHY */
 
-$font-base: "Open Sans", sans-serif;
+		$font-heading: "Montserrat", sans-serif;
 
-$color-brand: #1e5e2f ;
+		$font-base: "Open Sans", sans-serif;
 
-$color-accent: #909090;
+		$unit-grid: 1.6rem; 
 
-$color-accent--dark: #333;
 
-$unit-grid: 1.6rem; 
+	/* COLORS */
 
-$vendor-prefixes: (
-    -webkit-,
-    -moz-,
-    -o-,
-    -ms-,
-);
+		$color-brand: #1e5e2f ;
+
+		$color-base: #7d7d7d ;
+		$color-base--dark: darken( $color-base, 30% ) ;
+		$color-base--light: lighten( $color-base, 40% );
+
+		$color-accent: #909090;
+
+		$color-accent--dark: #333;
+
+	
+	/* FUNCTORS */
+		
+		$vendor-prefixes: (
+		    -webkit-,
+		    -moz-,
+		    -o-,
+		    -ms-,
+		);
+
+
+		
 
 /* FUNCTIONS */
-
-@mixin hyphens {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
 
 @mixin vendor-function( $function, $var ) {
 	@each $prefix in $vendor-prefixes{
     	#{$prefix}#{$function}:$var;
     }
+    $function:$var;
 }
 
 /* TYPOGRAPHY */
@@ -112,7 +122,8 @@ p, li {
 }
 
 .content p {
-	@include hyphens;
+	@include vendor-function(hypens,auto);
+	word-wrap: break-word;
 }
 
 html.font--plus{
