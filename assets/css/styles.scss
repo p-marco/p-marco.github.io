@@ -105,6 +105,8 @@ html{
 body{
 	color: $color-base--dark;
 	line-height:1*$unit-grid;
+	font-family: $font-base;
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -169,12 +171,8 @@ p, li {
 
 
 
-
-body{
-	font-family: $font-base;
-	font-size: $unit-grid;
-	line-height: 1.8;
-	font-weight: 300;
+.bg--color{
+	background:#$color-base--light;
 }
 
 .wrapper-container--md-2{
