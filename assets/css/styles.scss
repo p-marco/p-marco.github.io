@@ -326,8 +326,7 @@ body{
 }
 
 .section{
-	margin-bottom: 3*$unit-grid;
-	padding-bottom: $unit-grid;
+
 	@include border-function(bottom,solid,$color-base--light,0.1*$unit-grid);
 	&:last-child {
   		margin-bottom: 0;
