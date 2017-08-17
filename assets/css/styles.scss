@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 	
 h1 {
-	font-size: 1.75*$unit-grid; 
+	font-size: 2.5*$unit-grid; 
 	letter-spacing: -2px;
 	&.hero{
 		font-size: 2*$unit-grid;
@@ -123,21 +123,21 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5*$unit-grid; 
+	font-size: 2*$unit-grid; 
 	letter-spacing: -2px
 }
 
 h3 {
-	font-size: 1.25*$unit-grid; 
+	font-size: 1.75*$unit-grid; 
 	letter-spacing: -2px
 }
 
 h4 {
-	font-size: 1*$unit-grid; 
+	font-size: 1.5*$unit-grid; 
 	letter-spacing: -2px
 }
 p, li {
-	font-size: 0.6*$unit-grid;
+	font-size: 1*$unit-grid;
 	&.hero{
 		font-size: 1*$unit-grid;
 		line-height:3
