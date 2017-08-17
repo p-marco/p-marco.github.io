@@ -9,8 +9,8 @@ sass:
   style: compressed
 
 # Set collections
-coladslections:
-  activity:
+collections:
+  		activity:
     output : true
     title : News & Events 
   research:
