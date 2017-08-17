@@ -18,11 +18,11 @@ collections:
     title : Research activity 
     layout: default
   projects :
-	output : true
-	title : Projects 
+    output : true
+    title : Projects 
   teaching :
-	output : true
-	title : Course materials 
+    output : true
+    title : Course materials 
 plugins:
   - jekyll-sitemap
 lang: en
