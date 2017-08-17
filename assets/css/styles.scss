@@ -170,11 +170,11 @@ body{
 
 	@media (min-width: $media-l) {
 	    -webkit-box-flex: 0;
-	    -webkit-flex: 0 0 32rem;
-	    -ms-flex: 0 0 32rem;
-	    flex: 0 0 32rem;
+	    -webkit-flex: 0 0 18rem;
+	    -ms-flex: 0 0 18rem;
+	    flex: 0 0 18rem;
 	    padding: 3*$unit-grid 1.5*$unit-grid;
-	    max-width: 32rem;
+	    max-width: 18rem;
 	    border-right: 2px solid $color-accent;
   	}
 }
@@ -385,7 +385,7 @@ p {margin-top:1em}
 .btn--block{
 	width:100%	;
 	display: block;
-	max-width:32rem; 
+	max-width:18rem; 
 	margin:0 auto;
 }
 
