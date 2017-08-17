@@ -10,7 +10,7 @@ sass:
 
 # Set collections
 collections:
-  		activity:
+ activity:
     output : true
     title : News & Events 
   research:
