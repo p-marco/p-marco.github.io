@@ -1,5 +1,5 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
+
 ---
 
 
@@ -29,11 +29,6 @@
 
 
 
-
-
-
-
-
 /*	VARIABLES */
 
 $media-l: 840px ;
@@ -50,21 +45,14 @@ $color-accent--dark: #333;
 
 $unit-grid: 1.6rem; 
 
-$vendor-prefixes: 
+$vendor-prefixes: (
     -webkit-,
     -moz-,
     -o-,
     -ms-,
-	;
-
-
-
-
-
-
+);
 
 /* FUNCTIONS */
-
 
 @mixin hyphens {
   -webkit-hyphens: auto;
@@ -80,25 +68,9 @@ $vendor-prefixes:
     }
 }
 
-
-
-
-
-
-
-
 /* TYPOGRAPHY */
-
-
-
 html{
 	font-size: 18px;
-}
-
-body{
-	font-family: $font-base;
-	line-height: 1.8;
-	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -127,49 +99,26 @@ h4 {
 	font-size: 1*$unit-grid; 
 	letter-spacing: -2px
 }
-p, ul {
+p, li {
 	font-size: 0.6*$unit-grid;
-	.hero{
-		font-size: 1.5*$unit-grid;
-	}
 }
 
-small {
-	font-size: 0.8em
+p.hero{
+	font-size: 1.5*$unit-grid;
+	line-height:3
+}
+
+.hero {
+	line-height: 1
 }
 
 .t-brandColor{
 	color: $color-brand;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* GRID */
 
-
-
-
-
-
-
-
-
-
 /* SHAME */
-
-
-
-
-
-
 .prova{
       @include vendor-function(border-radius, 0 0 2em 2em);
     }
@@ -177,8 +126,12 @@ small {
 
 
 
-/* STYLE */
-
+body{
+	font-family: $font-base;
+	font-size: $unit-grid;
+	line-height: 1.8;
+	font-weight: 300;
+}
 
 .wrapper-container--md-2{
 	display: -webkit-box;
@@ -262,6 +215,7 @@ small {
 .nav-item--social.link {
   display: block;
   margin: 0.25em;
+  font-size: 1.15*$unit-grid;
 }
 
 
@@ -305,6 +259,7 @@ small {
 	display: block;
 	padding: 0 0.4rem;
 	color: #166888;
+	font-size: $unit-grid;
 	font-weight: 300;
 	line-height: 1.8;
 	padding-left:0;
@@ -382,6 +337,7 @@ small {
   padding: 0.4rem;
   padding-left:0;
   color: #909090;
+  font-size: 1.2rem;
 }
 
 
@@ -450,6 +406,9 @@ p {margin-top:1em}
 	border-color: $color-accent;
 }
 
+small {
+	font-size: 0.8em
+}
 
 #map {
 	width: 400px;
@@ -482,7 +441,13 @@ a{
 
 .content p {
 	color: $color-accent--dark;
+	font-size: 1.05*$unit-grid;
 	@include hyphens;
+	font-weight: 300;
+}
+
+html.font--plus{
+	font-size: 14px;
 }
 
 .u-bord--b{
