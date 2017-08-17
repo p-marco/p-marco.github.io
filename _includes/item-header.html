@@ -5,11 +5,11 @@
 {% if (item.url == page.url) %}
   <a class="nav-item--page t-heading" href="{{ page.url }}">
       {% if page.date %}
-        <p class="nav-item--page link t-heading">
+        <p class="nav-item--page link t-heading u-layout u-mar--0">
         {{ page.date | date: "%-d %B %Y"}}
       </p>
       {% endif %}
-    <h4 class="link">{{ page.title }}</h4>
+    <h4 class="link u-layout u-mar--0">{{ page.title }}</h4>
   </a>
 {% else %}
   <h1 class="nav-item--page t-heading t-brandColor">{{ page.title }}</h1>
@@ -32,13 +32,13 @@
 
 
 {% if page.keywords %}
-  <p><ul class="nav nav-items--page">
+  <ul class="nav nav-items--page u-layout u-mar--0">
   	{% for key in page.keywords %}
   		<li class="nav-item--page link t-heading list"><small>
       		{{ key }}
     	</small></li>
     {% endfor %}
-  </ul></p>
+  </ul>
 {% endif %}
 
 {% if page.image %}
