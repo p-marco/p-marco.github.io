@@ -17,18 +17,19 @@
       {% if page.date %}
         <span class="nav-item--page link t-heading">
         {{ page.date | date: "%-d %B %Y"}}
-      </span>
-    {% endif %}
+        </span>
+      {% endif %}
+      {% if page.author %}
+        <span class="nav-item--page link t-heading">
+        {% for auth in page.author %}
+          <span class="list"> {{ auth }}</span>
+        {% endfor %}
+        </span>
+      {% endif %}
+    </p>
 {% endif %}
 
-{% if page.author %}
-<span class="nav-item--page link t-heading">
-  {% for auth in page.author %}
-    <span class="list"> {{ auth }}</span>
-  {% endfor %}
-</span>
-{% endif %}
-</p>
+
 
 {% if page.keywords %}
   <p><ul class="nav nav-items--page">
