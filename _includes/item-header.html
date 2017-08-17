@@ -20,12 +20,14 @@
     {% endif %}
 {% endif %}
 
-
+{% if page.author %}
 <p class="nav-item--page link t-heading">
   {% for auth in page.author %}
     <span class="list"> {{ auth }}</span>
   {% endfor %}
 </p>
+{% endif %}
+
 
 {% if page.keywords %}
   <ul class="nav nav-items--page">
