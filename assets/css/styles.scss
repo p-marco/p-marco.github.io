@@ -45,7 +45,9 @@
 
 		$font-base: "Open Sans", sans-serif;
 
-		$unit-grid: 1rem; 
+		$unit-font: 1rem; 
+		
+		$unit-grid: 1.8*$unit-font; 
 
 
 	/* COLORS */
@@ -55,10 +57,6 @@
 		$color-base: #7d7d7d ;
 		$color-base--dark: darken( $color-base, 30% ) ;
 		$color-base--light: lighten( $color-base, 40% );
-
-		$color-base: #909090;
-
-		$color-base--dark: #333;
 
 	
 	/* FUNCTORS */
@@ -106,39 +104,42 @@ html{
 
 body{
 	color: $color-base--dark;
-	line-height:1.8*$unit-grid;
+	line-height:1*$unit-grid;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: $font-heading
+	font-family: $font-heading;
+	line-height: 2*$unit-grid;
 }
 	
 h1 {
-	font-size: 2.5*$unit-grid; 
+	font-size: 2.5*$unit-font; 
 	letter-spacing: -2px;
 	&.hero{
-		font-size: 2*$unit-grid;
+		font-size: 2*$unit-font;
 	}
 }
 
 h2 {
-	font-size: 2*$unit-grid; 
+	font-size: 2*$unit-font; 
 	letter-spacing: -2px
 }
 
 h3 {
-	font-size: 1.75*$unit-grid; 
+	font-size: 1.75*$unit-font; 
 	letter-spacing: -2px
 }
 
 h4 {
-	font-size: 1.5*$unit-grid; 
+	font-size: 1.5*$unit-font; 
 	letter-spacing: -2px
 }
 p, li {
-	font-size: 1*$unit-grid;
+	font-size: 1*$unit-font;
+	margin-bottom:1*$unit-grid;
+	vertical-align:middle;
 	&.hero{
-		font-size: 1*$unit-grid;
+		font-size: 1*$unit-font;
 		line-height:3
 	}
 }
@@ -374,16 +375,7 @@ body{
 
 
 
-.abstract {
-	margin-top: 2*$unit-grid;
-	margin-bottom: 2*$unit-grid; 
-}
 
-.t-b--s{
-	font-weight: 600
-}
-
-p {margin-top:1em}
 
 .list-item:not(:last-of-type):after {
 	display:inline-block;
