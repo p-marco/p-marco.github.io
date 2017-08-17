@@ -52,9 +52,9 @@
 		$color-base--dark: darken( $color-base, 30% ) ;
 		$color-base--light: lighten( $color-base, 40% );
 
-		$color-accent: #909090;
+		$color-base: #909090;
 
-		$color-accent--dark: #333;
+		$color-base--dark: #333;
 
 	
 	/* FUNCTORS */
@@ -67,7 +67,7 @@
 		);
 
 
-		
+
 
 /* FUNCTIONS */
 
@@ -84,7 +84,7 @@ html{
 }
 
 body{
-	color: $color-accent--dark;
+	color: $color-base--dark;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -186,8 +186,6 @@ body{
 
 .nav-sidebar {
 	padding: 2.75rem;
-	background-color: inherit;
-	color: $color-accent--dark;
 
 
 	@media (min-width: $media-l) {
@@ -197,7 +195,7 @@ body{
 	    flex: 0 0 18rem;
 	    padding: 3*$unit-grid 1.5*$unit-grid;
 	    max-width: 18rem;
-	    border-right: 2px solid $color-accent;
+	    border-right: 2px solid $color-base--light;
   	}
 }
 
@@ -314,7 +312,7 @@ body{
 .section{
 	margin-bottom: 3*$unit-grid;
 	padding-bottom: $unit-grid;
-	border-bottom: solid 2px $color-accent;
+	border-bottom: solid 2px $color-base--light;
 	&:last-child {
   		margin-bottom: 0;
   		padding-bottom: 0;
@@ -357,7 +355,7 @@ body{
   display: block;
   padding: 0.4rem;
   padding-left:0;
-  color: $color-accent;
+  color: $color-base;
 }
 
 
@@ -410,20 +408,20 @@ p {margin-top:1em}
 }
 
 .btn-primary{
-	background: $color-accent--dark;
-	border-color: $color-accent;
+	background: $color-base--dark;
+	border-color: $color-base;
 	color: #fff;
 }
 .btn-primary--outline{
-	border-color: $color-accent--dark;
+	border-color: $color-base--dark;
 }
 .btn-secundary{
-	background: $color-accent;
-	border-color: $color-accent;
+	background: $color-base;
+	border-color: $color-base;
 }
 
 .btn-secundary--outline{
-	border-color: $color-accent;
+	border-color: $color-base;
 }
 
 small {
@@ -461,7 +459,7 @@ a{
 
 
 .u-bord--b{
-	border-bottom: solid 2px $color-accent;
+	border-bottom: solid 2px $color-base;
 }
 
 .img--fullw{
@@ -485,7 +483,7 @@ a{
 	content: " ";
 	width:100%;
 	height: 0;
-	background-color: $color-accent;
+	background-color: $color-base;
 	transition: all 0.2s;
 	z-index: -1;
 		
