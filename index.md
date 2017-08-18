@@ -1,6 +1,7 @@
 ---
 title: "Welcome"
 layout: default
+share: false
 ---
 <style>
 	.u-t--c{
