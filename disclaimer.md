@@ -62,7 +62,6 @@ You can read the legal page [here](https://creativecommons.org/licenses/by/4.0/l
 * Adapt — remix, transform, and build upon the material for any purpose, even commercially.
 
 This license is acceptable for Free Cultural Works.
-
 The licensor cannot revoke these freedoms as long as you follow the license terms.
 
 ### Under the following terms
@@ -74,12 +73,3 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 
 You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
-
-
-## Credits
-
-Third part contents:
-
-* The section "Legal Notice" was created using a *Contractology* template available [here](http://www.contractology.com)
-* The avatar image was courtesely shooted by *Matteo Manzi*
-* The website is hosted on *Github* and developed with *Jekyll*

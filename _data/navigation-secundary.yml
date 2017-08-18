@@ -1,5 +1,7 @@
 - link: /disclaimer
   name: Disclaimer
+- link: /credits
+  name: Credits
 - link: /rss
   name: RSS
 - link: /sitemap.xml
