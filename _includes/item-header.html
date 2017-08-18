@@ -1,8 +1,9 @@
-<header class="">
 
 
 
 {% if (item.url == page.url) %}
+<header class="grid grid-item">
+
   <a class="nav-item--page t-heading" href="{{ page.url }}">
       {% if page.date %}
         <p class="nav-item--page link t-heading u-layout u-mar--0">
@@ -12,6 +13,8 @@
     <h4 class="link u-layout u-mar--0">{{ page.title }}</h4>
   </a>
 {% else %}
+<header class="">
+
   <h1 class="nav-item--page t-heading t-brandColor">{{ page.title }}</h1>
     <p>
       {% if page.date %}
