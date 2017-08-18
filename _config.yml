@@ -25,4 +25,5 @@ collections:
     title : Course materials 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 lang: en
