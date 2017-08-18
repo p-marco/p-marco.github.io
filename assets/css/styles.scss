@@ -183,8 +183,8 @@ p, li {
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
-	-ms-flex-direction: column;
-	flex-direction: column;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
 	min-width: 100%;
 	min-height: 100vh;
 
