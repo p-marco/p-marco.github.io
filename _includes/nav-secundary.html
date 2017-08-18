@@ -1,10 +1,10 @@
 <nav class="nav nav--page">
 	<ul class="nav nav-items--page">
   	{% for item in site.data.navigation-secundary %}
-  		<li class="nav-item--page link list">
+  		<li class="nav-item--page link list"><small>
     		<a href="{% unless item.absolute %}{{base}}{% endunless %}{{ item.link }}" class="t-heading {% if item.link == page.url %}active{% endif %}">
       		{{ item.name }}
-    		</a>
+    		</a></small>
     	</li>
   	{% endfor %}
   	</ul>

@@ -1,0 +1,10 @@
+<nav class="nav grid-item">
+	<ul class="nav-items--social">
+  	{% for item in site.data.share %}
+  		<li class="nav-item--social link">
+    		<a href="{{ item.link }}" target="_blank"><i class="fa {{ item.icon }}"></i>
+    		</a>
+    	</li>
+  	{% endfor %}
+  	</ul>
+</nav>

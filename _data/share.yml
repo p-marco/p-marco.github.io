@@ -1,0 +1,21 @@
+- link: https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{site.baseurl}}{{ page.url }}
+  name: Facebook
+  icon: fa-facebook
+- link: https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{site.baseurl}}{{ page.url }}
+  name: Twitter
+  icon: fa-twitter
+- link: https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{site.baseurl}}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=webjeda
+  name: Linkedin
+  icon: fa-linkedin
+- link: http://www.reddit.com/submit?url={{ site.url }}{{site.baseurl}}{{ page.url }}
+  name: Reddit
+  icon: fa-reddit
+- link: https://plus.google.com/share?url={{ site.url }}{{site.baseurl}}{{ page.url }}
+  name: Google Plus 
+  icon: fa-google-plus
+- link: mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{site.baseurl}}{{ page.url }}
+  name: Email
+  icon: fa-envelope
+
+
+
