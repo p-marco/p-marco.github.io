@@ -450,8 +450,8 @@ a{
 }
 
 .grid-item{
-	padding-top: 1*$unit-grid;
-	padding-bottom: 1*$unit-grid;
+	padding: 1*$unit-grid;
+	padding-left:0;
 }
 .u-m--l-0{
 	margin-left: 0
