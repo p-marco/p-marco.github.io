@@ -1,6 +1,8 @@
+{% if page.resources %}
+
 <ul class="grid-item">
 
-{% if page.resources %}
+{% for resource in page.resources %}
 	{% if resource.pdf %}
 		<li><a class="btn btn--block btn-primary" href="{{ resource.pdf }}"><span>Read the pdf</span></a></li>
 	{% endif %}
@@ -25,3 +27,4 @@
 {% endif %}
 
 </ul>
+{% if page.resources %}
