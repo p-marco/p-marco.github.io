@@ -1,8 +1,13 @@
 <section>
 {% for item in collection %}
-	<article>
 	{% assign page = item %}
+
+	{% capture item %}
+	<article>
 	{% include item-header.html %}
 	</article>
+
+	{% endcapture %}
 	{% endfor %} 
+	
 </section>
