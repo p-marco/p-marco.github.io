@@ -26,7 +26,9 @@
 
 		
 <aside class="grid grid-section">
-{% include item-resources.html %}
+  {% if (item.url != page.url) %}
+    {% include item-resources.html %}
+  {% endif %}
 
 
 <div class="">
