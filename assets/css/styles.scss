@@ -594,3 +594,7 @@ a.after, a.after:hover{text-decoration:none}
     h1:before, h2:before, h3:before {
     	color:$color-base;
     }
+
+    article ul , article ol {
+    	margin-left: 1em;
+    }
