@@ -2,6 +2,7 @@
 title: Disclaimer
 layout: default
 template: item
+share: false
 ---
 
 ## Legal Notice 

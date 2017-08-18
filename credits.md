@@ -2,6 +2,7 @@
 title: Credits
 layout: default
 template: item
+share: false
 ---
 
 This website uses third-part contents.

@@ -1,6 +1,8 @@
 ---
 title: Cookie Policy
+layout: item
 template: item
+share: false
 ---
 
 ## About cookies
