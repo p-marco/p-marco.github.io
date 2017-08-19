@@ -18,10 +18,7 @@
 
 	<div class="content">{{ content }}</div>
 
-{% if page.collections %}
-	{% assign collection = site.[page.collections] | sort: 'date' | reverse %} 
-	{% include collection.html %}
-{% endif %}
+
 
 		
 <aside class="grid grid-section">

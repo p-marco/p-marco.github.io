@@ -1,11 +1,12 @@
 <section>
-{% for item in collection %}
+	{% assign collection = site.[page.collections] | sort: 'date' | reverse %} 
+	{% for item in collection %}
 	{% assign page = item %}
 
 	<article>
 	{% include item-header.html %}
 	</article>
 
-{% endfor %} 
+	{% endfor %} 
 	 
 </section>
