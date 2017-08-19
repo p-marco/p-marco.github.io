@@ -53,7 +53,7 @@
 
 	/* COLORS */
 		
-		$color-white: #f6f6f6;
+		$color-white: #f9f9f9;
 
 		$color-brand: #4caf50 ; /* #1e5e2f */
 		$color-brand--dark: darken($color-brand, 10%) ;
@@ -170,6 +170,23 @@ p, li {
 .t-brandColor{
 	color: $color-brand--dark;
 }
+
+
+a{
+	text-decoration: none; 
+	color: inherit;
+	&:hover{
+		text-decoration: underline;
+	}
+	&:active{
+		text-decoration: overline;
+	}
+	&:visited{
+		text-decoration: line-through;
+	}
+}
+
+
 
 /* GRID */
 
@@ -411,10 +428,13 @@ p, li {
 }
 
 .btn--block{
-	width:100%	;
-	display: block;
+	width:auto	;
+	display: inline-block;
 	max-width:18rem; 
-	margin:0 auto;
+	margin:1.8rem;
+	margin-left:0;
+	padding-left:1.8rem;
+	padding-right:1.8rem;
 }
 .btn{
 	transition: all .5s;
@@ -456,7 +476,6 @@ p, li {
 	color: $color-base;
 	&:hover{
 		background: $color-base--light;
-		color: $color-white;
 	}
 }
 small {
@@ -467,20 +486,6 @@ small {
 	width: 400px;
 	height: 300px ;
 }
-a{
-	text-decoration: none; 
-	color: inherit;
-	&:hover{
-		text-decoration: underline;
-	}
-	&:active{
-		text-decoration: overline;
-	}
-	&:visited{
-		text-decoration: line-through;
-	}
-}
-
 
 
 .grid-item{
