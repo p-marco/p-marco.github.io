@@ -1,5 +1,6 @@
 ---
 title: Ergatività in ittito. Un approccio minimalista
+description: "My MA Thesis in Linguistics on split ergativity in hittite."
 comments: true
 template: item
 keywords: 

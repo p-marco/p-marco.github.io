@@ -1,5 +1,6 @@
 ---
 title: On finnish core cases 
+description: "A squib on finnish nominal declension and case alternation in syntax."
 comments: true
 template: item
 keywords: 

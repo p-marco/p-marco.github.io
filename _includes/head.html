@@ -4,6 +4,8 @@
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %} {{ site.title }}{% endif %}
   </title>
   <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="{{ site.baseurl}}/assets/favicon.png" />
+  
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 
@@ -26,14 +28,14 @@
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
 {% if page.keywords %}
-	<meta itemprop="keywords" content="{% for key in page.keywords %}{{ key }}{% endfor %}" />
+	<meta itemprop="keywords" content="{% for key in page.keywords | join: ',' %}{{ key }}{% endfor %}" />
 	{% for key in page.keywords %}
 		<meta property="article:tag" content="{{ key }}">
 	{% endfor %}
 {% endif %}
 
 {% if page.author %}
-	<meta property="article:author" content="{% for auth in page.author %}{{ auth }}{% endfor %}" />
+	<meta property="article:author" content="{% for auth in page.author | join: ',' %}{{ auth }}{% endfor %}" />
 {% endif %}
 
 <meta property="og:image" content="{% if page.image %}{{ site.baseurl }}{{ page.image }}{% else %}{{ site.baseurl }}{{ site.image }}{% endif %}" />

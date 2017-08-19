@@ -1,5 +1,6 @@
 ---
 title: Uno studio sulle 'Petrose' di Dante
+description: "My BA Thesis in Romance Philology."
 comments: true
 template: item
 keywords: 

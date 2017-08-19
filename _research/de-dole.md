@@ -1,5 +1,6 @@
 ---
 title: Analisi dei vv. 3250-3300 del G.De Dole di J. Renart 
+description: "An analysis of the 13th c. romance G.De Dole by J. Renart."
 comments: true
 template: item
 keywords: 
