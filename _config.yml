@@ -5,6 +5,8 @@ feed-description: "RSS Feeds for the website"
 copyright: "2017"
 markdown: kramdown
 
+image: /assets/img/og-image.png
+
 author :
   name : Marco Petolicchio
   image: assets/img/pic-72.jpg
