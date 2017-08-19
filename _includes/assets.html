@@ -1,5 +1,27 @@
+ <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#d7d7d7",
+      "text": "#313131"
+    },
+    "button": {
+      "background": "#4caf50",
+      "text": "#d7d7d7"
+    }
+  },
+  "position": "top",
+  "static": true,
+  "content": {
+    "href": "http://marcopetolicchio.com/cookie-policy"
+  }
+})});
+</script>
  <link rel="stylesheet" href="{{base}}/assets/css/styles.css" lazyload>
- <script type="text/javascript" src="//cdn.jsdelivr.net/cookie-bar/1/cookiebar-latest.js?top=1&remember=01"></script> 
+
  
  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet" lazyload>
  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" lazyload>
