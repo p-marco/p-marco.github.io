@@ -2,6 +2,7 @@
 title: "Welcome"
 layout: frontMatter
 share: false
+image: assets/img/pic.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur arcu a enim hendrerit, ut laoreet augue consectetur.
