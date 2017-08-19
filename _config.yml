@@ -28,6 +28,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 lang: en
-
-gems:
-  - jekyll-feed
