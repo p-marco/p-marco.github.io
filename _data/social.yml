@@ -25,6 +25,6 @@
 - link: https://github.com/p-marco
   name: Github
   icon: fa-github
-- link: /rss
+- link: /feed
   name: RSS
   icon: fa-rss

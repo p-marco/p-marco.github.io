@@ -2,7 +2,7 @@
   name: Disclaimer
 - link: /credits
   name: Credits
-- link: /rss
+- link: /feed
   name: RSS
 - link: /sitemap.xml
   name: Sitemap
