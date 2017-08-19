@@ -1,7 +1,7 @@
 <nav class="nav nav--page">
 <ul class="nav nav-items--page">
   <li class="nav-item--page link list"><small><span class="t-heading">2017 |</span></small></li>
-  <li class="nav-item--page link list"><a class="t-heading" href="{{ site.baseurl }}/">{{ site.title }}</a></li>
+  <li class="nav-item--page link list"><small><a class="t-heading" href="{{ site.baseurl }}/">{{ site.title }}</a></small></li>
 {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
 {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
 {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
@@ -14,7 +14,7 @@
         {% assign j = forLoopMaxInt | plus: 0 %}
             <li class="nav-item--page link list" {% if i == j %}data-status="active"{% endif %}>
                 {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-                <a class="t-heading" href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.breadcrumb}}</a>
+                <small><a class="t-heading" href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.breadcrumb}}</a></small>
             </li>
         {% endif %}
     {% endfor %}

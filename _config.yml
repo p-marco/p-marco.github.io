@@ -3,6 +3,7 @@ author :
   name : Marco Petolicchio
   image: assets/img/pic-72.jpg
   headline: Linguist & tech enthusiast
+baseurl: "http://marcopetolicchio.com"
 # Sass settings
 sass:
   sass_dir: assets/css
