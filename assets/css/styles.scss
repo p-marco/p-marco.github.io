@@ -54,7 +54,7 @@
 	/* COLORS */
 		
 		$color-brand: #4caf50 ; /* #1e5e2f */
-		$color-brand--dark: darken($color-brand--dark,25%) ;
+		$color-brand--dark: darken($color-brand, 25%) ;
 
 		$color-base: #7d7d7d ;
 		$color-base--dark: darken( $color-base, 30% ) ;
