@@ -1,5 +1,6 @@
 ---
 title: Czech-IT!
+comments: true
 template: item
 keywords: 
   - Co-founder

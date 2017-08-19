@@ -52,8 +52,9 @@
 
 
 	/* COLORS */
-
-		$color-brand: #1e5e2f ;
+		
+		$color-brand: #4caf50 ; /* #1e5e2f */
+		$color-brand--dark: darken($color-brand--dark,25%) ;
 
 		$color-base: #7d7d7d ;
 		$color-base--dark: darken( $color-base, 30% ) ;
@@ -164,7 +165,7 @@ p, li {
 
 
 .t-brandColor{
-	color: $color-brand;
+	color: $color-brand--dark;
 }
 
 /* GRID */
@@ -394,36 +395,37 @@ p, li {
 	margin-bottom:1em; 
 	border-width: 2px;
 	border-style:solid;
-	color: $color-brand;
+	color: $color-brand--dark;
 	position:relative;
 	overflow: hidden;
 }
-.btn:before{
-	display: block;
-	content: " ";
-	width: 100%;
-	height: 100%;
-	background-color: $color-brand;
-}
-.btn:hover{
-	&:before{
-		height: 100%
-	}
-}
+
 .btn--block{
 	width:100%	;
 	display: block;
 	max-width:18rem; 
 	margin:0 auto;
 }
-
-.btn-primary{
-	background: $color-base--dark;
-	border-color: $color-base;
-	color: #fff;
+.btn{
+	transition: all .5s;
 }
+.btn-primary{
+	border-color: transparent;
+	background: $color-brand;
+	color: #fff;
+	&:hover{
+		border-color: $color-brand;
+		background: transparent;
+		color: $color-brand;
+	}
+}
+
 .btn-primary--outline{
-	border-color: $color-base--dark;
+	border-color: $color-brand;
+	color: $color-brand;
+	&:hover{
+		background: $color-brand;
+	}
 }
 .btn-secundary{
 	background: $color-base;
@@ -547,9 +549,6 @@ a.after:after{
 
 a.after:hover:after{
 	width: 100%;
-	@media (min-width:$media-l){
-		width:100vw;
-	}
 }
 
 a:hover{color: #4caf50}
@@ -611,3 +610,6 @@ a.after, a.after:hover{text-decoration:none}
     }
 
 
+nav ul, nav ol {
+	list-style-type: none;
+}

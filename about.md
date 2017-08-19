@@ -1,5 +1,6 @@
 ---
 title: About
+comments: true
 layout: default
 template: item
 image: assets/img/picture-woods.jpg

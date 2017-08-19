@@ -1,5 +1,6 @@
 ---
 title: Polet500
+comments: true
 template: item
 keywords: 
   - IT Supervisor
