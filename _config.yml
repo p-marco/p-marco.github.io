@@ -3,6 +3,7 @@ baseurl: "http://marcopetolicchio.com"
 description: "Linguist & tech enthusiast"
 feed-description: "RSS Feeds for the website"
 copyright: "2017"
+markdown: kramdown
 
 author :
   name : Marco Petolicchio
