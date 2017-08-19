@@ -214,7 +214,7 @@ a{
 	min-width: 100%;
 	min-height: 100vh;
 
-	@media (min-width: $media-l) {
+	@media (min-width: $media-xl) {
 
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
@@ -234,7 +234,7 @@ a{
 	padding: 2.75rem;
 
 
-	@media (min-width: $media-xl) {
+	@media (min-width: $media-l) {
 	    -webkit-box-flex: 0;
 	    -webkit-flex: 0 0 18rem;
 	    -ms-flex: 0 0 18rem;
