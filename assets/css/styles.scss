@@ -70,7 +70,6 @@
 		    -moz-,
 		    -o-,
 		    -ms-,
-		     ,
 		);
 
 
@@ -91,7 +90,7 @@
 		@each $prefix in $vendor-prefixes{
 	    	#{$prefix}#{$function}:$var;
 	    }
-	    $function:$var;
+	    #{$function}:$var;
 	}
 
 
