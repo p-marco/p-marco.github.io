@@ -28,14 +28,14 @@
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
 {% if page.keywords %}
-	<meta itemprop="keywords" content="{% for key in page.keywords %}{{ key | join: ',' }}{% endfor %}" />
+	<meta itemprop="keywords" content="{% for key in page.keywords %}{{ key }}, {% endfor %}" />
 	{% for key in page.keywords %}
 		<meta property="article:tag" content="{{ key }}">
 	{% endfor %}
 {% endif %}
 
 {% if page.author %}
-	<meta property="article:author" content="{% for auth in page.author %}{{ auth  | join: ',' }}{% endfor %}" />
+	<meta property="article:author" content="{% for auth in page.author %}{{ auth }}, {% endfor %}" />
 {% endif %}
 
 <meta property="og:image" content="{% if page.image %}{{ site.baseurl }}{{ page.image }}{% else %}{{ site.baseurl }}{{ site.image }}{% endif %}" />
