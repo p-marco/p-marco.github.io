@@ -1,9 +1,13 @@
 title : marcopetolicchio.com
+baseurl: "http://marcopetolicchio.com"
+description: "Linguist & tech enthusiast"
+
 author :
   name : Marco Petolicchio
   image: assets/img/pic-72.jpg
   headline: Linguist & tech enthusiast
-baseurl: "http://marcopetolicchio.com"
+
+
 # Sass settings
 sass:
   sass_dir: assets/css
@@ -26,5 +30,4 @@ collections:
     title : Course materials 
 plugins:
   - jekyll-sitemap
-  - jekyll-feed
 lang: en
