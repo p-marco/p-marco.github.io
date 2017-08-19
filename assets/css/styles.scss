@@ -119,17 +119,23 @@ h1, h2, h3,h4 {
 	margin-bottom: 1em;
 }
 
+h1,h2{
+	line-height:1;
+}
 	
 h1 {
 	font-size: 2.5*$unit-font; 
 	letter-spacing: -2px;
 	&.hero{
-		font-size: 2*$unit-font;
+		font-size: 4*$unit-font;
 	}
 }
 
-h2,h3 {
+h2{
 	font-size: 2*$unit-font; 
+}
+
+h2,h3 {
 	letter-spacing: -1px
 }
 
@@ -146,7 +152,7 @@ p, li {
 	margin-bottom:1*$unit-grid;
 	vertical-align:middle;
 	&.hero{
-		font-size: 1*$unit-font;
+		font-size: 2*$unit-font;
 		line-height:3
 	}
 }
