@@ -70,6 +70,7 @@
 		    -moz-,
 		    -o-,
 		    -ms-,
+		     ,
 		);
 
 
@@ -162,7 +163,7 @@ p, li {
 }
 
 .content p {
-	@include vendor-function(hypens,auto);
+	@include vendor-function(hyphens,auto);
 	word-wrap: break-word;
 }
 
@@ -427,6 +428,10 @@ a{
 	overflow: hidden;
 }
 
+aside ul {
+	margin-left:0;
+}
+
 .btn--block{
 	width:auto	;
 	display: inline-block;
@@ -438,6 +443,9 @@ a{
 }
 .btn{
 	transition: all .5s;
+	a{
+		color:inherit
+	}
 }
 
 .btn-primary{
