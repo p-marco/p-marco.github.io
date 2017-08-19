@@ -454,10 +454,14 @@ a{
 	}
 }
 
+
+
 .grid-item{
 	padding: 1*$unit-grid;
 	padding-left:0;
 }
+
+
 .u-m--l-0{
 	margin-left: 0
 }
@@ -603,3 +607,10 @@ a.after, a.after:hover{text-decoration:none}
     article ul , article ol {
     	margin-left: 1em;
     }
+
+    main > header.grid-item, 
+	footer .grid-item,
+	aside .grid-item {
+		padding-left: 1*$unit-grid;
+	}
+
