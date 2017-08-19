@@ -37,12 +37,12 @@
 	</div>
 
 
-	<aside class="grid grid-section">
+	<aside class="grid grid-item" style="text-align:center">
 		<nav class="">
 			<ul class="">
 		  	{% for item in site.data.navigation-primary %}
 		  		<li class="nav-item--page  btn btn--block btn-primary--outline">
-		    		<a href="{{base}}{{ item.link }}" class="t-heading after {% if item.link == page.url %}active{% endif %}">
+		    		<a href="{{base}}{{ item.link }}" class="t-heading {% if item.link == page.url %}active{% endif %}">
 		      		{{ item.name }}
 		    		</a>
 		    	</li>
