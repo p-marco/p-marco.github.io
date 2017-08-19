@@ -230,6 +230,12 @@ a{
   	color: inherit
 }
 
+
+
+nav ul, nav ol {
+	list-style-type: none;
+}
+
 .nav-sidebar {
 	padding: 2.75rem;
 
@@ -533,12 +539,15 @@ strong{
 	overflow:auto;
 }
 
-article ul {
+article ul,
+article ol {
 	list-style-type: initial;
+	margin-left: 1em;
 	li{
 		padding:initial
 	}
 }
+
 
 aside ul {
 	margin-left:0;
@@ -620,11 +629,3 @@ a.after, a.after:hover{text-decoration:none}
     	color:$color-base;
     }
 
-    article ul , article ol {
-    	margin-left: 1em;
-    }
-
-
-nav ul, nav ol {
-	list-style-type: none;
-}
