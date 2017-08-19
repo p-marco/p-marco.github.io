@@ -2,6 +2,7 @@
 title: Research
 collections: research
 template: item
+share: false
 ---
 
 

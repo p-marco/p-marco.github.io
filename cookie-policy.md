@@ -1,6 +1,6 @@
 ---
 title: Cookie Policy
-layout: item
+layout: default
 template: item
 share: false
 ---
