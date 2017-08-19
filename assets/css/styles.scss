@@ -234,7 +234,7 @@ a{
 	padding: 2.75rem;
 
 
-	@media (min-width: $media-l) {
+	@media (min-width: $media-xl) {
 	    -webkit-box-flex: 0;
 	    -webkit-flex: 0 0 18rem;
 	    -ms-flex: 0 0 18rem;
@@ -320,7 +320,7 @@ a{
 
 .nav-item--primary {
 	margin: 0 0.4rem;
-	@media (min-width: 840px) {
+	@media (min-width: $media-l) {
     	margin: 0;
   	}
 }
