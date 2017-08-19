@@ -1,6 +1,8 @@
 title : marcopetolicchio.com
 baseurl: "http://marcopetolicchio.com"
 description: "Linguist & tech enthusiast"
+feed-description: "RSS Feeds for the website"
+copyright: "2017"
 
 author :
   name : Marco Petolicchio

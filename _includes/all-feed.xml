@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}">
   <channel>
-    <title>{{ site.title }} by {{ site.author }}</title>
+    <title>{{ site.title }}</title>
     <link>{{ site.url }}</link>
-    <copyright>All rights reserved.</copyright>
-    <description>{{ site.description }}</description>
-    <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
+    <copyright>{{ site.copyright }}</copyright>
+    <description>{{ site.feed-description }}</description>
+    <atom:link href="{{ page.url }}" rel="self" type="application/rss+xml" />
       {% assign posts = site.documents |  sort: 'date' | reverse %}
       {% for post in posts %}
         {% assign collection_prefix = "" %}
@@ -17,8 +17,8 @@
           <title>{{ collection_prefix }}{{ post.title | xml_escape }}</title>
           <description>{{ post.excerpt | xml_escape }}</description>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-          <link>{{ post.url | absolute_url }}</link>
-          <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+          <link>{{ post.url }}</link>
+          <guid isPermaLink="true">{{ post.url }}</guid>
         </item>
       {% endfor %}
   </channel>
