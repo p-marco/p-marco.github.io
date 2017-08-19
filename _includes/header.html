@@ -3,7 +3,7 @@
 		<ul class="nav nav-items--page breadcrumbs">
   		{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 
-			<li class="nav-item--page link list" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+			<li class="nav-item--page link list crumb-item" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
 				<a class="t-heading" href="{{ site.baseurl }}/" itemprop="url">
 					<small itemprop="title">{{ site.title }}</small>
 				</a>
@@ -12,16 +12,16 @@
 		{% for crumb in crumbs offset: 1 %}
   			{% if forloop.last %}
 
-	    		<li class="nav-item--page link list" >
-	    			<small class="t-heading">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+	    		<li class="nav-item--page link list crumb-item" >
+	    			<small class="t-heading">{{ crumb | truncatewords: 2 | replace:'-',' ' | remove:'.html' | capitalize }}
 	    			</small>
 	    		</li>
 
 	  			{% else %}
 
-	    		<li class="nav-item--page link list" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+	    		<li class="nav-item--page link list crumb-item" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
 	    			<a class="t-heading" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}" itemprop="url">
-	    				<small itemprop="title">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</small>
+	    				<small itemprop="title">{{ crumb | truncatewords: 2 | replace:'-',' ' | remove:'.html' | capitalize }}</small>
 	    			</a>
 	    		</li>
 

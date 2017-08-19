@@ -392,6 +392,10 @@ p, li {
 	display:inline-block;
 	content: " | ";
 }
+.crumb-item:not(:last-of-type):after {
+	display:inline-block;
+	content: " > ";
+}
 
 .btn {
 	line-height:3;
