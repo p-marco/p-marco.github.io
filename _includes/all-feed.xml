@@ -17,8 +17,8 @@
           <title>{{ collection_prefix }}{{ post.title | xml_escape }}</title>
           <description>{{ post.excerpt | xml_escape }}</description>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-          <link>{{ post.url }}</link>
-          <guid isPermaLink="true">{{ post.url }}</guid>
+          <link>{{ site.baseurl }}{{ post.url }}</link>
+          <guid isPermaLink="true">{{ site.baseurl }}{{ post.url }}</guid>
         </item>
       {% endfor %}
   </channel>
