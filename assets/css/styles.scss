@@ -390,7 +390,7 @@ p, li {
 
 .list-item:not(:last-of-type):after {
 	display:inline-block;
-	content: " | ";
+	content: " · ";
 }
 .crumb-item:not(:last-of-type):after {
 	display:inline-block;

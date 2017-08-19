@@ -32,22 +32,22 @@
     </p>
 {% endif %}
 
-
+{% if page.image %}
+  <a href="{{ page.url }}">  
+    <img src= "{{basedir}}/{{ page.image }}" class="img img--fullw">
+  </a>
+{% endif %}
 
 {% if page.keywords %}
   <ul class="nav nav-items--page u-layout u-mar--0">
   	{% for key in page.keywords %}
-  		<li class="nav-item--page link t-heading list"><small>
+  		<li class="nav-item--page link t-heading list list-item"><small>
       		{{ key }}
     	</small></li>
     {% endfor %}
   </ul>
 {% endif %}
 
-{% if page.image %}
-  <a href="{{ page.url }}">  
-    <img src= "{{basedir}}/{{ page.image }}" class="img img--fullw">
-  </a>
-{% endif %}
+
 
 </header>

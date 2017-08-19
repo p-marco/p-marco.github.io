@@ -28,17 +28,17 @@
 <div class="">
 <ul class="nav nav-items--page">
 			{% if page.type %}
-			<li class="nav-item--page link t-heading list"><small>{{ page.type }}</small></li>
+			<li class="nav-item--page link t-heading list list-item"><small>{{ page.type }}</small></li>
 			{% endif %}
 			{% if page.status %}
-			<li class="nav-item--page link t-heading list"><small>{{ page.status }}</small> </li>
+			<li class="nav-item--page link t-heading list list-item"><small>{{ page.status }}</small> </li>
 			{% endif %}
-			<li class="nav-item--page link t-heading list"><small>{{ page.author }} {{ page.date.y }}</small></li>
+			<li class="nav-item--page link t-heading list list-item"><small>{{ page.author }} {{ page.date.y }}</small></li>
 			{% if page.license %}
-			<li class="nav-item--page link t-heading list"><small>{{ page.license }}</small></li>
+			<li class="nav-item--page link t-heading list list-item"><small>{{ page.license }}</small></li>
 			{% endif %}
 			{% if page.lang %}
-			<li class="nav-item--page link t-heading list"><small>{{ page.lang }}</small></li>
+			<li class="nav-item--page link t-heading list list-item"><small>{{ page.lang }}</small></li>
 			{% endif %}
 		</ul>
 </div>
