@@ -5,6 +5,10 @@ feed-description: "RSS Feeds for the website"
 copyright: "2017"
 markdown: kramdown
 
+greeting: "Hello, I am Marco."
+headline: "Linguist & tech enthusiast."
+
+
 image: /assets/img/og-image.png
 
 author :

@@ -166,6 +166,10 @@ p, li {
 	word-wrap: break-word;
 }
 
+.frontMatter{
+	font-size:1.25*$unit-font;
+	line-height:1.8;
+}
 
 .t-brandColor{
 	color: $color-brand--dark;

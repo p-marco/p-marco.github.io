@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}{{ site.lang }}{% endif %}">
+{% include head.html %}
+{% include basedir.html %}
+<body>
+	{% include header.html %}
+	<div class="wrapper wrapper-container--md-2">
+		<div class="container main-wrapper">
+		
+			<main>
+
+				<article class="grid grid-section">
+					
+					<header class="" style="text-align:center">
+
+	  					<div class="nav--logo" style="margin-top: 1.8rem;">
+							<a href="."> <img class="img nav-img" src="./assets/img/pic-72.jpg" alt="" style="width: 164px;height: 164px;">
+							</a>
+						</div>
+
+						<h1 class="nav-item--page t-heading t-brandColor" style="margin: 0;padding: 0;margin-bottom: 1.8rem;font-size: 3rem;">{{ site.greeting }}</h1>
+						
+						<h4 class="nav-item--page t-heading t-brandColor" style="margin: 0;padding: 0;font-size: 2rem;">{{ site.headline }}</h4>
+
+					</header>
+
+					{% include nav-social.html %}
+					
+
+					<div class="content frontMatter"> {{ content }} </div>
+	    
+				</article>
+
+			</main>
+	
+		</div>
+
+	</div>
+
+
+	<aside>
+		<nav class="">
+			<ul class="">
+		  	{% for item in site.data.navigation-primary %}
+		  		<li class="nav-item--page  btn btn--block btn-primary--outline">
+		    		<a href="{{base}}{{ item.link }}" class="t-heading after {% if item.link == page.url %}active{% endif %}">
+		      		{{ item.name }}
+		    		</a>
+		    	</li>
+		  	{% endfor %}
+		  	</ul>
+		</nav>
+	</aside>
+
+
+
+	{% include footer.html %}
+</body>
+{% include assets.html %}
+</html>
