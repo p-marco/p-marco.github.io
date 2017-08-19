@@ -166,7 +166,7 @@ p, li {
 	word-wrap: break-word;
 }
 
-.frontMatter{
+.frontMatter p, .fronMatter li{
 	font-size:1.25*$unit-font;
 	line-height:1.8;
 }
