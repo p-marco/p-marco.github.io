@@ -1,7 +1,7 @@
 ---
 title: News & Events
 collections: activity
-template: item
+template: collection
 share: false
 ---
 

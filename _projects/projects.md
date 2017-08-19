@@ -1,7 +1,7 @@
 ---
 title: Projects
 collections: projects
-template: item
+template: collection
 share: false
 ---
 
