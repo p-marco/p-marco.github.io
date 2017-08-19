@@ -25,9 +25,9 @@
 
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
-{% if page.keyowords %}
+{% if page.keywords %}
 	<meta itemprop="keywords" content="{% for key in page.keywords %}{{ key }}{% endfor %}" />
-	{% for key in page.keyowrds %}
+	{% for key in page.keywords %}
 		<meta property="article:tag" content="{{ key }}">
 	{% endfor %}
 {% endif %}
