@@ -1,5 +1,6 @@
 ---
 title: Ergatività in ittito. Un approccio minimalista
+comments: true
 template: item
 keywords: 
   - Historical Linguistics

@@ -21,7 +21,7 @@
 
 
 		
-<aside class="grid grid-section">
+<aside class="grid grid-item">
     {% include item-resources.html %}
 
 
@@ -46,5 +46,7 @@
 </article>
 
 {% if page.comments %}
+<section class="grid grid-item">
 	{% include disqus.html %}
+</section>
 {% endif %}

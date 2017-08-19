@@ -1,5 +1,6 @@
 ---
 title: Uno studio sulle 'Petrose' di Dante
+comments: true
 template: item
 keywords: 
   - Italian Literature

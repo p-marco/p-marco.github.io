@@ -1,5 +1,6 @@
 ---
 title: On finnish core cases 
+comments: true
 template: item
 keywords: 
   - Syntax

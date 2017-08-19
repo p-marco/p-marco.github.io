@@ -1,5 +1,6 @@
 ---
 title: Analisi dei vv. 3250-3300 del G.De Dole di J. Renart 
+comments: true
 template: item
 keywords: 
   - Romance Philology
