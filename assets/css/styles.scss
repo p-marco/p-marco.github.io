@@ -56,7 +56,7 @@
 		$color-white: #f6f6f6;
 
 		$color-brand: #4caf50 ; /* #1e5e2f */
-		$color-brand--dark: darken($color-brand, 25%) ;
+		$color-brand--dark: darken($color-brand, 10%) ;
 
 		$color-base: #7d7d7d ;
 		$color-base--dark: darken( $color-base, 30% ) ;
@@ -266,6 +266,9 @@ p, li {
   display: block;
   margin: 0.25em;
   color:$color-base;
+  &:hover{
+  	color: $color-brand;
+  }
 }
 
 
@@ -503,28 +506,6 @@ a{
 	margin-bottom:1em;
 }
 
-.nav-item--social.link{
-	position:relative;
-	overflow: hidden;
-}
-
-.nav-item--social.link::before{
-	position: absolute;
-	top:0; left:0;
-	display: block;
-	content: " ";
-	width:100%;
-	height: 0;
-	background-color: $color-base;
-	transition: all 0.2s;
-	z-index: -1;
-		
-}
-
-.nav-item--social.link:hover::before{
-	width:100%;
-	height:100%
-}
 .nav-item--social.link{
 	margin:0; padding: 0
 }
