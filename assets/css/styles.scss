@@ -393,14 +393,14 @@ nav ul, nav ol {
 }
 
 .nav--logo {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 
 }
 
@@ -452,7 +452,7 @@ nav ul, nav ol {
 
 .nav-item--social.link {
   	display: block;
-	margin:0; padding: 0
+	margin:0; padding: 0;
   	color:$color-base;
   	
   	&:hover{
