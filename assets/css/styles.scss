@@ -392,6 +392,18 @@ nav ul, nav ol {
   	}
 }
 
+.nav--logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+}
+
 .nav-img{
 	border-radius: 50%;
 
@@ -428,12 +440,12 @@ nav ul, nav ol {
 }
 
 .nav-item--page.link {
-  display: block;
-  padding: 0.4rem;
-  padding-left:0;
-  color: $color-base;
-  margin:0;
-  line-height:1;
+  	display: block;
+  	padding: 0.4rem;
+  	padding-left:0;
+	color: $color-base;
+  	margin:0;
+  	line-height:1;
 }
 
 
