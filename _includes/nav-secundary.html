@@ -1,5 +1,5 @@
 <nav class="nav nav--page grid-section">
-	<ul class="nav nav-items--page">
+	<ul class="nav nav-items nav-items--page">
   	{% for item in site.data.navigation-secundary %}
   		<li class="nav-item--page link list list-item"><small>
     		<a href="{% unless item.absolute %}{{base}}{% endunless %}{{ item.link }}" class="t-heading {% if item.link == page.url %}active{% endif %}">
