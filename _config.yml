@@ -13,8 +13,15 @@ image: /assets/img/og-image.png
 
 author :
   name : Marco Petolicchio
-  image: assets/img/pic-72.jpg
   headline: Linguist & tech enthusiast
+  image: assets/img/pic-72.jpg
+  avatar: 
+    src : assets/img/pic-72.jpg
+    srcset : 
+      - assets/img/avatar-1x.jpg
+      - assets/img/avatar-2x.jpg
+      - assets/img/avatar-3x.jpg
+      - assets/img/avatar-4x.jpg
 
 
 # Sass settings
