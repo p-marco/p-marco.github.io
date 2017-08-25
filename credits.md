@@ -5,11 +5,9 @@ template: item
 share: false
 ---
 
-This website uses third-part contents.
-
 ## Images
 
-* The avatar image was courtesely shooted by *Matteo Manzi*
+* The avatar image was courtesely shot by Matteo Manzi
 
 ## Legal 
 
