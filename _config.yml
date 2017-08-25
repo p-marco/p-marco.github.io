@@ -46,4 +46,14 @@ collections:
     title : Course materials 
 plugins:
   - jekyll-sitemap
+
 lang: en
+
+
+# Manifest settings (Used to make manifest.json)
+# Edit manifest.json directly with icon information
+manifest_name: marcopetolicchio.com
+manifest_short_name: "marcopetolicchio.com" # Appears in "Add to home screen" dialogues
+manifest_lang: en
+manifest_background_color: white
+manifest_display: standalone
