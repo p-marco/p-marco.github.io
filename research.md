@@ -1,6 +1,7 @@
 ---
 title: Research
 collections: research
+permalink: "research/"
 template: collection
 share: false
 ---
