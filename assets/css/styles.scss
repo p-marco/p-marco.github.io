@@ -533,7 +533,10 @@ nav ul, nav ol {
 }
 
 
-
+p a {
+	text-decoration:underline;
+	color: $color-brand;
+}
 
 
 .section{
