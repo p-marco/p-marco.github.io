@@ -1,5 +1,6 @@
 ---
 title: About
+permalink: "about/"
 comments: true
 layout: default
 template: item

@@ -1,8 +1,8 @@
 ---
 title: Contact
 permalink: "contact/"
-template: default
-layout: item
+layout: default
+template: item
 share: true
 ---
 
@@ -14,6 +14,6 @@ share: true
     	</li>
   	{% endfor %}
 </ul>
- s
+ 
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe1pkpG80Qba0SxGlsnRdcBlICncnAf2DLdgXc46YjHENNkYg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Caricamento in corso...</iframe>
