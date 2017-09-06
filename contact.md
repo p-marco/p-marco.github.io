@@ -13,16 +13,10 @@ share: true
        }
     </style>
 
-<ul class="grid-item">
-  	{% for item in site.data.social %}
-  		<li><a class="btn btn--block btn-primary--outline" href="{{ item.link }}" class="btn btn--block btn-primary--outline t-heading "><i class="fa {{ item.icon }}"> </i>
-      		{{ item.name }}
-    		</a>
-    	</li>
-  	{% endfor %}
-</ul>
+
 
 <div id="map"></div>
+<br><br>
 <script>
   function initMap() {
     var uluru = {lat: 49.5899205, lng: 17.2493817};
@@ -37,7 +31,7 @@ share: true
   }
 </script>
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq1vokm7Rblwxgo37SWKWUZR52waqRB08&callback=initMap">
 </script>
 
 
