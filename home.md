@@ -1,12 +1,11 @@
 ---
 title: "Welcome"
-share: false
 layout: default
 template: item
 ---
 
 # hello, I am Marco
-** Linguist & tech enthusiast **
+**Linguist & tech enthusiast**
 
 Welcome in my webspace
 
