@@ -2,7 +2,7 @@
 <html lang="{% if page.lang %}{{ page.lang }}{% else %}{{ site.lang }}{% endif %}">
 {% include head.html %}
 {% include basedir.html %}
-<body  lang="{% if page.bodyClass %}{{ page.bodyClass }}{% else %}counter">
+<body  lang="{% if page.bodyClass %}{{ page.bodyClass }}{% else %}counter{% endif %}">
 	<div class="wrapper wrapper-container--md-2">
 		{% include nav.html %}
 		<div class="container main-wrapper">
