@@ -12,8 +12,7 @@
 	{% include event.html %}
 </div>
 {% endif %}
-  {% if (page.share == 'false') %}
-  {% else %}
+  {% if (page.share != "false") %}
     {% include nav-sharebox.html %}
   {% endif %}
 
