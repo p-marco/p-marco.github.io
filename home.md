@@ -7,7 +7,7 @@ bodyClass: "frontMatter"
 ---
 
 ## hello, I am Marco
-### Linguist & tech enthusiast
+<strong>Linguist & tech enthusiast</strong>
 
 I am a linguist currently based in Olomouc, Czech Republic. My interests span across digital humanities, computational technologies for language processing, formal and theoretical linguistics.
 
