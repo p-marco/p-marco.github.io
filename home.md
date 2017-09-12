@@ -2,7 +2,8 @@
 title: "Welcome"
 layout: default
 template: item
-share: false
+share: "false"
+bodyClass: "frontMatter" 
 ---
 
 ## hello, I am Marco
