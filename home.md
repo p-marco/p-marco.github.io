@@ -9,7 +9,7 @@ template: item
 
 Welcome in my webspace
 
-I am a linguist currently based in Olomouc, Czech Republic. My interests span across digital humanities, computational technologies for language processing, formal and theoretical linguistics.o
+I am a linguist currently based in Olomouc, Czech Republic. My interests span across digital humanities, computational technologies for language processing, formal and theoretical linguistics.
 
 You can read my [researches](/research/), browse between the [projects](/projects/) and [teaching materials](/teaching/), and stay tuned with the [news](/news/). 
 You can know me better giving a sight in the [about](/about) section and get in touch reaching the [contact](/contact/) page.
