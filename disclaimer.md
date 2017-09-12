@@ -3,6 +3,7 @@ title: Disclaimer
 layout: default
 template: item
 share: false
+permalink: "disclaimer/"
 ---
 
 ## Legal Notice 

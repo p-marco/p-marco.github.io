@@ -3,6 +3,7 @@ title: Cookie Policy
 layout: default
 template: item
 share: false
+permalink: "cookie-policy/"
 ---
 
 ## About cookies

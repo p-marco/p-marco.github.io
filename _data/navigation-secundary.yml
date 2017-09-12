@@ -1,12 +1,12 @@
-- link: /disclaimer
+- link: /disclaimer/
   name: Disclaimer
-- link: /credits
+- link: /credits/
   name: Credits
 - link: /feed
   name: RSS
 - link: /sitemap.xml
   name: Sitemap
-- link: /cookie-policy
+- link: /cookie-policy/
   name: Cookie Policy
 - link: "https://github.com/p-marco/p-marco.github.io"
   name: Source

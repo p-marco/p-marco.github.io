@@ -3,6 +3,7 @@ title: Credits
 layout: default
 template: item
 share: false
+permalink: "credits/"
 ---
 
 ## Images
