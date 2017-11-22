@@ -3,8 +3,7 @@ title: Loquit 2017 | Colloquia di Italianistica
 description: "2-3 November 2017 | Conference at Palacky University of Olomouc"
 comments: true
 template: item
-date: 2017-07-10
-type: Digital
+date: 2017-11-22
 layout: default
 image: assets/img/loquit-profile.jpg
 resources:
