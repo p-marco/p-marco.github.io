@@ -17,6 +17,8 @@ My linguistic background and the digital skills are useful for corporates: texts
 
 **Passionate about humanities and digital technologies, I love to interact with data.**
 
+I am a PhD student in Italian Linguistics at Palacky University of Olomouc,
+I have cofounded (with Marcello Bolpagni) the project Czech-IT! A linguistic corpus of Czech learners which acquire the Italian language. 
 I am currently collaborating at PoLet500 - Polemiche Letterarie del Cinquecento for the digital planning of the project, as IT Supervisor.
 I enjoy continuous and cumulative learning in different fields, in which I can get involved through freelance activities. 
 
