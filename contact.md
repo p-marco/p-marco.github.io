@@ -15,6 +15,23 @@ share: true
 
 
 
+		
+
+			
+
+<ul>		
+<li class="btn btn--block btn-primary--outline"><a download href="http://marcopetolicchio.com/assets/vcard.vcf"><span>Download vCard</span></a></li>
+
+<li class="btn btn--block btn-secundary--outline"><a href="mailto:marco.petolicchio@gmail.com"><span>Send email</span></a></li>
+			
+</ul>
+			
+
+			
+		
+
+		
+
 <div id="map"></div>
 <br><br>
 <script>
