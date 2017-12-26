@@ -11,7 +11,7 @@ license: Released under a BY-CC 4.0 License
 author: Marco Petolicchio
 date: 2017-11-02
 type: Talk
-status: Unpublished
+status: Presentation
 layout: default
 lang: it-IT
 resources:
