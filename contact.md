@@ -3,7 +3,7 @@ title: Contact
 permalink: "contact/"
 layout: default
 template: item
-share: false
+share: "false"
 ---
 
 
