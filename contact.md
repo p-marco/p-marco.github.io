@@ -29,13 +29,14 @@ share: "false"
 </div>
 <br><br>
 
-* address: tř. Svobody 686/26. 779 00 Olomouc (CZ)	
-* mail: marco.petolicchio@gmail.com
-* phone: (+39) 328 95 94 722
-* homepage: marcopetolicchio.com 
-		<br>	
-* linkedin: https://linkedin.com/in/MarcoPetolicchio
-* academia: http://upol.academia.edu/MarcoPetolicchio
-* facebook: http://facebook.com/PetolicchioMarco
-* github: http://github.com/p-marco
+* address<br> tř. Svobody 686/26. 779 00 Olomouc (CZ)	
+* mail<br> marco.petolicchio@gmail.com
+* phone<br> (+39) 328 95 94 722
+* homepage<br> marcopetolicchio.com 
+		<br><br>
+		
+* linkedin<br> https://linkedin.com/in/MarcoPetolicchio
+* academia<br> http://upol.academia.edu/MarcoPetolicchio
+* facebook<br> http://facebook.com/PetolicchioMarco
+* github<br> http://github.com/p-marco
 * telegram<br> http://t.me/p-marco
