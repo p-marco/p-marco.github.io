@@ -38,4 +38,4 @@ share: "false"
 * academia: http://upol.academia.edu/MarcoPetolicchio
 * facebook: http://facebook.com/PetolicchioMarco
 * github: http://github.com/p-marco
-* telegram: http://t.me/p-marco
+* telegram<br> http://t.me/p-marco
