@@ -8,5 +8,7 @@
   name: Projects
 - link: /about/
   name: About
+- link: /resume-cv/
+  name: Resumé/CV
 - link: /contact/
   name: Contact
