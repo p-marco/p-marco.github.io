@@ -1,5 +1,5 @@
 ---
-title: Introducing Czech-IT!: a data-based approach for the study of the Second Language Acquisition
+title: "Introducing Czech-IT!: a data-based approach for the study of the Second Language Acquisition"
 description: "Introducing Czech-IT!: a data-based approach for the study of the Second Language Acquisition"
 comments: true
 template: item
