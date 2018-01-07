@@ -6,4 +6,6 @@ layout: default
 template: item
 ---
 
-* Curriculum Vitae CV <br> [http://marcopetolicchio.com/assets/cv.pdf](http://marcopetolicchio.com/assets/cv.pdf)
+* (PDF) Curriculum Vitae <br> [http://marcopetolicchio.com/assets/cv.pdf](http://marcopetolicchio.com/assets/cv.pdf)
+* (PDF) One page Resumé <br> [http://marcopetolicchio.com/assets/cv.pdf](http://marcopetolicchio.com/assets/resume.pdf)
+
