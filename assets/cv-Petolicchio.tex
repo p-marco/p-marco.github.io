@@ -1,0 +1,286 @@
+%------------------------------------
+% Dario Taraborelli
+%
+% url: http://nitens.org/cv/cv.pdf
+%------------------------------------
+
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[9pt, a4paper]{article}
+\usepackage{fontspec} 
+\usepackage{verbatim,placeins} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.6in, textheight=9.5in, marginparsep=7pt, marginparwidth=.6in}
+%\geometry{a4paper, textwidth=5.2in, textheight=9.5in, marginparsep=6em, marginparwidth=6em}
+\setlength\parindent{0in}
+\setlength{\parskip}{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Linux Libertine O}
+%\setmainfont [Ligatures={Common}, Numbers={OldStyle}, Scale=0.9]{IBM Plex Sans}
+%\setromanfont[Ligatures={Common}, SmallCapsFont={OfficinaSanITC-BookSC}, BoldFont={OfficinaSanITC-MediumOS}, ItalicFont={Officina Serif ITC Book Italic OS}]{Officina Serif ITC Book}
+%\setmonofont[Scale=0.7]{Monaco}
+\setmonofont[Scale=0.7]{IBM Plex Mono}
+%\setsansfont [Ligatures={Common}, SmallCapsFont={OfficinaSanITC-BookSC}, BoldFont={OfficinaSanITC-MediumOS}, ItalicFont={Officina Sans ITC Book Italic OS}]{Officina Sans ITC Book Italic OS} 
+
+% ---- CUSTOM COMMANDS
+\newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
+%\newcommand{\amper}{{\fontspec[Scale=.95]{Linux Libertine O}\selectfont}}
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\thesispdf}[1]{\href{#1}{\scriptsize\textsc{[thesis pdf]}}}
+\newcommand{\doi}[1]{\href{http://doi.org/#1}{\scriptsize\textsc{[doi: #1]}}}
+\newcommand{\bib}[1]{\href{#1}{\scriptsize\textsc{[bib]}}}
+\newcommand{\isbn}[1]{{\scriptsize\textsc{[isbn: #1]}}}
+\newcommand{\issn}[1]{{\scriptsize\textsc{[issn: #1]}}}
+\newcommand{\homepage}[1]{\href{http://#1}{\scriptsize\textsc{[url: #1]}}}
+%\usepackage{placeins}
+
+\usepackage{marginnote}
+\newcommand{\years}[1]{{\footnotesize\marginnote{#1}}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+\usepackage{multicol}
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Marco Petolicchio - CV},pdfauthor={Marco Petolicchio}]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+\begin{document}
+\reversemarginpar
+{{\huge Marco Petolicchio}\\[1.2cm]
+\parbox{.5\linewidth}{
+
+Born in \textsc{Rome}, Italy on \textsc{June 28, 1989} \\
+Master Degree in \textsc{Linguistics}\\
+Currently based in \textsc{Olomouc}, Czech Republic \\[.4cm]
+• \href{tel:+393289594722}{+39 328 95 94 722}\\
+%\textsc{f}\quad\texttt{+1 415-882-0495}\\
+%\href{http://marcopetolicchio.com}{marcopetolicchio.com}\\
+• \href{mailto:marco.petolicchio@gmail.com}{marco.petolicchio@gmail.com}
+}
+\parbox{.5\linewidth}{
+• \href{http://marcopetolicchio.com}{marcopetolicchio.com}\\
+• \href{http://www.linkedin.com/in/marcopetolicchio/}{linkedin.com/in/marcopetolicchio}\\
+• \href{http://upol.academia.edu/MarcoPetolicchio}{upol.academia.edu/MarcoPetolicchio}\\
+• \href{https://www.researchgate.net/profile/Marco_Petolicchio}{researchgate.net/profile/Marco\_Petolicchio}\\
+%{\fontspec{Entypo Social}{}}\hspace{.26cm}\href{http://twitter.com/readermeter}{twitter.com/readermeter}\\
+• \href{http://orcid.org/0000-0001-7017-7862}{orcid.org/0000-0001-7017-7862}\\
+%{\fontspec{Entypo Social}{}}\hspace{.26cm}\href{https://scholar.google.com/citations?user=4LS5_58AAAAJ}{scholar.google.com}\\%
+• \href{http://github.com/p-marco/}{github.com/p-marco}\\
+%$\vcenter{\hbox{\includegraphics[scale=0.06]{orcid.png}}}$
+}\\[.4cm]
+
+
+
+\paragraph{Areas of specialization} \hfill \\%Philosophy of psychology\\[.2cm]
+Computational linguistics • Digital humanities • Language acquisition • Syntax theory 
+
+%\tableofcontents
+
+
+\section{Current Position}
+\noindent
+\years{2017-present}\textbf{Italian Language Instructor}\\ 
+Transperfect Language School, Olomouc (CZ)\\
+
+
+
+
+
+\section{Research Experience}
+\noindent
+\years{2017-present}\textbf{PhD student in \textsc{Italian Linguistics}}\\
+Dept. of Romance Studies, Palacky University Olomouc • {\textsc{advisor:} Dr. Francesco Bianco}
+
+\section{Teaching Experience}
+\noindent
+\years{2017-present}\textbf{Assistant Lecturer for undergraduate courses}\\
+Dept. of Romance Studies, Palacky University Olomouc; section of Italian Studies 
+
+
+
+
+%\hrule
+\section{Education}
+\noindent
+
+
+
+\years{2014}\textbf{Master of Arts in \textsc{General Linguistics}} (\textit{with honors}) \thesispdf{http://www.academia.edu/9213365/Ergativit\%C3\%A0_in_ittito._Un_approccio_minimalista_-_Tesi_di_Laurea_Magistrale} \\
+Sapienza Università di Roma •
+{ \textsc{advisors:} Prof. Paolo Di Giovine; Prof. Marianna Pozza}\\
+
+\years{2012}\textbf{Bachelor of Arts in \textsc{Romance Philology}} \thesispdf{http://www.academia.edu/31026006/Uno_studio_sulle_Petrose_di_Dante_-_Tesi_di_Laurea_Triennale}\\
+Sapienza Università di Roma • \textsc{advisor:} Prof. Stefano Asperti}
+
+
+\section{Skills and Learning}
+
+\subsection{Professional skills}
+\paragraph{Hard Skills}
+Computational analysis of language; Distributed workflows; Linguistic theories.
+\paragraph{Soft skills}  
+Analytical thinking; Problem solving; Teamwork. 
+
+
+
+
+
+
+\subsection{Informatics and programming}
+\paragraph{Markup languages} HTML, CSS, XML, XSL(T), Markdown, JSON
+\paragraph{Scripting languages}  PHP, Python, SQL, Javascript, R
+\paragraph{Office suite}  MS Office, Google Docs, Libre Office
+\paragraph{Digital typesetting} \LaTeX, Adobe Illustrator, Vectorial Graphics
+\paragraph{Other} Education (Moodle) • Control Version (Git) • SO (Windows, Ubuntu) • Music (Ableton) • Workflow (Dropbox, Trello, Slack) • Linguistics and NLP (Python + NLTK, Praat) • Data retrieving (Social media APIs) • CMS (Wordpress, Drupal, GravCMS, Jekyll) • SEO-oriented writing (Keywords choice, Text writing, Proofreading) \\
+
+
+%Agent-based modelling (Netlogo)\\[.1cm] 
+%Revision control (Git, Subversion)\\[.1cm]
+
+%\hrule
+\subsection{Languages}
+\parbox{.5\linewidth}{
+\emph{Italian} (native speaker)\\
+\emph{English} (professional proficiency)\\
+\emph{Czech} (basic)\\
+}\parbox{.5\linewidth}{
+Grammatical knowledge: \\
+\emph{Finnish, Hittite, Latin, Old French, Provencal} 
+}
+
+%----------------------------------------
+%\newpage
+
+\subsection{Attended and certificated courses}
+
+\noindent\years{2017}{\textsc{EGG 2017}, \emph{Eastern Generative Grammar Workshop}}.
+Olomouc, July 24-August 4 2017 \\
+\noindent\years{2016}{\textsc{Object Oriented Programming (OOP) in PHP}}.
+EduOnix Ltd.\\
+\noindent\years{2016}{\textsc{Eccellenze in Digitale}}.
+Google Inc.\\
+\noindent\years{2014}{\textsc{La visione del mondo nella relatività e della fisica quantistica}}.
+Coursera Inc.\\
+\noindent\years{2012}{\textsc{GLUE Workshop}}.
+Università degli Studi Roma 3
+
+%\hrule
+\section{Academic Services}
+
+
+
+\subsection{Projects}
+\noindent\years{2017-present}{\textsc {\textbf{Czech-IT!} • A linguistic corpus of Czech learners acquiring the italian language}} \\ Co-founder: Digital strategist and Computational architecture \\
+\homepage{czech-it.github.io} \doi{10.5281/zenodo.824985} \\
+
+\noindent\years{2016-present}{\textsc{\textbf{PoLet500} • Polemiche Letterarie del Cinquecento}} \\ IT Supervisor: Web development and programming, Workflow \\ 
+\textsc{Patronage:} Università degli Studi del Molise; \textsc{Partner:} Filozofski fakultet u Splitu\\ 
+\homepage{nuovorinascimento.org/polet500} \isbn{978-88-942416-8-6} \doi{10.5281/zenodo.882998} 
+
+
+
+\subsection{Editor and reviewer}
+
+\noindent\years{2017-present}\textsc{\textbf{Editor}, GLoDIUm - Glossario di Informatica Umanistica} \isbn{978-88-942416-9-3}
+
+
+\noindent\years{2017-present}\textsc{\textbf{Editor}, FRI - Filologia Risorse Informatiche} \issn{2496-6223} 
+
+
+\subsection{Organization of scientific events}
+
+
+\noindent\years{2017}\textsc{\textbf{Loquit 2017}}. November 2--3, 2017, Univerzita Palackého v Olomouci. \homepage{loquit.github.io}  
+
+
+
+
+
+
+
+\section{Publications and talks}
+
+
+\subsection{Non Peer reviewed Journal articles}
+
+\textbf{M. Petolicchio}. Risorse digitali per gli studi linguistici: un breve appunto, in \textit{Filologia Risorse Informatiche}. January-February, 2017. \issn{2496-6223} \pdf{http://www.academia.edu/31229297/Risorse_digitali_per_gli_studi_linguistici_un_breve_appunto_in_Filologia_Risorse_Informatiche_gennaio-febbraio_2017} \html{https://fri.hypotheses.org/658} \\
+
+A. F. Caterino, \textbf{M. Petolicchio}. Polemiche Letterarie del Cinquecento (PoLet500): presentazione del progetto, in \textit{Filologia Risorse Informatiche}. January-February, 2017. \issn{2496-6223} \pdf{http://www.academia.edu/30975804/Polemiche_Letterarie_del_Cinquecento_PoLet500_presentazione_del_progetto_in_Filologia_Risorse_Informatiche_gennaio-febbraio_2017} \html{https://fri.hypotheses.org/651} 
+
+\subsection{Abstracts and proceedings}
+
+M. Bolpagni, \textbf{M. Petolicchio}. Introduzione al corpus linguistico Czech-IT! • 7° Convegno Annuale AIUCD 2018 • Book of Abstracts. Patrimoni culturali nell'era digitale. Memorie, culture umanistiche e tecnologie. Università degli Studi di Bari. January 31\textsuperscript{st}-February 3\textsuperscript{rd}, 2018. \textsc{pp:} 74-77 . \isbn{forthcoming}.
+
+
+
+
+
+\subsection{Invited speaker}
+
+
+M. Bolpagni, \textbf{M. Petolicchio}. Presentazione del corpus linguistico Czech-IT a Nitra (SK) •  Univerzita Konštantína Filozofa v Nitre. April 26\textsuperscript{th}, 2018. \pdf{https://www.researchgate.net/publication/327222171_Presentazione_del_corpus_linguistico_Czech-IT_a_Nitra_SK} \\
+
+\textbf{M. Petolicchio}, M. Bolpagni. Introduzione a Czech-IT! e applicazioni computazionali alla corpus linguistics • Università degli Studi di Udine. December 1\textsuperscript{st}, 2017. \pdf{http://www.academia.edu/35315516/_UniUD_1_12_2017_Introduzione_a_Czech-IT_e_applicazioni_computazionali_alla_corpus_linguistics} \\
+
+\textbf{M. Petolicchio}. Introducing Czech-IT!: a data-based approach for the study of the Second Language Acquisition • Dept. of General Linguistics, Palacký University Olomouc. November 28\textsuperscript{th}, 2017. \pdf{http://www.academia.edu/35278761/Introducing_Czech-IT_a_data-based_approach_for_the_study_of_the_Second_Language_Acquisition} 
+
+
+\subsection{Conference talks}
+
+
+
+\textbf{M. Petolicchio}, M. Bolpagni. Introduzione a Czech-IT! e applicazioni computazionali alla corpus linguistics • Loquit 2017, Palacký University Olomouc. November 3\textsuperscript{rd}, 2017. \pdf{http://www.academia.edu/35256167/Introduzione_a_Czech-IT_e_applicazioni_computazionali_alla_corpus_linguistics} \\
+
+\textbf{M. Petolicchio}. Piccole note di dialettologia dantesca • Loquit 2017, Palacký University Olomouc. November 2\textsuperscript{nd}, 2017. \pdf{http://www.academia.edu/35256139/Piccole_note_di_dialettologia_dantesca} \\
+
+F. Bianco, B. Pace, \textbf{M. Petolicchio}. Portali e riviste letterarie: il progetto NodIT • Riviste letterarie 2.0, Pole multimédia (Campus Schuman), Aix-en-Provence. October 5\textsuperscript{th}, 2017. 
+
+
+%\subsection{3. Edited volumes}
+
+%\subsection{5. Refereed conference posters}
+
+
+
+
+
+\subsection{Press}
+
+L.Forti, \textbf{M. Petolicchio}, G. Spinelli, \emph{Linguaggi e potere}, Interview to Noam Chomsky, Roma Città del Vaticano. March 03\textsuperscript{rd}, 2014. \html{http://www.letterefilosofia.com/linguaggi-e-potere-intervista-a-noam-chomsky/} 
+
+
+%\subsection{7. White papers \amper{} reports}
+
+
+%\subsection{8. Data}
+
+%\section{Press}
+
+
+\vfill
+%\hrulefill
+\begin{center}
+{\scriptsize  Last updated: \today\- • \href{http://marcopetolicchio.com}{marcopetolicchio.com}}
+\end{center}
+
+\end{document}
