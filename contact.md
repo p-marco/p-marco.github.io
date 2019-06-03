@@ -29,7 +29,7 @@ share: "false"
 </div>
 <br><br>
 
-* address<br> tř. Svobody 686/26. 779 00 Olomouc (CZ)	
+* address<br> ​Křížkovského 10 • 779 00, Olomouc (CZ)	
 * mail<br> marco.petolicchio@gmail.com
 * phone<br> (+39) 328 95 94 722
 * homepage<br> marcopetolicchio.com 
