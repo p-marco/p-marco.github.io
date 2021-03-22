@@ -1,0 +1,17 @@
+{
+    "news":[
+        {
+            "title":"Exam DH2",
+            "startDate": "2021-02-10",
+            "endDate":"",
+            "text": "The exam for the course Digital Humanities II is scheduled for 10th February at 9am over Zoom (Meeting ID: 993 4508 9632)"
+        },
+        {
+            "title":"Conference Neo-Latin Studies e Digital Humanities",
+            "startDate": "2021-04-14",
+            "endDate" :"2021-04-17",
+            "text":"In April I will present at the prestigious Conference, some results of the ongoing project on Basinio Hesperis Digital Edition."
+
+        }
+    ]
+}

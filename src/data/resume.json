@@ -1,0 +1,225 @@
+{
+
+    "basics": {
+      "display": "yes",
+      "name": "Marco Petolicchio",
+      "label": "Linguist",
+      "picture": "../assets/profile.jpeg",
+      "email": "marco.petolicchio@gmail.com",
+      "phone": "",
+      "website": "http://marcopetolicchio.com",
+      "summary" :"Linguist and tech enthusiast with 3+ years of experience in teaching and research. Mainly focused in Computational Linguistics, Syntax, Second Language Acquisition, and Digital Humanities, I love to interact with data.",
+      "birthDate": "28th June, 1989",
+      "available": "Open from September 2021",
+      "location": {
+        "address": "2712 Broadway St",
+        "postalCode": "CA 94115",
+        "city": "San Francisco",
+        "countryCode": "US",
+        "region": "California"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "john",
+        "url": "http://twitter.com/john"
+      }]
+    },
+    "work": [{
+        "company": "Transperfect Language School",
+        "position": "Lecturer",
+        "website": "http://transperfect.cz",
+        "startDate": "2017-09-01",
+        "endDate": "2018-12-01",
+        "summary": "Description...",
+        "location" : "Olomouc, CZ",
+        "highlights": [
+        "Started the company"
+        ]
+        },
+        {
+        "company": "Ludwig Boltzmann Institute for Neolatin Studies",
+        "position": "Researcher",
+        "website": "http://https://neolatin.lbg.ac.at",
+        "startDate": "2019-09-01",
+        "endDate": "present",
+        "summary": "Description...",
+        "location" : "Innsbruck, AT",
+        "highlights": [
+        "Started the company"
+        ]
+        },
+        {
+        "company": "Productive Playhouse",
+        "position": "Linguistic Consultant and Phonologist",
+        "website": "https://productiveplayhouse.com",
+        "startDate": "2020-09-01",
+        "endDate": "2020-10-01",
+        "summary": "Description...",
+        "location" : "Laguna Hills, USA (Remote)",
+        "highlights": [
+        "Started the company"
+        ]
+        }
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "website": "http://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+        "institution": "Palacky University",
+        "area": "Romance linguistics",
+        "studyType": "Ph.D. Candidate",
+        "startDate": "2017-09-01",
+        "endDate": "present",
+        "gpa": "4.0",
+        "location" : "Olomouc, CZ",
+        "courses": [
+        "DB1101 - Basic SQL"
+        ]
+        },
+        {
+        "institution": "Sapienza University of Rome",
+        "area": "General Linguistics",
+        "studyType": "Master of Arts",
+        "startDate": "2012-03-01",
+        "endDate": "2014-10-01",
+        "location" : "Rome, IT",
+        "pdf":"ciccio.pdf",
+        "gpa": "4.0",
+        "courses": [
+        "DB1101 - Basic SQL"
+        ]
+        },
+        {
+        "institution": "Sapienza University of Rome",
+        "area": "Romance philology",
+        "studyType": "Bachelor",
+        "startDate": "2008-09-01",
+        "endDate": "2012-03-01",
+        "location" : "Rome, IT",
+        "gpa": "4.0",
+        "courses": [
+        "DB1101 - Basic SQL"
+        ]
+        }
+    ],
+    "awards": [{
+      "title": "IGA_FF_2021_002",
+      "date": "2021-03-01",
+      "awarder": "Ministry of Education, Youth and Sports of the Czech Republic",
+      "role": "Research Project Leader",
+      "summary": "Digitální metody na zkoumání osvojování si italštiny jako druhého jazyka",
+      "grant" : "(ca 7300eur)"
+    }],
+    "publications": [
+      {
+        "title": "Some notes on Split Ergativity in Hittite",
+        "author":[
+            {"name": "Marco Petolicchio"}
+        ],
+        "type": "Peer reviewed Article",
+        "year": "2019",
+        "journal": {"name": "Linguistic Frontiers", "volume": "2", "number": "1", "pages": "16--22"},
+        "link": [{"url":"https://content.sciendo.com/view/journals/lf/2/1/article-p16.xml"}],
+        "identifier": [{"type":"doi","id":"10.2478/lf-2018-0014"}]
+      },
+      {
+        "title": "Coursebook for Italian Syntax II",
+        "author":[
+            {"name": "Marco Petolicchio"}
+        ],
+        "type": "Coursebook",
+        "year": "2019",
+        "journal": {"pages": "1--88"}
+
+      },
+      {
+        "title": "Coursebook for Digital Humanities II",
+        "author":[
+            {"name": "Marco Petolicchio"}
+        ],
+        "type": "Coursebook",
+        "year": "2020"
+      },
+      {
+        "title": "Esiste un'umanistica non digitale?",
+        "author":[
+            {"name": "Marco Petolicchio"}
+        ],
+        "type": "Book Chapter",
+        "year": "2019",
+        "journal": {"name": "GLODIUM", "pages": "5--9"},
+        "link": [{"url":"https://glo-d-i-um.github.io"}],
+        "identifier": [{"type":"doi","id":"10.5281/zenodo.2594766"}]
+      }
+    ],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }],
+    "languages": [{
+      "language": "Italian",
+      "fluency": "Native"
+      },{
+      "language": "English",
+      "fluency": "Professional"
+      },{
+      "language": "Czech and Slovak",
+      "fluency": "Basic"
+      },{
+      "language": "Latin, Provencal, Old French, Finnish, Hittite",
+      "fluency": "Grammatical knowledge"
+      }
+  ],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }],
+    "teaching":[{
+      "institution":"Dept.of Romance Languages, Palacky University",
+      "name":"Digital Humanities II",
+      "role":"",
+      "year":"2020",
+      "cfu":"3",
+      "studyType":"Graduates and Undergraduates",
+      "language":"English"
+      },{
+      "institution":"Italian Section, Palacky University",
+      "name":"Italian Syntax II",
+      "role":"",
+      "year":"2019",
+      "cfu":"4",
+      "studyType":"Undergraduates",
+      "language":"Italian"
+      },{
+      "institution":"Italian Section, Palacky University",
+      "name":"Practice Italian Language IV",
+      "role":"",
+      "year":"2018",
+      "cfu":"3",
+      "studyType":"Undergraduates",
+      "language":"Italian"
+      }
+    ]
+  
+  }
+  

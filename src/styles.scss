@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+$color-primary:     #97999B;
+$color-accent:   #F5DF4D;
+
+.color-accent{
+    color: $color-accent
+}
+.color-primary{
+    color:$color-primary
+}
+
+*{
+    font-family: 'Spartan', sans-serif;
+}
+.ls-1{
+    letter-spacing:0.1em
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: calc(100vh - 4rem); /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
+
+  .border-accent{
+      border-color: $color-accent !important;
+  }
+
+  .bg-accent{
+      background-color: $color-accent;
+  }
+
+.hypen{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+section + section {
+    margin-top:8rem;
+}
+
+.img-box {
+    padding: 15px 15px 0 0;
+  }
+  
+  .img-box .img2 {
+    display: inline-block;
+    box-shadow: 15px -15px 0 $color-accent;
+  }
+
+.hoverable{
+    transition: all .25s
+}
+.hoverable:hover * {
+    color: darken($color-primary, 25%)!important;
+}
+
+body, .bg-offWhite{
+    background:#f9f9f9 !important
+}
